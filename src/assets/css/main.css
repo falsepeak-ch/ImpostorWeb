@@ -1,0 +1,77 @@
+/*
+ * Cluso - Impostor Game Landing Page
+ * Main CSS file that imports all modular components
+ * Optimized for Firebase hosting and performance
+ */
+
+/* Import CSS Modules in order of specificity */
+@import url('./variables.css');
+@import url('./base.css');
+@import url('./hero.css');
+@import url('./components.css');
+@import url('./how-to-play.css');
+
+/* Performance optimizations */
+* {
+    will-change: auto;
+}
+
+/* Critical performance styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Smooth scrolling enhancement */
+html {
+    scroll-padding-top: 2rem;
+}
+
+/* Focus management for accessibility */
+*:focus {
+    outline: 2px solid var(--complementary-color);
+    outline-offset: 2px;
+}
+
+/* High-performance animations */
+@media (prefers-reduced-motion: no-preference) {
+    .hero-title,
+    .feature-card,
+    .game-card-premium,
+    .screenshot-item {
+        animation: fadeInUp 0.8s ease-out;
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+/* Print optimizations */
+@media print {
+    .hero-background,
+    .floating-elements,
+    .cta-background,
+    .floating-shapes,
+    .btn,
+    .download-btn {
+        display: none !important;
+    }
+    
+    .hero,
+    .cta {
+        background: white !important;
+        color: black !important;
+    }
+    
+    * {
+        box-shadow: none !important;
+    }
+}

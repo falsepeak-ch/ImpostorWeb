@@ -1,0 +1,17 @@
+{
+  "name": "cluso-impostor-web",
+  "version": "1.0.0",
+  "description": "Cluso Impostor Game Landing Page",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && firebase deploy --only hosting"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "terser": "^5.24.0"
+  },
+  "dependencies": {}
+}

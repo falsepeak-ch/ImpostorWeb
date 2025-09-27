@@ -1,0 +1,145 @@
+/* CSS Custom Properties and Variables */
+:root {
+    /* Primary Brand Colors */
+    --primary-color: #0078CC;
+    --primary-dark: #005a9a;
+    --primary-light: #3399dd;
+    --primary-ultra-light: #66b3e6;
+    
+    /* Complementary Color System */
+    --complementary-color: #FAC700;
+    --complementary-dark: #e6b300;
+    --complementary-light: #ffd633;
+    --complementary-ultra-light: #ffe066;
+    
+    /* Accent Colors */
+    --accent-color: #ff6b35;
+    --accent-light: #ff8660;
+    --accent-dark: #e55a2e;
+    
+    /* Neutral Colors */
+    --background-primary: #ffffff;
+    --background-secondary: #f8fafc;
+    --background-tertiary: #edf2f7;
+    --background-dark: #1a202c;
+    --text-primary: #1a202c;
+    --text-secondary: #4a5568;
+    --text-tertiary: #718096;
+    --text-inverse: #ffffff;
+    --text-muted: #a0aec0;
+    --border-color: #e2e8f0;
+    --border-color-light: #f7fafc;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
+    --gradient-complementary: linear-gradient(135deg, var(--complementary-color) 0%, var(--complementary-dark) 100%);
+    --gradient-accent: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-light) 100%);
+    --gradient-hero: linear-gradient(135deg, #0078CC 0%, #005a9a 50%, #003d6b 100%);
+    --gradient-gold: linear-gradient(135deg, var(--complementary-color) 0%, var(--complementary-light) 100%);
+    --gradient-rainbow: linear-gradient(135deg, var(--primary-color) 0%, var(--complementary-color) 50%, var(--accent-color) 100%);
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+    --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1);
+    --shadow-2xl: 0 25px 50px rgba(0, 0, 0, 0.25);
+    --shadow-primary: 0 10px 25px rgba(0, 120, 204, 0.3);
+    --shadow-complementary: 0 10px 25px rgba(250, 199, 0, 0.3);
+    --shadow-accent: 0 10px 25px rgba(255, 107, 53, 0.3);
+    
+    /* Border Radius */
+    --border-radius-sm: 8px;
+    --border-radius: 12px;
+    --border-radius-lg: 20px;
+    --border-radius-xl: 24px;
+    --border-radius-2xl: 32px;
+    --border-radius-full: 9999px;
+    
+    /* Transitions */
+    --transition-fast: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    
+    /* Typography */
+    --font-family-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+    --font-family-heading: 'Palamecia', 'Georgia', 'Times New Roman', serif;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
+    --font-size-5xl: 3rem;
+    --font-size-6xl: 3.75rem;
+    --font-size-7xl: 4.5rem;
+    
+    /* Spacing */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    --spacing-2xl: 2.5rem;
+    --spacing-3xl: 3rem;
+    --spacing-4xl: 4rem;
+    --spacing-5xl: 5rem;
+    --spacing-6xl: 6rem;
+    
+    /* Z-index */
+    --z-dropdown: 1000;
+    --z-sticky: 1020;
+    --z-fixed: 1030;
+    --z-modal-backdrop: 1040;
+    --z-modal: 1050;
+    --z-popover: 1060;
+    --z-tooltip: 1070;
+    --z-toast: 1080;
+}
+
+/* Font Face Declaration - Optimized for Firebase */
+@font-face {
+    font-family: 'Palamecia';
+    src: url('./fonts/palamecia_titling.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-primary: #1a202c;
+        --background-secondary: #2d3748;
+        --background-tertiary: #4a5568;
+        --text-primary: #ffffff;
+        --text-secondary: #e2e8f0;
+        --text-tertiary: #a0aec0;
+        --text-inverse: #1a202c;
+        --border-color: #4a5568;
+        --border-color-light: #2d3748;
+    }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    :root {
+        --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.4);
+        --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4);
+        --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.4);
+        --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.4);
+    }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    :root {
+        --transition-fast: none;
+        --transition: none;
+        --transition-slow: none;
+        --transition-spring: none;
+    }
+}
