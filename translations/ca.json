@@ -1,0 +1,257 @@
+{
+  "lang": "ca",
+  "langName": "Català",
+  "meta": {
+    "home": {
+      "title": "Cluso - Joc de Festa Impostor Offline | Deducció Social per a 3-20 Jugadors",
+      "description": "Juga a Cluso - el joc de festa impostor offline definitiu per a 3-20 jugadors. Troba l'impostor entre els teus amics en aquest joc de deducció social. No cal WiFi. Perfecte per a festes, trobades i nits de jocs. Descàrrega gratuïta per iOS.",
+      "keywords": "joc impostor, joc imposter, joc deducció social, joc festa offline, alternativa among us, joc mafia, jocs de festa, impostor halloween, multijugador offline, joc sense wifi, jocs grupals, 3-20 jugadors, cluso"
+    },
+    "howToPlay": {
+      "title": "Com Jugar a Cluso Impostor - Guia Especial Halloween | Regles del Joc",
+      "description": "Aprèn a jugar a Cluso Impostor amb la nostra guia completa. Inclou consells de l'Edició Especial Halloween, estratègies i instruccions pas a pas. Domina el millor joc de festa de deducció social!",
+      "keywords": "com jugar cluso, regles impostor, guia deducció social, joc festa halloween, instruccions joc, com jugar impostor, tutorial cluso, estratègia joc festa"
+    }
+  },
+  "nav": {
+    "title": "Cluso",
+    "backToHome": "← Tornar a l'inici",
+    "languageSelector": "Idioma"
+  },
+  "hero": {
+    "title": "Troba l'Impostor",
+    "titleAccent": "Entre els Teus Amics",
+    "subtitle": "Cluso és el joc de deducció social definitiu. Reuneix de 3 a 20 jugadors, descobreix mentides i descobreix qui està enganyant secretament el grup. Només necessites un dispositiu.",
+    "howToPlayBtn": "Com jugar",
+    "ratingStars": "★★★★★",
+    "ratingText": "4,9 • Descàrrega Gratis",
+    "downloadBtnAlt": "Descarregar a l'App Store"
+  },
+  "halloween": {
+    "badge": "Temps Limitat",
+    "title": "Edició Especial Halloween",
+    "description": "Experimenta el joc Impostor com mai abans amb personatges esgarrifosos, escenaris embruixats i preguntes temàtiques de Halloween. El joc perfecte per a la teva festa de Halloween!",
+    "features": {
+      "characters": "Personatges Esgarrifosos",
+      "questions": "Preguntes de Halloween",
+      "scenarios": "Escenaris Embruixats"
+    },
+    "cta": "Descarregar Edició Halloween"
+  },
+  "screenshots": {
+    "title": "Experimenta el Joc",
+    "captions": {
+      "game": "Inicia el joc",
+      "play": "Discuteix i dedueix",
+      "vote": "Vota i elimina"
+    }
+  },
+  "aboutGame": {
+    "title": "El Joc de Festa Impostor Definitiu",
+    "description": "Cluso és un joc de deducció social offline on els jugadors han de trobar l'impostor que s'amaga entre ells. Perfecte per a 3-20 jugadors, aquest joc de festa combina estratègia, psicologia i engany. No cal connexió a internet - només reuneix els teus amics, passa un dispositiu i comença a jugar. Tant si organitzes una nit de jocs, una festa o una trobada informal, el mode Impostor de Cluso ofereix entreteniment sense fi. El joc és similar a títols populars com Among Us i Mafia, però dissenyat específicament per jugar en persona sense necessitat de WiFi.",
+    "features": {
+      "offline": {
+        "title": "Juga Offline a Qualsevol Lloc",
+        "description": "No cal internet o WiFi. Perfecte per a festes, excursions de càmping o qualsevol lloc sense connexió."
+      },
+      "players": {
+        "title": "Suport per a 3-20 Jugadors",
+        "description": "Funciona amb grups petits o festes grans. Com més jugadors, més desafiador i divertit!"
+      },
+      "oneDevice": {
+        "title": "Un Sol Dispositiu Necessari",
+        "description": "Només un telèfon o tauleta per a tots. Passa'l i mantén la identitat de l'impostor en secret."
+      }
+    }
+  },
+  "perfectFor": {
+    "title": "Perfecte per a Cada Ocasió",
+    "subtitle": "El joc impostor que uneix les persones",
+    "occasions": {
+      "parties": {
+        "title": "Nit de Jocs de Festa",
+        "description": "Trenca el gel i fes riure tothom a la teva propera festa"
+      },
+      "family": {
+        "title": "Trobades Familiars",
+        "description": "Diversió per a totes les edats - des d'adolescents fins a adults"
+      },
+      "friends": {
+        "title": "Trobada d'Amics",
+        "description": "L'activitat perfecta quan vénen amics"
+      },
+      "events": {
+        "title": "Esdeveniments Especials",
+        "description": "Casaments, aniversaris, vacances - Cluso s'adapta a qualsevol celebració"
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntes Freqüents",
+    "questions": {
+      "whatIs": {
+        "q": "Què és Cluso Impostor?",
+        "a": "Cluso Impostor és un joc de festa de deducció social offline per a 3-20 jugadors on has de trobar l'impostor que s'amaga al teu grup. És similar a Among Us i Mafia però dissenyat per jugar en persona sense necessitat d'internet."
+      },
+      "howMany": {
+        "q": "Quants jugadors es necessiten?",
+        "a": "Pots jugar amb 3-20 jugadors. El joc funciona amb grups petits però és més emocionant amb 6 o més persones. Només es necessita un dispositiu per a tots."
+      },
+      "offline": {
+        "q": "Es pot jugar sense internet?",
+        "a": "Sí! Cluso és completament offline. No cal WiFi o connexió a internet. Perfecte per a festes, càmping o qualsevol lloc sense senyal."
+      },
+      "devices": {
+        "q": "Tots els jugadors necessiten l'app?",
+        "a": "No! Només una persona necessita descarregar l'app. Passes un dispositiu a tots els jugadors - mantenint la identitat de l'impostor en secret."
+      },
+      "free": {
+        "q": "El joc és gratuït?",
+        "a": "Sí, Cluso és gratuït per descarregar i jugar. Disponible a l'App Store d'iOS."
+      }
+    }
+  },
+  "games": {
+    "title": "Sis jocs, una app",
+    "list": {
+      "impostor": {
+        "title": "Impostor",
+        "description": "Domina l'art de l'engany"
+      },
+      "truthOrDare": {
+        "title": "Veritat o Repte",
+        "description": "Reptes clàssics de festa"
+      },
+      "wouldYouRather": {
+        "title": "Preferiríes",
+        "description": "Eleccions impossibles i debats"
+      },
+      "betBuddy": {
+        "title": "Aposta Amic",
+        "description": "Prediccions i competició"
+      },
+      "putAFingerDown": {
+        "title": "Baixa un Dit",
+        "description": "Comparteix experiències i connecta"
+      },
+      "factOrFake": {
+        "title": "Veritat o Mentida",
+        "description": "Posa a prova el teu coneixement"
+      }
+    }
+  },
+  "cta": {
+    "title": "Preparat per jugar?",
+    "description": "Descarrega Cluso i fes la teva propera trobada inoblidable."
+  },
+  "howToPlayPage": {
+    "hero": {
+      "title": "Com jugar a",
+      "titleAccent": "Cluso",
+      "subtitle": "Tot el que necessites saber per començar a jugar al millor joc de festa amb els teus amics i família."
+    },
+    "gettingStarted": {
+      "title": "Primers passos",
+      "steps": {
+        "download": {
+          "title": "Descarrega l'app",
+          "description": "Aconsegueix Cluso de l'App Store al teu iPhone o iPad"
+        },
+        "gather": {
+          "title": "Reuneix els teus amics",
+          "description": "Necessites almenys 3 jugadors, però és més divertit amb 6-20 persones"
+        },
+        "choose": {
+          "title": "Tria un joc",
+          "description": "Escull entre sis jocs de festa diferents, cadascun amb regles úniques"
+        },
+        "pass": {
+          "title": "Passa el telèfon",
+          "description": "Només necessites un dispositiu - tots juguen per torns"
+        }
+      }
+    },
+    "impostorGuide": {
+      "title": "Com jugar a Impostor",
+      "gameTitle": "Impostor",
+      "description": "El millor joc de deducció social. Troba l'impostor entre els teus amics abans que s'acabi el temps.",
+      "howToPlay": {
+        "title": "Com jugar:",
+        "steps": [
+          "Tots tanquen els ulls excepte l'/els impostor(s)",
+          "L'impostor veu qui més és impostor",
+          "Tots obren els ulls i discuteixen qui podria ser l'impostor",
+          "Vota per eliminar algú que creus que és l'impostor",
+          "La persona amb més vots és eliminada",
+          "Repeteix fins que tots els impostors siguin trobats o superin en nombre als innocents"
+        ]
+      },
+      "tips": {
+        "title": "Consells:",
+        "list": [
+          "Presta atenció a comportaments sospitosos i inconsistències",
+          "Com a impostor, intenta barrejar-te i desviar sospites",
+          "Fes preguntes incisives per atrapar els impostors en mentides",
+          "No eliminis a l'atzar - pensa estratègicament"
+        ]
+      }
+    },
+    "masterGame": {
+      "title": "Domina el joc",
+      "tips": {
+        "innocents": {
+          "title": "Per a Innocents",
+          "description": "Observa comportament nerviós, contradiccions i jugadors que desvien preguntes"
+        },
+        "impostors": {
+          "title": "Per a Impostors",
+          "description": "Mantén la calma, actua natural i vota estratègicament per barrejar-te amb el grup"
+        },
+        "discussion": {
+          "title": "Fase de Discussió",
+          "description": "Fes preguntes específiques i escolta acuradament les respostes de tots"
+        },
+        "voting": {
+          "title": "Estratègia de Votació",
+          "description": "No votis a l'atzar - construeix aliances i pensa en qui es beneficia més"
+        }
+      }
+    },
+    "halloweenSection": {
+      "title": "Edició Especial Halloween",
+      "subtitle": "Prova la nova edició esgarrifosa de Halloween amb personatges i escenaris temàtics!",
+      "features": {
+        "characters": {
+          "title": "👻 Personatges Esgarrifosos",
+          "description": "Juga amb personatges de Halloween que afegeixen un gir aterridor a la teva nit de jocs"
+        },
+        "questions": {
+          "title": "🕷️ Preguntes Embruixades",
+          "description": "Descobreix escenaris i preguntes exclusives de Halloween dissenyades per a la temporada esgarrifosa"
+        },
+        "parties": {
+          "title": "🦇 Perfecte per a Festes",
+          "description": "Fes la teva festa de Halloween inoblidable amb aquesta edició especial de temps limitat"
+        },
+        "limited": {
+          "title": "🎃 Només per Temps Limitat",
+          "description": "Descarrega ara per experimentar l'especial de Halloween abans que desaparegui!"
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Preparat per començar a jugar?",
+      "description": "Descarrega Cluso i porta aquests increïbles jocs a la teva propera trobada."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 False Peak. Tots els drets reservats.",
+    "links": {
+      "privacy": "Privadesa",
+      "terms": "Termes",
+      "website": "Lloc web"
+    }
+  },
+  "appStoreUrl": "https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8",
+  "halloweenUrl": "https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=halloween"
+}

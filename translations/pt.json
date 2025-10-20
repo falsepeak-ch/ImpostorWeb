@@ -1,0 +1,257 @@
+{
+  "lang": "pt",
+  "langName": "Português",
+  "meta": {
+    "home": {
+      "title": "Cluso - Jogo de Festa Impostor Offline | Dedução Social para 3-20 Jogadores",
+      "description": "Jogue Cluso - o jogo de festa impostor offline definitivo para 3-20 jogadores. Encontre o impostor entre seus amigos neste jogo de dedução social. Não precisa de WiFi. Perfeito para festas, reuniões e noites de jogos. Download grátis no iOS.",
+      "keywords": "jogo impostor, jogo imposter, jogo dedução social, jogo festa offline, alternativa among us, jogo máfia, jogos de festa, impostor halloween, multijogador offline, jogo sem wifi, jogos em grupo, 3-20 jogadores, cluso"
+    },
+    "howToPlay": {
+      "title": "Como Jogar Cluso Impostor - Guia Especial Halloween | Regras do Jogo",
+      "description": "Aprenda a jogar Cluso Impostor com nosso guia completo. Inclui dicas da Edição Especial Halloween, estratégias e instruções passo a passo. Domine o melhor jogo de festa de dedução social!",
+      "keywords": "como jogar cluso, regras impostor, guia dedução social, jogo festa halloween, instruções jogo, como jogar impostor, tutorial cluso, estratégia jogo festa"
+    }
+  },
+  "nav": {
+    "title": "Cluso",
+    "backToHome": "← Voltar ao início",
+    "languageSelector": "Idioma"
+  },
+  "hero": {
+    "title": "Encontre o Impostor",
+    "titleAccent": "Entre Seus Amigos",
+    "subtitle": "Cluso é o jogo de dedução social definitivo. Reúna de 3 a 20 jogadores, descubra mentiras e descubra quem está enganando secretamente o grupo. Você só precisa de um dispositivo.",
+    "howToPlayBtn": "Como jogar",
+    "ratingStars": "★★★★★",
+    "ratingText": "4,9 • Download Grátis",
+    "downloadBtnAlt": "Download na App Store"
+  },
+  "halloween": {
+    "badge": "Tempo Limitado",
+    "title": "Edição Especial Halloween",
+    "description": "Experimente o jogo Impostor como nunca antes com personagens assustadores, cenários assombrados e perguntas temáticas de Halloween. O jogo perfeito para sua festa de Halloween!",
+    "features": {
+      "characters": "Personagens Assustadores",
+      "questions": "Perguntas de Halloween",
+      "scenarios": "Cenários Assombrados"
+    },
+    "cta": "Baixar Edição Halloween"
+  },
+  "screenshots": {
+    "title": "Experimente o Jogo",
+    "captions": {
+      "game": "Inicie o jogo",
+      "play": "Discuta e deduza",
+      "vote": "Vote e elimine"
+    }
+  },
+  "aboutGame": {
+    "title": "O Jogo de Festa Impostor Definitivo",
+    "description": "Cluso é um jogo de dedução social offline onde os jogadores devem encontrar o impostor escondido entre eles. Perfeito para 3-20 jogadores, este jogo de festa combina estratégia, psicologia e engano. Não é necessária conexão à internet - apenas reúna seus amigos, passe um dispositivo e comece a jogar. Se você está organizando uma noite de jogos, uma festa ou uma reunião casual, o modo Impostor do Cluso oferece entretenimento sem fim. O jogo é similar a títulos populares como Among Us e Mafia, mas foi projetado especificamente para jogar pessoalmente sem WiFi necessário.",
+    "features": {
+      "offline": {
+        "title": "Jogue Offline em Qualquer Lugar",
+        "description": "Não é necessário internet ou WiFi. Perfeito para festas, acampamentos ou qualquer lugar sem conexão."
+      },
+      "players": {
+        "title": "Suporte para 3-20 Jogadores",
+        "description": "Funciona com grupos pequenos ou festas grandes. Quanto mais jogadores, mais desafiador e divertido!"
+      },
+      "oneDevice": {
+        "title": "Apenas Um Dispositivo Necessário",
+        "description": "Apenas um telefone ou tablet para todos. Passe e mantenha a identidade do impostor em segredo."
+      }
+    }
+  },
+  "perfectFor": {
+    "title": "Perfeito para Cada Ocasião",
+    "subtitle": "O jogo impostor que une as pessoas",
+    "occasions": {
+      "parties": {
+        "title": "Noite de Jogos de Festa",
+        "description": "Quebre o gelo e faça todos rirem na sua próxima festa"
+      },
+      "family": {
+        "title": "Reuniões Familiares",
+        "description": "Diversão para todas as idades - de adolescentes a adultos"
+      },
+      "friends": {
+        "title": "Encontro de Amigos",
+        "description": "A atividade perfeita quando os amigos vêm"
+      },
+      "events": {
+        "title": "Eventos Especiais",
+        "description": "Casamentos, aniversários, feriados - Cluso se encaixa em qualquer celebração"
+      }
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "questions": {
+      "whatIs": {
+        "q": "O que é Cluso Impostor?",
+        "a": "Cluso Impostor é um jogo de festa de dedução social offline para 3-20 jogadores onde você deve encontrar o impostor escondido em seu grupo. É similar a Among Us e Mafia mas projetado para jogar pessoalmente sem internet necessária."
+      },
+      "howMany": {
+        "q": "Quantos jogadores são necessários?",
+        "a": "Você pode jogar com 3-20 jogadores. O jogo funciona com grupos pequenos mas é mais emocionante com 6 ou mais pessoas. Apenas um dispositivo é necessário para todos."
+      },
+      "offline": {
+        "q": "É possível jogar sem internet?",
+        "a": "Sim! Cluso é completamente offline. Não é necessário WiFi ou conexão à internet. Perfeito para festas, acampamentos ou qualquer lugar sem sinal."
+      },
+      "devices": {
+        "q": "Todos os jogadores precisam do app?",
+        "a": "Não! Apenas uma pessoa precisa baixar o app. Você passa um dispositivo para todos os jogadores - mantendo a identidade do impostor em segredo."
+      },
+      "free": {
+        "q": "O jogo é grátis?",
+        "a": "Sim, Cluso é grátis para baixar e jogar. Disponível na App Store do iOS."
+      }
+    }
+  },
+  "games": {
+    "title": "Seis jogos, um app",
+    "list": {
+      "impostor": {
+        "title": "Impostor",
+        "description": "Domine a arte do engano"
+      },
+      "truthOrDare": {
+        "title": "Verdade ou Desafio",
+        "description": "Desafios clássicos de festa"
+      },
+      "wouldYouRather": {
+        "title": "Você Prefere",
+        "description": "Escolhas impossíveis e debates"
+      },
+      "betBuddy": {
+        "title": "Aposta Amigo",
+        "description": "Previsões e competição"
+      },
+      "putAFingerDown": {
+        "title": "Abaixe um Dedo",
+        "description": "Compartilhe experiências e conecte-se"
+      },
+      "factOrFake": {
+        "title": "Verdade ou Mentira",
+        "description": "Teste seu conhecimento"
+      }
+    }
+  },
+  "cta": {
+    "title": "Pronto para jogar?",
+    "description": "Baixe Cluso e torne seu próximo encontro inesquecível."
+  },
+  "howToPlayPage": {
+    "hero": {
+      "title": "Como jogar",
+      "titleAccent": "Cluso",
+      "subtitle": "Tudo o que você precisa saber para começar a jogar o melhor jogo de festa com seus amigos e família."
+    },
+    "gettingStarted": {
+      "title": "Primeiros passos",
+      "steps": {
+        "download": {
+          "title": "Baixe o app",
+          "description": "Obtenha Cluso da App Store no seu iPhone ou iPad"
+        },
+        "gather": {
+          "title": "Reúna seus amigos",
+          "description": "Você precisa de pelo menos 3 jogadores, mas é mais divertido com 6-20 pessoas"
+        },
+        "choose": {
+          "title": "Escolha um jogo",
+          "description": "Escolha entre seis jogos de festa diferentes, cada um com regras únicas"
+        },
+        "pass": {
+          "title": "Passe o telefone",
+          "description": "Apenas um dispositivo é necessário - todos jogam por vez"
+        }
+      }
+    },
+    "impostorGuide": {
+      "title": "Como jogar Impostor",
+      "gameTitle": "Impostor",
+      "description": "O melhor jogo de dedução social. Encontre o impostor entre seus amigos antes que o tempo acabe.",
+      "howToPlay": {
+        "title": "Como jogar:",
+        "steps": [
+          "Todos fecham os olhos exceto o(s) impostor(es)",
+          "O impostor vê quem mais é impostor",
+          "Todos abrem os olhos e discutem quem pode ser o impostor",
+          "Vote para eliminar alguém que você acha que é o impostor",
+          "A pessoa com mais votos é eliminada",
+          "Repita até que todos os impostores sejam encontrados ou superem os inocentes em número"
+        ]
+      },
+      "tips": {
+        "title": "Dicas:",
+        "list": [
+          "Preste atenção a comportamentos suspeitos e inconsistências",
+          "Como impostor, tente se misturar e desviar suspeitas",
+          "Faça perguntas incisivas para pegar impostores em mentiras",
+          "Não elimine aleatoriamente - pense estrategicamente"
+        ]
+      }
+    },
+    "masterGame": {
+      "title": "Domine o jogo",
+      "tips": {
+        "innocents": {
+          "title": "Para Inocentes",
+          "description": "Observe comportamento nervoso, contradições e jogadores que desviam perguntas"
+        },
+        "impostors": {
+          "title": "Para Impostores",
+          "description": "Mantenha a calma, aja naturalmente e vote estrategicamente para se misturar com o grupo"
+        },
+        "discussion": {
+          "title": "Fase de Discussão",
+          "description": "Faça perguntas específicas e ouça atentamente as respostas de todos"
+        },
+        "voting": {
+          "title": "Estratégia de Votação",
+          "description": "Não vote aleatoriamente - construa alianças e pense em quem se beneficia mais"
+        }
+      }
+    },
+    "halloweenSection": {
+      "title": "Edição Especial Halloween",
+      "subtitle": "Experimente a nova edição assustadora de Halloween com personagens e cenários temáticos!",
+      "features": {
+        "characters": {
+          "title": "👻 Personagens Assustadores",
+          "description": "Jogue com personagens de Halloween que adicionam uma reviravolta assustadora à sua noite de jogos"
+        },
+        "questions": {
+          "title": "🕷️ Perguntas Assombradas",
+          "description": "Descubra cenários e perguntas exclusivas de Halloween projetadas para a temporada assustadora"
+        },
+        "parties": {
+          "title": "🦇 Perfeito para Festas",
+          "description": "Torne sua festa de Halloween inesquecível com esta edição especial de tempo limitado"
+        },
+        "limited": {
+          "title": "🎃 Apenas por Tempo Limitado",
+          "description": "Baixe agora para experimentar o especial de Halloween antes que desapareça!"
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Pronto para começar a jogar?",
+      "description": "Baixe Cluso e leve esses jogos incríveis para seu próximo encontro."
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 False Peak. Todos os direitos reservados.",
+    "links": {
+      "privacy": "Privacidade",
+      "terms": "Termos",
+      "website": "Site"
+    }
+  },
+  "appStoreUrl": "https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8",
+  "halloweenUrl": "https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=halloween"
+}
