@@ -244,6 +244,86 @@
       "description": "Descarga Cluso y lleva estos increíbles juegos a tu próxima reunión."
     }
   },
+  "blog": {
+    "index": {
+      "meta": {
+        "title": "Blog Cluso - Consejos, Estrategias y Guías de Juegos de Fiesta",
+        "description": "Guías expertas, consejos y estrategias para Impostor y otros juegos de fiesta. Descubre los mejores juegos offline y cómo organizar la noche de juegos perfecta.",
+        "keywords": "juegos de fiesta, juegos offline, noche de juegos, deducción social, consejos impostor, estrategias juegos fiesta"
+      },
+      "hero": {
+        "title": "Blog Cluso",
+        "subtitle": "Guías expertas, consejos y estrategias para la mejor experiencia de juegos de fiesta"
+      },
+      "featured": "Artículos Destacados"
+    },
+    "articles": {
+      "best-offline-party-games": {
+        "meta": {
+          "title": "10 Mejores Juegos de Fiesta Offline para Grupos (2025) | Cluso",
+          "description": "Descubre los mejores juegos de fiesta offline para 3-20 jugadores. Desde deducción social hasta clásicos de fiesta - encuentra el juego perfecto para tu próxima reunión.",
+          "keywords": "juegos fiesta offline, juegos grupales, juegos deducción social, ideas juegos fiesta"
+        },
+        "title": "10 Mejores Juegos de Fiesta Offline para Grupos",
+        "date": "2025-01-15",
+        "intro": "¿Buscas el juego de fiesta perfecto para tu próxima reunión? Hemos recopilado los mejores juegos offline que no requieren conexión WiFi y proporcionan horas de diversión.",
+        "content": [
+          {"heading": "1. Cluso Impostor - Mejor Juego de Deducción Social", "text": "Cluso Impostor encabeza nuestra lista como el juego de deducción social offline definitivo. Con soporte para 3-20 jugadores en un solo dispositivo, ofrece una experiencia emocionante sin requisitos de internet."},
+          {"heading": "2. Mafia / Hombre Lobo - Deducción Social Clásica", "text": "El clásico atemporal que popularizó el género de deducción social. Los jugadores son asignados secretamente como mafia/hombres lobo o aldeanos, con fases de discusión y eliminación."},
+          {"heading": "3. Verdad o Reto - Favorito Clásico de Fiesta", "text": "El mejor juego para romper el hielo para todas las edades. Los jugadores eligen entre responder preguntas verdaderas o completar desafíos divertidos."},
+          {"heading": "4. Preferirías - Debate y Discusión", "text": "Presenta a los jugadores elecciones imposibles y observa cómo surgen debates. Perfecto para conocer a las personas de manera divertida."},
+          {"heading": "5. Charadas - Juego de Adivinanzas Clásico", "text": "Diversión de fiesta atemporal donde los jugadores actúan palabras o frases sin hablar. Excelente para grupos grandes y todas las edades."},
+          {"heading": "6. Dos Verdades y una Mentira", "text": "Un juego simple pero efectivo para conocerse. Cada jugador comparte tres declaraciones sobre sí mismos - dos verdaderas, una falsa - mientras otros adivinan."},
+          {"heading": "7. ¿Quién Soy? - Juego de Adivinanzas", "text": "Los jugadores reciben el nombre de una persona famosa pegado en su frente y deben adivinar su identidad haciendo preguntas de sí/no."},
+          {"heading": "8. Nunca Jamás", "text": "Revela hechos interesantes sobre amigos haciendo declaraciones que comienzan con 'Nunca jamás'. Los jugadores que lo han hecho deben bajar un dedo."},
+          {"heading": "9. La Resistencia - Juego de Equipo Estratégico", "text": "Un juego de deducción social donde equipos de combatientes de resistencia intentan identificar espías que sabotean sus misiones."},
+          {"heading": "10. Codenames - Juego de Asociación de Palabras", "text": "Juego de palabras basado en equipos donde los maestros de espías dan pistas de una palabra para ayudar a su equipo a identificar a sus agentes en el tablero."}
+        ],
+        "conclusion": "Aunque todos estos juegos ofrecen diversión, Cluso Impostor destaca con su equilibrio perfecto de estrategia, psicología y jugabilidad offline accesible. ¡Descárgalo gratis y convierte cualquier reunión en una experiencia memorable!"
+      },
+      "how-to-host-game-night": {
+        "meta": {
+          "title": "Cómo Organizar la Noche de Juegos Perfecta (Guía 2025) | Cluso",
+          "description": "Aprende a organizar una noche de juegos épica con amigos. Consejos sobre selección de juegos, configuración, bocadillos y creación del ambiente perfecto.",
+          "keywords": "noche de juegos, planear fiesta, ideas noche juegos, organizar juegos fiesta"
+        },
+        "title": "Cómo Organizar la Noche de Juegos Perfecta",
+        "date": "2025-01-10",
+        "intro": "Organizar una noche de juegos exitosa requiere más que solo descargar algunas apps. Aquí está tu guía completa para crear experiencias de juego inolvidables.",
+        "content": [
+          {"heading": "1. Elige los Juegos Correctos", "text": "Selecciona juegos basados en el tamaño de tu grupo y preferencias. Para 6-12 personas, los juegos de deducción social como Cluso Impostor son ideales. Siempre ten opciones de respaldo listas."},
+          {"heading": "2. Prepara Tu Espacio", "text": "Asegura asientos suficientes en formación circular para comunicación fácil. La buena iluminación es importante, pero regulable para ambiente. Mantén las distracciones como televisores apagadas."},
+          {"heading": "3. Bocadillos y Bebidas", "text": "Ofrece bocadillos fáciles de comer que no ensucien las manos. Comida para picar, papas fritas y salsas funcionan bien. Asegura bebidas suficientes para todos."},
+          {"heading": "4. Establece el Ambiente", "text": "La música de fondo antes de que comiencen los juegos ayuda a las personas a relajarse. Crea una lista de reproducción lo suficientemente baja para conversaciones. Considera decoración temática para ocasiones especiales."},
+          {"heading": "5. Explica las Reglas Claramente", "text": "Tómate tiempo para explicar las reglas del juego a fondo antes de comenzar. Usa ejemplos y tal vez haz una ronda de práctica. Asegúrate de que todos entiendan antes de que comience el juego real."},
+          {"heading": "6. Gestiona la Dinámica del Grupo", "text": "Presta atención a los jugadores silenciosos e inclúyelos. Equilibra jugadores competitivos con diversión amistosa. Prepárate para cambiar de juegos si la energía decae."},
+          {"heading": "7. El Tiempo lo es Todo", "text": "Planea 3-4 horas para una noche de juegos completa. Comienza con juegos para romper el hielo, luego pasa a juegos principales. Deja tiempo entre juegos para conversación."},
+          {"heading": "8. Ten un Plan de Respaldo", "text": "La tecnología puede fallar, así que ten juegos alternativos listos. Asegúrate de que tu dispositivo esté cargado para juegos basados en apps como Cluso. Considera también juegos físicos de respaldo."}
+        ],
+        "conclusion": "Con la preparación adecuada, tu noche de juegos se convertirá en el evento que todos esperan. ¡Descarga Cluso para acceder a múltiples juegos en una app - perfecto para cualquier noche de juegos!"
+      },
+      "social-deduction-games-explained": {
+        "meta": {
+          "title": "Juegos de Deducción Social Explicados: Guía del Género (2025) | Cluso",
+          "description": "Descubre todo sobre los juegos de deducción social - desde Mafia hasta Among Us. Aprende las mecánicas de juego, psicología y por qué estos juegos son tan adictivos.",
+          "keywords": "juegos deducción social, juego mafia, among us, juegos impostor, juegos deducción"
+        },
+        "title": "Juegos de Deducción Social Explicados",
+        "date": "2025-01-05",
+        "intro": "Los juegos de deducción social se han convertido en un fenómeno de fiesta. ¿Pero qué los hace tan atractivos? Profundicemos en la psicología y mecánicas detrás de este popular género.",
+        "content": [
+          {"heading": "¿Qué son los Juegos de Deducción Social?", "text": "Los juegos de deducción social son juegos multijugador donde los jugadores intentan descubrir los roles de otros a través de discusión, observación y razonamiento lógico. Típicamente, un pequeño grupo conoce secretamente las identidades de los demás mientras la mayoría intenta identificarlos."},
+          {"heading": "Historia del Género", "text": "El género comenzó con Mafia (también conocido como Hombre Lobo) en la década de 1980. Ganó popularidad mainstream con Among Us en 2020, que introdujo a millones al juego de deducción social. Ahora el género está evolucionando con apps como Cluso que ofrecen juego offline."},
+          {"heading": "Mecánicas Centrales", "text": "La mayoría de los juegos de deducción social comparten elementos comunes: asignación secreta de roles, fases de discusión, mecánicas de votación y eliminación. El balance entre información y engaño crea tensión."},
+          {"heading": "La Psicología Detrás", "text": "Estos juegos aprovechan la psicología humana fundamental - nuestra necesidad de confiar, miedo a la traición y amor por resolver acertijos. El aspecto social añade inversión emocional que otros juegos no pueden replicar."},
+          {"heading": "Por Qué Funcionan en Fiestas", "text": "Los juegos de deducción social son perfectos para fiestas porque acomodan grupos grandes, fomentan conversación y crean momentos memorables. A diferencia de juegos competitivos, son divertidos para todos independientemente del nivel de habilidad."},
+          {"heading": "Versiones Online vs. Offline", "text": "Mientras las versiones online como Among Us son populares, las versiones offline como Cluso Impostor ofrecen ventajas únicas: interacción en persona, lectura de lenguaje corporal y sin requisito de internet. El aspecto en persona amplifica el elemento psicológico."},
+          {"heading": "El Futuro del Género", "text": "Los juegos de deducción social continúan evolucionando con nuevas mecánicas, roles y variaciones. Las apps móviles democratizan el acceso, mientras el atractivo central - interacción humana y engaño - permanece atemporal."}
+        ],
+        "conclusion": "Ya seas un jugador veterano o novato, los juegos de deducción social ofrecen entretenimiento sin fin. ¡Prueba Cluso Impostor para experimentar el género en su mejor forma offline!"
+      }
+    }
+  },
   "tipsPage": {
     "meta": {
       "title": "Consejos y Estrategias del Juego Impostor - Gana Más Juegos | Guía Cluso",

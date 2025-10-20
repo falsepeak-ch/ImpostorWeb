@@ -244,6 +244,86 @@
       "description": "Lade Cluso herunter und bringe diese tollen Spiele zu deinem nächsten Treffen."
     }
   },
+  "blog": {
+    "index": {
+      "meta": {
+        "title": "Cluso Blog - Party-Spiel-Tipps, Strategien & Anleitungen",
+        "description": "Expertenanleitungen, Tipps und Strategien für Impostor und andere Party-Spiele. Entdecke die besten Offline-Spiele und wie du die perfekte Spieleabend veranstaltest.",
+        "keywords": "party spiele, offline spiele, spieleabend, social deduction, impostor tipps, party spiel strategien"
+      },
+      "hero": {
+        "title": "Cluso Blog",
+        "subtitle": "Expertenanleitungen, Tipps und Strategien für das ultimative Party-Spiel-Erlebnis"
+      },
+      "featured": "Empfohlene Artikel"
+    },
+    "articles": {
+      "best-offline-party-games": {
+        "meta": {
+          "title": "10 Beste Offline Party-Spiele für Gruppen (2025) | Cluso",
+          "description": "Entdecke die besten Offline-Party-Spiele für 3-20 Spieler. Von Social Deduction bis klassischen Partyspielen - finde das perfekte Spiel für deine nächste Versammlung.",
+          "keywords": "offline party spiele, gruppenspiele, social deduction spiele, party spiel ideen"
+        },
+        "title": "10 Beste Offline Party-Spiele für Gruppen",
+        "date": "2025-01-15",
+        "intro": "Auf der Suche nach dem perfekten Party-Spiel für dein nächstes Treffen? Wir haben die besten Offline-Spiele zusammengestellt, die keine WiFi-Verbindung benötigen und stundenlangen Spaß bieten.",
+        "content": [
+          {"heading": "1. Cluso Impostor - Bestes Social Deduction-Spiel", "text": "Cluso Impostor führt unsere Liste an als das ultimative Offline-Social-Deduction-Spiel. Mit Unterstützung für 3-20 Spieler auf einem einzigen Gerät bietet es spannende Spielerfahrung ohne Internet-Anforderung."},
+          {"heading": "2. Mafia / Werwolf - Klassisches Social Deduction", "text": "Der zeitlose Klassiker, der das Social-Deduction-Genre populär gemacht hat. Spieler werden heimlich als Mafia/Werwölfe oder Dorfbewohner zugewiesen, mit Diskussions- und Eliminierungsphasen."},
+          {"heading": "3. Wahrheit oder Pflicht - Klassischer Party-Favorit", "text": "Das ultimative Eisbrecher-Spiel für jedes Alter. Spieler wählen zwischen dem Beantworten wahrheitsgemäßer Fragen oder dem Erfüllen unterhaltsamer Herausforderungen."},
+          {"heading": "4. Würdest du eher - Debatte und Diskussion", "text": "Stelle Spieler vor unmögliche Entscheidungen und beobachte, wie Debatten entstehen. Perfekt, um Menschen auf unterhaltsame Weise kennenzulernen."},
+          {"heading": "5. Charades - Klassisches Ratespiel", "text": "Zeitloser Party-Spaß, bei dem Spieler Wörter oder Phrasen ohne Sprechen pantomimisch darstellen. Großartig für große Gruppen und alle Altersgruppen."},
+          {"heading": "6. Zwei Wahrheiten und eine Lüge", "text": "Ein einfaches, aber effektives Kennenlernspiel. Jeder Spieler teilt drei Aussagen über sich mit - zwei wahr, eine falsch - während andere raten."},
+          {"heading": "7. Wer bin ich? - Ratespiel", "text": "Spieler bekommen den Namen einer berühmten Person auf die Stirn geklebt und müssen durch Ja/Nein-Fragen ihre Identität erraten."},
+          {"heading": "8. Niemals habe ich jemals", "text": "Offenbare interessante Fakten über Freunde, indem du Aussagen machst, die mit 'Niemals habe ich jemals' beginnen. Spieler, die es getan haben, müssen einen Finger senken."},
+          {"heading": "9. Die Widerstandsbewegung - Strategisches Teamspiel", "text": "Ein Social-Deduction-Spiel, bei dem Teams von Widerstandskämpfern versuchen, Spione zu identifizieren, die ihre Missionen sabotieren."},
+          {"heading": "10. Codenames - Wortassoziationsspiel", "text": "Teambasiertes Wortspiel, bei dem Spymasters Ein-Wort-Hinweise geben, um ihr Team zu helfen, ihre Agenten auf dem Brett zu identifizieren."}
+        ],
+        "conclusion": "Obwohl all diese Spiele Spaß bieten, sticht Cluso Impostor mit seiner perfekten Balance aus Strategie, Psychologie und zugänglichem Offline-Gameplay hervor. Lade es kostenlos herunter und verwandle jedes Treffen in ein unvergessliches Erlebnis!"
+      },
+      "how-to-host-game-night": {
+        "meta": {
+          "title": "Wie man den Perfekten Spieleabend Veranstaltet (2025 Leitfaden) | Cluso",
+          "description": "Lerne, wie man einen epischen Spieleabend mit Freunden veranstaltet. Tipps zur Auswahl von Spielen, Einrichtung, Snacks und zur Schaffung der perfekten Atmosphäre.",
+          "keywords": "spieleabend, party planen, spieleabend ideen, party spiele veranstalten"
+        },
+        "title": "Wie man den Perfekten Spieleabend Veranstaltet",
+        "date": "2025-01-10",
+        "intro": "Einen erfolgreichen Spieleabend zu veranstalten erfordert mehr als nur das Herunterladen einiger Apps. Hier ist dein kompletter Leitfaden zur Schaffung unvergesslicher Spielerlebnisse.",
+        "content": [
+          {"heading": "1. Wähle die Richtigen Spiele", "text": "Wähle Spiele basierend auf deiner Gruppengröße und Vorlieben. Für 6-12 Personen sind Social-Deduction-Spiele wie Cluso Impostor ideal. Habe immer Ersatz-Optionen bereit."},
+          {"heading": "2. Bereite Deinen Raum Vor", "text": "Stelle ausreichend Sitzgelegenheiten in einer Kreisformation für eine einfache Kommunikation sicher. Gute Beleuchtung ist wichtig, aber dimmbar für Atmosphäre. Halte Ablenkungen wie Fernseher fern."},
+          {"heading": "3. Snacks und Getränke", "text": "Biete einfach zu essende Snacks an, die deine Hände nicht fettig machen. Fingerfood, Chips und Dips funktionieren gut. Stelle sicher, dass genügend Getränke für alle vorhanden sind."},
+          {"heading": "4. Setze die Stimmung", "text": "Hintergrundmusik vor Spielbeginn hilft Menschen sich zu entspannen. Erstelle eine Playlist, die für Gespräche leise genug ist. Erwäge thematisches Dekor für besondere Anlässe."},
+          {"heading": "5. Erkläre Regeln Klar", "text": "Nimm dir Zeit, Spielregeln gründlich zu erklären bevor du beginnst. Verwende Beispiele und mache vielleicht eine Übungsrunde. Stelle sicher, dass alle verstehen bevor das eigentliche Spiel beginnt."},
+          {"heading": "6. Verwalte Gruppendynamik", "text": "Achte auf ruhige Spieler und beziehe sie ein. Balanciere wettbewerbsorientierte Spieler mit freundlichem Spaß aus. Sei bereit, Spiele zu wechseln, wenn die Energie nachlässt."},
+          {"heading": "7. Timing ist Alles", "text": "Plane 3-4 Stunden für einen vollen Spieleabend ein. Beginne mit Eisbrecher-Spielen, gehe dann zu Hauptspielen über. Lasse zwischen Spielen Zeit für Gespräche."},
+          {"heading": "8. Habe einen Backup-Plan", "text": "Technologie kann versagen, also habe alternative Spiele bereit. Sorge dafür, dass dein Gerät für App-basierte Spiele wie Cluso aufgeladen ist. Erwäge auch physische Backup-Spiele."}
+        ],
+        "conclusion": "Mit der richtigen Vorbereitung wird dein Spieleabend zum Ereignis, auf das sich alle freuen. Lade Cluso herunter, um Zugriff auf mehrere Spiele in einer App zu haben - perfekt für jeden Spieleabend!"
+      },
+      "social-deduction-games-explained": {
+        "meta": {
+          "title": "Social Deduction-Spiele Erklärt: Leitfaden zum Genre (2025) | Cluso",
+          "description": "Entdecke alles über Social-Deduction-Spiele - von Mafia bis Among Us. Lerne Spielmechaniken, Psychologie und warum diese Spiele so süchtig machend sind.",
+          "keywords": "social deduction spiele, mafia spiel, among us, impostor spiele, deduktionsspiele"
+        },
+        "title": "Social Deduction-Spiele Erklärt",
+        "date": "2025-01-05",
+        "intro": "Social-Deduction-Spiele sind zu einem Party-Phänomen geworden. Aber was macht sie so fesselnd? Tauchen wir ein in die Psychologie und Mechaniken hinter diesem beliebten Genre.",
+        "content": [
+          {"heading": "Was sind Social Deduction-Spiele?", "text": "Social-Deduction-Spiele sind Mehrspielerspiele, bei denen Spieler versuchen, die Rollen der anderen durch Diskussion, Beobachtung und logisches Denken aufzudecken. Typischerweise kennt eine kleine Gruppe heimlich die Identitäten der anderen, während die Mehrheit versucht, sie zu identifizieren."},
+          {"heading": "Geschichte des Genres", "text": "Das Genre begann mit Mafia (auch bekannt als Werwolf) in den 1980er Jahren. Es gewann Mainstream-Popularität mit Among Us im Jahr 2020, was Millionen zum Social-Deduction-Gameplay brachte. Jetzt entwickelt sich das Genre mit Apps wie Cluso weiter, die Offline-Gameplay bieten."},
+          {"heading": "Kernmechaniken", "text": "Die meisten Social-Deduction-Spiele teilen gemeinsame Elemente: geheime Rollenzuteilung, Diskussionsphasen, Abstimmungsmechaniken und Eliminierung. Die Balance zwischen Information und Täuschung schafft Spannung."},
+          {"heading": "Die Psychologie dahinter", "text": "Diese Spiele nutzen grundlegende menschliche Psychologie - unser Bedürfnis zu vertrauen, Angst vor Verrat und Liebe zum Lösen von Rätseln. Der soziale Aspekt fügt emotionale Investition hinzu, die andere Spiele nicht replizieren können."},
+          {"heading": "Warum sie bei Partys funktionieren", "text": "Social-Deduction-Spiele sind perfekt für Partys, weil sie große Gruppen aufnehmen, Konversation fördern und unvergessliche Momente schaffen. Im Gegensatz zu wettbewerbsorientierten Spielen machen sie jedem Spaß unabhängig vom Fähigkeitsniveau."},
+          {"heading": "Online vs. Offline-Versionen", "text": "Während Online-Versionen wie Among Us beliebt sind, bieten Offline-Versionen wie Cluso Impostor einzigartige Vorteile: persönliche Interaktion, Lesen von Körpersprache und kein Internet-Erfordernis. Der persönliche Aspekt verstärkt das psychologische Element."},
+          {"heading": "Die Zukunft des Genres", "text": "Social-Deduction-Spiele entwickeln sich mit neuen Mechaniken, Rollen und Variationen weiter. Mobile Apps demokratisieren den Zugang, während die Kernfaszination - menschliche Interaktion und Täuschung - zeitlos bleibt."}
+        ],
+        "conclusion": "Ob du Veteranenspieler oder Neuling bist, Social-Deduction-Spiele bieten endlose Unterhaltung. Probiere Cluso Impostor aus, um das Genre in seiner besten Offline-Form zu erleben!"
+      }
+    }
+  },
   "tipsPage": {
     "meta": {
       "title": "Impostor Spiel Tipps & Strategien - Mehr Spiele Gewinnen | Cluso Guide",

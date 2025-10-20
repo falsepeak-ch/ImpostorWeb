@@ -244,6 +244,86 @@
       "description": "Descarrega Cluso i porta aquests increïbles jocs a la teva propera trobada."
     }
   },
+  "blog": {
+    "index": {
+      "meta": {
+        "title": "Blog Cluso - Consells, Estratègies i Guies de Jocs de Festa",
+        "description": "Guies expertes, consells i estratègies per a Impostor i altres jocs de festa. Descobreix els millors jocs offline i com organitzar la nit de jocs perfecta.",
+        "keywords": "jocs de festa, jocs offline, nit de jocs, deducció social, consells impostor, estratègies jocs festa"
+      },
+      "hero": {
+        "title": "Blog Cluso",
+        "subtitle": "Guies expertes, consells i estratègies per a la millor experiència de jocs de festa"
+      },
+      "featured": "Articles Destacats"
+    },
+    "articles": {
+      "best-offline-party-games": {
+        "meta": {
+          "title": "10 Millors Jocs de Festa Offline per a Grups (2025) | Cluso",
+          "description": "Descobreix els millors jocs de festa offline per a 3-20 jugadors. Des de deducció social fins a clàssics de festa - troba el joc perfecte per a la teva propera trobada.",
+          "keywords": "jocs festa offline, jocs grupals, jocs deducció social, idees jocs festa"
+        },
+        "title": "10 Millors Jocs de Festa Offline per a Grups",
+        "date": "2025-01-15",
+        "intro": "Busques el joc de festa perfecte per a la teva propera trobada? Hem recopilat els millors jocs offline que no requereixen connexió WiFi i proporcionen hores de diversió.",
+        "content": [
+          {"heading": "1. Cluso Impostor - Millor Joc de Deducció Social", "text": "Cluso Impostor encapçala la nostra llista com el joc de deducció social offline definitiu. Amb suport per a 3-20 jugadors en un sol dispositiu, ofereix una experiència emocionant sense requisits d'internet."},
+          {"heading": "2. Màfia / Home Llop - Deducció Social Clàssica", "text": "El clàssic atemporal que va popularitzar el gènere de deducció social. Els jugadors són assignats secretament com màfia/homes llop o vilatans, amb fases de discussió i eliminació."},
+          {"heading": "3. Veritat o Repte - Favorit Clàssic de Festa", "text": "El millor joc per trencar el gel per a totes les edats. Els jugadors trien entre respondre preguntes veritables o completar reptes divertits."},
+          {"heading": "4. Preferiríes - Debat i Discussió", "text": "Presenta als jugadors eleccions impossibles i observa com sorgeixen debats. Perfecte per conèixer les persones de manera divertida."},
+          {"heading": "5. Mímica - Joc d'Endevinalles Clàssic", "text": "Diversió de festa atemporal on els jugadors actuen paraules o frases sense parlar. Excel·lent per a grups grans i totes les edats."},
+          {"heading": "6. Dues Veritats i una Mentida", "text": "Un joc simple però efectiu per conèixer-se. Cada jugador comparteix tres declaracions sobre si mateixos - dues veritables, una falsa - mentre altres endevinen."},
+          {"heading": "7. Qui Sóc? - Joc d'Endevinalles", "text": "Els jugadors reben el nom d'una persona famosa enganxat al seu front i han d'endevinar la seva identitat fent preguntes de sí/no."},
+          {"heading": "8. Mai Mai", "text": "Revela fets interessants sobre amics fent declaracions que comencen amb 'Mai mai'. Els jugadors que ho han fet han de baixar un dit."},
+          {"heading": "9. La Resistència - Joc d'Equip Estratègic", "text": "Un joc de deducció social on equips de combatents de resistència intenten identificar espies que sabotegen les seves missions."},
+          {"heading": "10. Codenames - Joc d'Associació de Paraules", "text": "Joc de paraules basat en equips on els mestres d'espies donen pistes d'una paraula per ajudar el seu equip a identificar els seus agents al tauler."}
+        ],
+        "conclusion": "Encara que tots aquests jocs ofereixen diversió, Cluso Impostor destaca amb el seu equilibri perfecte d'estratègia, psicologia i jugabilitat offline accessible. Descarrega'l gratis i converteix qualsevol trobada en una experiència memorable!"
+      },
+      "how-to-host-game-night": {
+        "meta": {
+          "title": "Com Organitzar la Nit de Jocs Perfecta (Guia 2025) | Cluso",
+          "description": "Aprèn a organitzar una nit de jocs èpica amb amics. Consells sobre selecció de jocs, configuració, aperitius i creació de l'ambient perfecte.",
+          "keywords": "nit de jocs, planejar festa, idees nit jocs, organitzar jocs festa"
+        },
+        "title": "Com Organitzar la Nit de Jocs Perfecta",
+        "date": "2025-01-10",
+        "intro": "Organitzar una nit de jocs exitosa requereix més que només descarregar algunes apps. Aquí està la teva guia completa per crear experiències de joc inoblidables.",
+        "content": [
+          {"heading": "1. Tria els Jocs Correctes", "text": "Selecciona jocs basats en la mida del teu grup i preferències. Per a 6-12 persones, els jocs de deducció social com Cluso Impostor són ideals. Sempre tingues opcions de reserva llestes."},
+          {"heading": "2. Prepara el Teu Espai", "text": "Assegura seients suficients en formació circular per a comunicació fàcil. La bona il·luminació és important, però regulable per ambient. Mantén les distraccions com televisors apagats."},
+          {"heading": "3. Aperitius i Begudes", "text": "Ofereix aperitius fàcils de menjar que no embrutin les mans. Menjar per picar, patates fregides i salses funcionen bé. Assegura begudes suficients per a tots."},
+          {"heading": "4. Estableix l'Ambient", "text": "La música de fons abans que comencin els jocs ajuda a les persones a relaxar-se. Crea una llista de reproducció prou baixa per a converses. Considera decoració temàtica per a ocasions especials."},
+          {"heading": "5. Explica les Regles Clarament", "text": "Pren temps per explicar les regles del joc a fons abans de començar. Usa exemples i potser fes una ronda de pràctica. Assegura't que tots entenguin abans que comenci el joc real."},
+          {"heading": "6. Gestiona la Dinàmica del Grup", "text": "Para atenció als jugadors silenciosos i inclou'ls. Equilibra jugadors competitius amb diversió amistosa. Prepara't per canviar de jocs si l'energia decau."},
+          {"heading": "7. El Temps ho és Tot", "text": "Planeja 3-4 hores per a una nit de jocs completa. Comença amb jocs per trencar el gel, després passa a jocs principals. Deixa temps entre jocs per a conversa."},
+          {"heading": "8. Tingues un Pla de Reserva", "text": "La tecnologia pot fallar, així que tingues jocs alternatius llestos. Assegura't que el teu dispositiu estigui carregat per a jocs basats en apps com Cluso. Considera també jocs físics de reserva."}
+        ],
+        "conclusion": "Amb la preparació adequada, la teva nit de jocs es convertirà en l'esdeveniment que tots esperen. Descarrega Cluso per accedir a múltiples jocs en una app - perfecte per a qualsevol nit de jocs!"
+      },
+      "social-deduction-games-explained": {
+        "meta": {
+          "title": "Jocs de Deducció Social Explicats: Guia del Gènere (2025) | Cluso",
+          "description": "Descobreix tot sobre els jocs de deducció social - des de Màfia fins Among Us. Aprèn les mecàniques de joc, psicologia i per què aquests jocs són tan addictius.",
+          "keywords": "jocs deducció social, joc màfia, among us, jocs impostor, jocs deducció"
+        },
+        "title": "Jocs de Deducció Social Explicats",
+        "date": "2025-01-05",
+        "intro": "Els jocs de deducció social s'han convertit en un fenomen de festa. Però què els fa tan atractius? Aprofundim en la psicologia i mecàniques darrere d'aquest popular gènere.",
+        "content": [
+          {"heading": "Què són els Jocs de Deducció Social?", "text": "Els jocs de deducció social són jocs multijugador on els jugadors intenten descobrir els rols d'altres a través de discussió, observació i raonament lògic. Típicament, un petit grup coneix secretament les identitats dels altres mentre la majoria intenta identificar-los."},
+          {"heading": "Història del Gènere", "text": "El gènere va començar amb Màfia (també conegut com Home Llop) a la dècada de 1980. Va guanyar popularitat mainstream amb Among Us el 2020, que va introduir milions al joc de deducció social. Ara el gènere està evolucionant amb apps com Cluso que ofereixen joc offline."},
+          {"heading": "Mecàniques Centrals", "text": "La majoria dels jocs de deducció social comparteixen elements comuns: assignació secreta de rols, fases de discussió, mecàniques de votació i eliminació. L'equilibri entre informació i engany crea tensió."},
+          {"heading": "La Psicologia Darrere", "text": "Aquests jocs aprofiten la psicologia humana fonamental - la nostra necessitat de confiar, por a la traïció i amor per resoldre enigmes. L'aspecte social afegeix inversió emocional que altres jocs no poden replicar."},
+          {"heading": "Per Què Funcionen a Festes", "text": "Els jocs de deducció social són perfectes per a festes perquè acomoden grups grans, fomenten conversa i creen moments memorables. A diferència de jocs competitius, són divertits per a tots independentment del nivell d'habilitat."},
+          {"heading": "Versions Online vs. Offline", "text": "Mentre les versions online com Among Us són populars, les versions offline com Cluso Impostor ofereixen avantatges únics: interacció en persona, lectura de llenguatge corporal i sense requisit d'internet. L'aspecte en persona amplifica l'element psicològic."},
+          {"heading": "El Futur del Gènere", "text": "Els jocs de deducció social continuen evolucionant amb noves mecàniques, rols i variacions. Les apps mòbils democratitzen l'accés, mentre l'atractiu central - interacció humana i engany - roman atemporal."}
+        ],
+        "conclusion": "Ja siguis un jugador veterà o novell, els jocs de deducció social ofereixen entreteniment sense fi. Prova Cluso Impostor per experimentar el gènere en la seva millor forma offline!"
+      }
+    }
+  },
   "tipsPage": {
     "meta": {
       "title": "Consells i Estratègies del Joc Impostor - Guanya Més Jocs | Guia Cluso",
