@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Com Jugar a Cluso Impostor - Guia Especial Halloween | Regles del Joc</title>
+    <meta name="title" content="Com Jugar a Cluso Impostor - Guia Especial Halloween | Regles del Joc">
+    <meta name="description" content="Aprèn a jugar a Cluso Impostor amb la nostra guia completa. Inclou consells de l'Edició Especial Halloween, estratègies i instruccions pas a pas. Domina el millor joc de festa de deducció social!">
+    <meta name="keywords" content="com jugar cluso, regles impostor, guia deducció social, joc festa halloween, instruccions joc, com jugar impostor, tutorial cluso, estratègia joc festa">
+    <meta name="author" content="False Peak">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://falsepeak.ch/cluso/ca/how-to-play.html">
+
+    <!-- Hreflang Tags -->
+    <link rel="alternate" hreflang="en" href="https://falsepeak.ch/cluso/en/how-to-play.html">
+    <link rel="alternate" hreflang="de" href="https://falsepeak.ch/cluso/de/how-to-play.html">
+    <link rel="alternate" hreflang="es" href="https://falsepeak.ch/cluso/es/how-to-play.html">
+    <link rel="alternate" hreflang="ca" href="https://falsepeak.ch/cluso/ca/how-to-play.html">
+    <link rel="alternate" hreflang="pt" href="https://falsepeak.ch/cluso/pt/how-to-play.html">
+    <link rel="alternate" hreflang="fr" href="https://falsepeak.ch/cluso/fr/how-to-play.html">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://falsepeak.ch/cluso/ca/how-to-play.html">
+    <meta property="og:site_name" content="Cluso">
+    <meta property="og:title" content="Com Jugar a Cluso Impostor - Guia Especial Halloween | Regles del Joc">
+    <meta property="og:description" content="Aprèn a jugar a Cluso Impostor amb la nostra guia completa. Inclou consells de l'Edició Especial Halloween, estratègies i instruccions pas a pas. Domina el millor joc de festa de deducció social!">
+    <meta property="og:image" content="https://falsepeak.ch/cluso/src/assets/images/Icon.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://falsepeak.ch/cluso/ca/how-to-play.html">
+    <meta name="twitter:title" content="Com Jugar a Cluso Impostor - Guia Especial Halloween | Regles del Joc">
+    <meta name="twitter:description" content="Aprèn a jugar a Cluso Impostor amb la nostra guia completa. Inclou consells de l'Edició Especial Halloween, estratègies i instruccions pas a pas. Domina el millor joc de festa de deducció social!">
+    <meta name="twitter:image" content="https://falsepeak.ch/cluso/src/assets/images/Icon.png">
+
+    <!-- App Store Meta Tags -->
+    <meta name="apple-itunes-app" content="app-id=6747049428, affiliate-data=pt=127841352&ct=web">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Cluso">
+
+    <!-- Additional Meta Tags -->
+    <meta name="application-name" content="Cluso">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#0078CC">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/src/assets/images/Icon.png">
+    <link rel="apple-touch-icon" href="/src/assets/images/Icon.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://apps.apple.com">
+    <link rel="dns-prefetch" href="https://apps.apple.com">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/src/main.css">
+
+    <!-- Firebase Analytics -->
+    <script type="module" src="/src/firebase-init.js"></script>
+
+    <!-- Language Switcher Script -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const languageBtn = document.getElementById('languageBtn');
+        const languageDropdown = document.getElementById('languageDropdown');
+
+        if (languageBtn && languageDropdown) {
+            // Toggle dropdown
+            languageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const isOpen = languageDropdown.classList.contains('show');
+                languageDropdown.classList.toggle('show');
+                languageBtn.setAttribute('aria-expanded', !isOpen);
+            });
+
+            // Close dropdown when clicking outside
+            document.addEventListener('click', function() {
+                languageDropdown.classList.remove('show');
+                languageBtn.setAttribute('aria-expanded', 'false');
+            });
+
+            // Prevent dropdown from closing when clicking inside it
+            languageDropdown.addEventListener('click', function(e) {
+                e.stopPropagation();
+            });
+        }
+    });
+    </script>
+</head>
+<body>
+    <div class="main-content">
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="./" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;">
+                    <img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon">
+                    <span class="nav-title">Cluso</span>
+                </a>
+            </div>
+        <div class="language-selector">
+            <button class="language-btn" id="languageBtn" aria-label="Select language" aria-haspopup="true" aria-expanded="false">
+                <span class="language-current">🌐 Català</span>
+                <svg class="language-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.41 0L6 4.58 10.59 0 12 1.41l-6 6-6-6z" fill="currentColor"/>
+                </svg>
+            </button>
+            <div class="language-dropdown" id="languageDropdown">
+                <a href="/en/" class="language-option">🇬🇧 English</a>
+                <a href="/de/" class="language-option">🇩🇪 Deutsch</a>
+                <a href="/es/" class="language-option">🇪🇸 Español</a>
+                <a href="/ca/" class="language-option active">🇨🇦 Català</a>
+                <a href="/pt/" class="language-option">🇵🇹 Português</a>
+                <a href="/fr/" class="language-option">🇫🇷 Français</a>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="padding: 2rem 0 3rem;">
+        <div class="container">
+            <h1 class="hero-title" style="margin-bottom: 1rem;">
+                Com jugar a
+                <span class="hero-title-accent">Cluso</span>
+            </h1>
+            <p class="hero-subtitle">Tot el que necessites saber per començar a jugar al millor joc de festa amb els teus amics i família.</p>
+        </div>
+    </section>
+
+    <!-- Getting Started -->
+    <section class="guide-section">
+        <div class="container">
+            <h2 class="section-title">Primers passos</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Descarrega l'app</h3>
+                        <p>Aconsegueix Cluso de l'App Store al teu iPhone o iPad</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Reuneix els teus amics</h3>
+                        <p>Necessites almenys 3 jugadors, però és més divertit amb 6-20 persones</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Tria un joc</h3>
+                        <p>Escull entre sis jocs de festa diferents, cadascun amb regles úniques</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Passa el telèfon</h3>
+                        <p>Només necessites un dispositiu - tots juguen per torns</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impostor Guide -->
+    <section class="guide-section">
+        <div class="container">
+            <div class="game-guide">
+                <h2 class="game-title">Impostor</h2>
+                <p class="game-description">El millor joc de deducció social. Troba l'impostor entre els teus amics abans que s'acabi el temps.</p>
+                <div class="game-rules">
+                    <div class="rules-section">
+                        <h4>Com jugar:</h4>
+                        <ol>
+                            <li>Tots tanquen els ulls excepte l'/els impostor(s)</li>
+                            <li>L'impostor veu qui més és impostor</li>
+                            <li>Tots obren els ulls i discuteixen qui podria ser l'impostor</li>
+                            <li>Vota per eliminar algú que creus que és l'impostor</li>
+                            <li>La persona amb més vots és eliminada</li>
+                            <li>Repeteix fins que tots els impostors siguin trobats o superin en nombre als innocents</li>
+                        </ol>
+                    </div>
+                    <div class="rules-section">
+                        <h4>Consells:</h4>
+                        <ul>
+                            <li>Presta atenció a comportaments sospitosos i inconsistències</li>
+                            <li>Com a impostor, intenta barrejar-te i desviar sospites</li>
+                            <li>Fes preguntes incisives per atrapar els impostors en mentides</li>
+                            <li>No eliminis a l'atzar - pensa estratègicament</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Master the Game -->
+    <section class="tips">
+        <div class="container">
+            <h2 class="section-title">Domina el joc</h2>
+            <div class="tips-grid">
+                <div class="tip">
+                    <h3>Per a Innocents</h3>
+                    <p>Observa comportament nerviós, contradiccions i jugadors que desvien preguntes</p>
+                </div>
+                <div class="tip">
+                    <h3>Per a Impostors</h3>
+                    <p>Mantén la calma, actua natural i vota estratègicament per barrejar-te amb el grup</p>
+                </div>
+                <div class="tip">
+                    <h3>Fase de Discussió</h3>
+                    <p>Fes preguntes específiques i escolta acuradament les respostes de tots</p>
+                </div>
+                <div class="tip">
+                    <h3>Estratègia de Votació</h3>
+                    <p>No votis a l'atzar - construeix aliances i pensa en qui es beneficia més</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Halloween Section -->
+    <section class="halloween-special">
+        <div class="container">
+            <div class="halloween-banner">
+                <img src="/mummy-character.png" alt="Halloween Mummy Character" class="halloween-icon">
+                <div class="halloween-content">
+                    <span class="halloween-badge">Temps Limitat</span>
+                    <h2 class="halloween-title">Edició Especial Halloween</h2>
+                    <p class="halloween-description">Prova la nova edició esgarrifosa de Halloween amb personatges i escenaris temàtics!</p>
+                    <a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8"
+                       target="_blank"
+                       rel="noopener"
+                       class="download-btn halloween-download">
+                        <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                             alt="Descarregar a l'App Store"
+                             class="app-store-badge">
+                    </a>
+                    <div class="halloween-features">
+                        <div class="halloween-feature">
+                            <span class="feature-icon">👻</span>
+                            <span>👻 Personatges Esgarrifosos</span>
+                        </div>
+                        <div class="halloween-feature">
+                            <span class="feature-icon">🕷️</span>
+                            <span>🕷️ Preguntes Embruixades</span>
+                        </div>
+                        <div class="halloween-feature">
+                            <span class="feature-icon">🦇</span>
+                            <span>🦇 Perfecte per a Festes</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2 class="cta-title">Preparat per començar a jugar?</h2>
+            <p class="cta-description">Descarrega Cluso i porta aquests increïbles jocs a la teva propera trobada.</p>
+            <a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="download-btn">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                     alt="Descarregar a l'App Store"
+                     class="app-store-badge">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 False Peak. Tots els drets reservats.</p>
+            <div class="footer-links">
+                <a href="https://falsepeak.ch/privacy">Privadesa</a>
+                <a href="https://falsepeak.ch/terms">Termes</a>
+                <a href="https://falsepeak.ch">Lloc web</a>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
