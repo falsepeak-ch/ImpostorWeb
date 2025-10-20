@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cluso - Party Game</title>
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://falsepeak.ch/cluso/en/">
+
+    <!-- Redirect script with language detection -->
+    <script>
+    (function() {
+        // Supported languages
+        const supportedLangs = ['en', 'de', 'es', 'ca', 'pt', 'fr'];
+        const defaultLang = 'en';
+
+        // Check if user has a stored preference
+        const storedLang = localStorage.getItem('preferredLanguage');
+        if (storedLang && supportedLangs.includes(storedLang)) {
+            window.location.href = '/' + storedLang + '/';
+            return;
+        }
+
+        // Detect browser language
+        const browserLang = (navigator.language || navigator.userLanguage).toLowerCase().split('-')[0];
+
+        // Use browser language if supported, otherwise default
+        const targetLang = supportedLangs.includes(browserLang) ? browserLang : defaultLang;
+
+        // Store preference
+        localStorage.setItem('preferredLanguage', targetLang);
+
+        // Redirect
+        window.location.href = '/' + targetLang + '/';
+    })();
+    </script>
+
+    <!-- Fallback for users with JavaScript disabled -->
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=/en/">
+    </noscript>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0f;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .loader {
+            text-align: center;
+        }
+        .loader h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .spinner {
+            width: 50px;
+            height: 50px;
+            margin: 0 auto;
+            border: 4px solid rgba(139, 92, 246, 0.3);
+            border-top-color: #8b5cf6;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="loader">
+        <h1>Cluso</h1>
+        <div class="spinner"></div>
+    </div>
+</body>
+</html>

@@ -215,6 +215,67 @@
       "description": "Download Cluso Impostor and bring the ultimate social deduction game to your next gathering."
     }
   },
+  "blog": {
+    "index": {
+      "meta": {"title": "Cluso Blog - Party Game Tips, Strategies & Guides", "description": "Expert guides on party games, social deduction strategies, game night tips, and more. Learn how to host the perfect gathering with Cluso.", "keywords": "party games blog, game strategies, social deduction, game night tips, impostor guides"},
+      "hero": {"title": "Cluso Blog", "subtitle": "Expert guides, strategies, and tips for party games and social gatherings"},
+      "featured": "Featured Articles"
+    },
+    "articles": {
+      "best-offline-party-games": {
+        "meta": {"title": "10 Best Offline Party Games for Groups (2025) | Cluso", "description": "Discover the top 10 offline party games for 3-20 players. From social deduction to classic party games, find the perfect game for your next gathering.", "keywords": "offline party games, best party games, group games, party game ideas, offline multiplayer games"},
+        "title": "10 Best Offline Party Games for Groups",
+        "date": "2025-01-15",
+        "intro": "Looking for the perfect party game for your next gathering? We've compiled the top 10 offline party games that work with groups of 3-20 players. No WiFi needed!",
+        "content": [
+          {"heading": "1. Cluso Impostor - Best Social Deduction Game", "text": "Cluso Impostor tops our list as the ultimate offline social deduction game. With support for 3-20 players and only one device needed, it's perfect for any party size. Players must find the impostor through discussion and voting, creating intense psychological gameplay that keeps everyone engaged."},
+          {"heading": "2. Mafia / Werewolf - Classic Social Deduction", "text": "The timeless classic that inspired modern social deduction games. Mafia requires a moderator and works best with 7+ players. While it's free and requires no equipment, the moderator can't participate in gameplay."},
+          {"heading": "3. Two Truths and a Lie - Icebreaker Classic", "text": "Perfect for breaking the ice, this simple game needs no equipment. Each player shares three statements, and others guess which is false. Great for getting to know people but can become repetitive."},
+          {"heading": "4. Charades - Physical Party Game", "text": "A classic acting game that gets everyone moving. Works with any group size and needs no equipment. Best for energetic groups who don't mind being silly."},
+          {"heading": "5. 20 Questions - Guessing Game", "text": "One player thinks of something, others ask yes/no questions to guess it. Requires no materials but can drag on with indecisive players."},
+          {"heading": "6. Never Have I Ever - Adult Party Game", "text": "Players reveal experiences they haven't had. Works best with groups who know each other and are comfortable sharing. Can get repetitive quickly."},
+          {"heading": "7. Truth or Dare - Classic Dare Game", "text": "Players choose between answering a question truthfully or performing a dare. Best with close friends in a comfortable setting."},
+          {"heading": "8. The Name Game - Memory Challenge", "text": "Players must remember and repeat everyone's names plus a characteristic. Good for groups meeting for the first time but limited replay value."},
+          {"heading": "9. Story Building - Creative Game", "text": "Players take turns adding to a collaborative story. Requires creativity and works better with imaginative groups."},
+          {"heading": "10. Categories - Quick Thinking Game", "text": "Players name items in a category going around the circle. Simple and fast-paced but can feel repetitive."}
+        ],
+        "conclusion": "While all these games offer fun, Cluso Impostor stands out for its perfect balance of strategy, psychology, and accessibility. With just one device and support for any group size, it's the ideal choice for modern party hosts. Download Cluso and make your next gathering unforgettable!"
+      },
+      "how-to-host-game-night": {
+        "meta": {"title": "How to Host the Perfect Game Night - Complete Guide | Cluso", "description": "Learn how to host an amazing game night with our complete guide. Tips on game selection, setup, food, and creating the perfect atmosphere for your guests.", "keywords": "how to host game night, game night ideas, party planning, hosting tips, game night guide"},
+        "title": "How to Host the Perfect Game Night",
+        "date": "2025-01-10",
+        "intro": "Hosting a game night can be the highlight of your social calendar. With proper planning and the right games, you'll create memorable experiences for your friends.",
+        "content": [
+          {"heading": "1. Choose the Right Games", "text": "Select 2-3 games that match your group size and interests. For versatility, include a social deduction game like Cluso Impostor that works with any number of players. Have backup options ready in case the energy shifts."},
+          {"heading": "2. Prepare Your Space", "text": "Arrange seating so everyone can see and hear each other. Clear space for movement if needed. Ensure good lighting and comfortable temperature. Test your phone/tablet if using digital games."},
+          {"heading": "3. Set the Atmosphere", "text": "Create a welcoming environment with background music at low volume. Dim harsh lights for a more intimate feel. Remove distractions like TV or loud appliances."},
+          {"heading": "4. Plan Simple Snacks", "text": "Offer easy finger foods that won't interrupt gameplay. Chips, dips, pizza, and cookies work well. Avoid messy foods. Keep drinks accessible with coasters to protect surfaces."},
+          {"heading": "5. Explain Rules Clearly", "text": "Before starting, explain rules concisely. Use examples if needed. For games like Cluso Impostor, do a quick practice round. Don't overwhelm with every detail upfront."},
+          {"heading": "6. Manage Group Dynamics", "text": "As host, you set the tone. Keep energy positive and inclusive. Gently redirect if one person dominates. Ensure quieter guests feel comfortable participating."},
+          {"heading": "7. Time Management", "text": "Plan for 3-4 hours total. Factor in arrival time, eating, and socializing. Don't overschedule games. Build in breaks between intense games."},
+          {"heading": "8. Be Flexible", "text": "Read the room and adjust plans accordingly. If a game isn't working, move on. If everyone loves something, play more rounds. Your comfort matters too - choose games you enjoy."}
+        ],
+        "conclusion": "The secret to a great game night is preparation mixed with flexibility. With games like Cluso Impostor that work for any group size and create natural conversation, you're set for success. Focus on creating a welcoming atmosphere and let the games do the rest!"
+      },
+      "social-deduction-games-explained": {
+        "meta": {"title": "Social Deduction Games Explained: From Mafia to Among Us | Cluso", "description": "Complete guide to social deduction games. Learn the history, mechanics, and best games in the genre from Mafia to Among Us to Cluso Impostor.", "keywords": "social deduction games, mafia game, among us, impostor games, party game genre, deduction games"},
+        "title": "Social Deduction Games Explained: From Mafia to Among Us",
+        "date": "2025-01-05",
+        "intro": "Social deduction games have exploded in popularity, but what makes them so compelling? Let's explore this fascinating genre from its origins to modern hits.",
+        "content": [
+          {"heading": "What Are Social Deduction Games?", "text": "Social deduction games pit informed minorities against uninformed majorities. Typically, a few players are secretly designated as 'bad guys' who know each other's identities. The majority 'good guys' must identify and eliminate the infiltrators through discussion, voting, and deduction. The tension between deception and detection creates intense psychological gameplay."},
+          {"heading": "The History: From Mafia to Modern Games", "text": "The genre began with Mafia (also called Werewolf) created in 1986 by Dmitry Davidoff in Russia. Players would gather in person, close their eyes, and the 'mafia' would silently choose victims. The game spread globally through the 1990s. The 2000s saw digital adaptations like Town of Salem. Then Among Us exploded in 2020, bringing the genre to millions. Today, games like Cluso Impostor refine the formula for in-person play."},
+          {"heading": "Core Mechanics That Define the Genre", "text": "All social deduction games share key elements: hidden roles, asymmetric information, discussion phases, voting/elimination, and win conditions based on majority control. The magic happens in the discussion phase where players analyze behavior, statements, and voting patterns to deduce hidden information."},
+          {"heading": "Why They're So Addictive", "text": "Social deduction games tap into deep psychological drives. They test our ability to lie convincingly and detect lies in others. Every game creates unique stories and memorable moments. The games scale well from small to large groups. No two games play the same way because human behavior is unpredictable."},
+          {"heading": "Digital vs In-Person Versions", "text": "Among Us proved social deduction works digitally with visual tasks and emergency meetings. However, in-person games like Cluso Impostor offer advantages: reading body language, no technical barriers, and genuine social connection. The best choice depends on whether your group is local or remote."},
+          {"heading": "Tips for New Players", "text": "Start with simpler games like Cluso Impostor before complex variants. Focus on observing behavior, not just words. Don't take accusations personally - it's part of the game. As an innocent, avoid random voting. As an impostor, stay calm and consistent."},
+          {"heading": "The Future of Social Deduction", "text": "The genre continues evolving with new mechanics and themes. Mobile apps like Cluso make in-person games more accessible. Virtual reality may add new dimensions. The core appeal - testing your social instincts against friends - ensures these games will remain popular for years to come."}
+        ],
+        "conclusion": "From Mafia's humble origins to Among Us's viral success, social deduction games have proven their staying power. Whether you prefer digital or in-person, games like Cluso Impostor offer endless entertainment through psychological gameplay and social interaction. Try one at your next gathering and discover why millions are hooked!"
+      }
+    }
+  },
   "tipsPage": {
     "meta": {
       "title": "Impostor Game Tips & Strategies - Win More Games | Cluso Guide",

@@ -63,12 +63,6 @@ ${languageLinks}
                 <a href="${basePath}blog/" class="nav-link">${t.nav?.blog || 'Blog'}</a>
             </nav>`;
 
-  // Download button
-  const downloadBtn = `<a href="${t.appStoreUrl}" target="_blank" rel="noopener" class="nav-download-btn">
-                <span class="nav-download-icon">↓</span>
-                <span>${t.nav?.download || 'Download'}</span>
-            </a>`;
-
   // Mobile menu toggle
   const menuToggle = `<button class="nav-menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>`;
 
@@ -80,7 +74,6 @@ ${languageLinks}
 ${menuToggle}
 ${navLinks}
             <div class="nav-right">
-${downloadBtn}
 ${languageSelector}
             </div>
         </div>`
@@ -324,13 +317,7 @@ ${t.faq ? `
     <div class="main-content">
     <!-- Navigation -->
     <nav class="nav">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <img src="/src/assets/images/Icon.png" alt="${t.nav.title}" class="nav-icon">
-                <span class="nav-title">${t.nav.title}</span>
-            </div>
 ${langSelector}
-        </div>
     </nav>
 
     <!-- Hero Section -->
@@ -664,15 +651,7 @@ ${hreflangLinks}
     <div class="main-content">
     <!-- Navigation -->
     <nav class="nav">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="./" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;">
-                    <img src="/src/assets/images/Icon.png" alt="${t.nav.title}" class="nav-icon">
-                    <span class="nav-title">${t.nav.title}</span>
-                </a>
-            </div>
 ${langSelector}
-        </div>
     </nav>
 
     <!-- Hero Section -->

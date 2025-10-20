@@ -1,7 +1,7 @@
 # Apache .htaccess for Cluso Impostor Game Landing Page
-# Optimized for performance and SEO
+# Optimized for performance, SEO, and security
 
-# Enable compression
+# Enable GZIP compression for better performance
 <IfModule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/plain
     AddOutputFilterByType DEFLATE text/html
@@ -12,6 +12,9 @@
     AddOutputFilterByType DEFLATE application/rss+xml
     AddOutputFilterByType DEFLATE application/javascript
     AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE application/ld+json
+    AddOutputFilterByType DEFLATE image/svg+xml
 </IfModule>
 
 # Cache static resources
@@ -40,13 +43,30 @@
     ExpiresByType text/html "access plus 1 hour"
 </IfModule>
 
-# Security headers
+# Security and Performance headers
 <IfModule mod_headers.c>
+    # Security headers
     Header always set X-Content-Type-Options nosniff
     Header always set X-Frame-Options DENY
     Header always set X-XSS-Protection "1; mode=block"
     Header always set Referrer-Policy "strict-origin-when-cross-origin"
     Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+
+    # Performance headers
+    Header always set Connection "keep-alive"
+
+    # Cache control for different file types
+    <FilesMatch "\.(ico|jpg|jpeg|png|gif|webp|svg)$">
+        Header set Cache-Control "public, max-age=2592000, immutable"
+    </FilesMatch>
+
+    <FilesMatch "\.(css|js)$">
+        Header set Cache-Control "public, max-age=2592000, immutable"
+    </FilesMatch>
+
+    <FilesMatch "\.(html|htm)$">
+        Header set Cache-Control "public, max-age=3600, must-revalidate"
+    </FilesMatch>
 </IfModule>
 
 # Redirect to HTTPS (uncomment when SSL is set up)
@@ -76,4 +96,5 @@ ErrorDocument 404 /index.html
     AddType application/vnd.ms-fontobject .eot
     AddType application/x-font-ttf .ttf
 </IfModule>
+
 
