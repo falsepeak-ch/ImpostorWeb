@@ -825,7 +825,7 @@ ${langSelector}
   console.log(`✅ Generated ${lang}/how-to-play.html`);
 }
 
-// Build rules.html for each language
+// Build rules.html for each language with enhanced layout
 function buildRulesPage(lang) {
   const t = JSON.parse(fs.readFileSync(`./translations/${lang}.json`, 'utf8'));
   if (!t.rulesPage) {
@@ -834,6 +834,26 @@ function buildRulesPage(lang) {
   }
 
   const navigation = generateNavigation(lang, 'rules');
+
+  // Icons for different sections
+  const sectionIcons = ['🎯', '👥', '🎮', '🗳️', '🏆'];
+
+  // Generate TOC from sections
+  const tocItems = `
+                    <li><a href="#game-setup">Game Setup</a></li>
+                    <li><a href="#roles">Roles</a></li>
+                    <li><a href="#how-to-play">How to Play</a></li>`;
+
+  // Generate phase steps with numbers
+  const phaseSteps = t.rulesPage.howToPlay.phases.map((phase, idx) => `
+                <div class="rule-step">
+                    <div class="rule-step-number">${idx + 1}</div>
+                    <div class="rule-step-content">
+                        <h3>${phase.title}</h3>
+                        <p>${phase.description}</p>
+                    </div>
+                </div>`).join('');
+
   const html = `<!DOCTYPE html>
 <html lang="${lang}">
 <head>
@@ -872,12 +892,95 @@ function buildRulesPage(lang) {
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav">${navigation}</nav>
-    <section class="hero" style="padding: 2rem 0 3rem;"><div class="container"><h1 class="hero-title">${t.rulesPage.hero.title} <span class="hero-title-accent">${t.rulesPage.hero.titleAccent}</span></h1><p class="hero-subtitle">${t.rulesPage.hero.subtitle}</p></div></section>
-    <section class="guide-section"><div class="container"><h2 class="section-title">${t.rulesPage.gameSetup.title}</h2><p>${t.rulesPage.gameSetup.intro}</p><h3>${t.rulesPage.gameSetup.requirements.title}</h3><ul>${t.rulesPage.gameSetup.requirements.items.map(item => `<li>${item}</li>`).join('')}</ul><h3>${t.rulesPage.gameSetup.roles.title}</h3><div><h4>${t.rulesPage.gameSetup.roles.impostor.name}</h4><p>${t.rulesPage.gameSetup.roles.impostor.description}</p><h4>${t.rulesPage.gameSetup.roles.innocent.name}</h4><p>${t.rulesPage.gameSetup.roles.innocent.description}</p></div></div></section>
-    <section class="guide-section"><div class="container"><h2 class="section-title">${t.rulesPage.howToPlay.title}</h2>${t.rulesPage.howToPlay.phases.map(phase => `<div class="step"><h3>${phase.title}</h3><p>${phase.description}</p></div>`).join('')}</div></section>
-    <section class="cta"><div class="container"><h2 class="cta-title">${t.rulesPage.cta.title}</h2><p class="cta-description">${t.rulesPage.cta.description}</p><a href="${t.appStoreUrl}" target="_blank" rel="noopener" class="download-btn"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="${t.hero.downloadBtnAlt}" class="app-store-badge"></a></div></section>
-    <footer class="footer"><div class="container"><p>${t.footer.copyright}</p><div class="footer-links"><a href="https://falsepeak.ch/privacy">${t.footer.links.privacy}</a><a href="https://falsepeak.ch/terms">${t.footer.links.terms}</a><a href="https://falsepeak.ch">${t.footer.links.website}</a></div></div></footer>
+        <nav class="nav">${navigation}</nav>
+
+        <!-- Rules Hero with Featured Image -->
+        <header class="rules-hero">
+            <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1200&h=400&fit=crop"
+                 alt="Game Rules"
+                 class="rules-hero-image">
+            <div class="rules-hero-content">
+                <h1>
+                    ${t.rulesPage.hero.title}
+                    <span class="hero-title-accent">${t.rulesPage.hero.titleAccent}</span>
+                </h1>
+                <p class="hero-subtitle">${t.rulesPage.hero.subtitle}</p>
+            </div>
+        </header>
+
+        <!-- Rules Layout with Sticky TOC -->
+        <div class="rules-layout">
+            <!-- Sticky Table of Contents -->
+            <aside class="rules-toc">
+                <h4>Quick Navigation</h4>
+                <ul class="rules-toc-list">
+${tocItems}
+                </ul>
+            </aside>
+
+            <!-- Rules Content -->
+            <div class="rules-content">
+                <!-- Game Setup Section -->
+                <section class="rules-section" id="game-setup">
+                    <h2>${t.rulesPage.gameSetup.title}</h2>
+                    <p>${t.rulesPage.gameSetup.intro}</p>
+
+                    <h3>${t.rulesPage.gameSetup.requirements.title}</h3>
+                    <ul>
+${t.rulesPage.gameSetup.requirements.items.map(item => `                        <li>${item}</li>`).join('\n')}
+                    </ul>
+                </section>
+
+                <!-- Roles Section -->
+                <section class="rules-section" id="roles">
+                    <h2>${t.rulesPage.gameSetup.roles.title}</h2>
+
+                    <div class="rule-card">
+                        <span class="rule-card-icon">🎭</span>
+                        <h4>${t.rulesPage.gameSetup.roles.impostor.name}</h4>
+                        <p>${t.rulesPage.gameSetup.roles.impostor.description}</p>
+                    </div>
+
+                    <div class="rule-card">
+                        <span class="rule-card-icon">😇</span>
+                        <h4>${t.rulesPage.gameSetup.roles.innocent.name}</h4>
+                        <p>${t.rulesPage.gameSetup.roles.innocent.description}</p>
+                    </div>
+                </section>
+
+                <!-- How to Play Section -->
+                <section class="rules-section" id="how-to-play">
+                    <h2>${t.rulesPage.howToPlay.title}</h2>
+                    <div class="rule-steps">
+${phaseSteps}
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <h2 class="cta-title">${t.rulesPage.cta.title}</h2>
+                <p class="cta-description">${t.rulesPage.cta.description}</p>
+                <a href="${t.appStoreUrl}" target="_blank" rel="noopener" class="download-btn">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                         alt="${t.hero.downloadBtnAlt}"
+                         class="app-store-badge">
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <p>${t.footer.copyright}</p>
+                <div class="footer-links">
+                    <a href="https://falsepeak.ch/privacy">${t.footer.links.privacy}</a>
+                    <a href="https://falsepeak.ch/terms">${t.footer.links.terms}</a>
+                    <a href="https://falsepeak.ch">${t.footer.links.website}</a>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>`;
@@ -947,6 +1050,32 @@ function buildTipsPage(lang) {
   console.log(`✅ Generated ${lang}/tips.html`);
 }
 
+// Helper function to calculate read time
+function calculateReadTime(text) {
+  const wordsPerMinute = 200;
+  const wordCount = text.split(/\s+/).length;
+  const minutes = Math.ceil(wordCount / wordsPerMinute);
+  return minutes;
+}
+
+// Helper function to get category class
+function getCategoryClass(title) {
+  if (title.toLowerCase().includes('strategy') || title.toLowerCase().includes('strategies')) return 'strategy';
+  if (title.toLowerCase().includes('tip') || title.toLowerCase().includes('host')) return 'tips';
+  if (title.toLowerCase().includes('game night') || title.toLowerCase().includes('party')) return 'game-night';
+  return 'guides';
+}
+
+// Helper function to get placeholder image URL
+function getPlaceholderImage(index) {
+  const images = [
+    'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&h=600&fit=crop', // Party
+    'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop', // Game night
+    'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop'  // Friends
+  ];
+  return images[index % images.length];
+}
+
 // Build blog pages for each language
 function buildBlogPages(lang) {
   const t = JSON.parse(fs.readFileSync(`./translations/${lang}.json`, 'utf8'));
@@ -962,7 +1091,27 @@ function buildBlogPages(lang) {
 
   const blogNavigation = generateNavigation(lang, 'blog');
 
-  // Build blog index
+  // Build blog index with magazine-style card grid
+  const blogCards = Object.entries(t.blog.articles).map(([slug, article], index) => {
+    const category = getCategoryClass(article.title);
+    const readTime = calculateReadTime(article.intro + article.content.map(s => s.text).join(' '));
+    const imageUrl = getPlaceholderImage(index);
+    const excerpt = article.intro.substring(0, 150) + (article.intro.length > 150 ? '...' : '');
+
+    return `<article class="blog-card">
+                <img src="${imageUrl}" alt="${article.title}" class="blog-card-image" loading="lazy">
+                <div class="blog-card-content">
+                    <span class="blog-card-category ${category}">${category.replace('-', ' ')}</span>
+                    <h3><a href="./${slug}.html">${article.title}</a></h3>
+                    <p class="blog-card-excerpt">${excerpt}</p>
+                    <div class="blog-card-meta">
+                        <span class="blog-date">${article.date}</span>
+                        <span class="blog-read-time">${readTime} min read</span>
+                    </div>
+                </div>
+            </article>`;
+  }).join('\n            ');
+
   const indexHtml = `<!DOCTYPE html>
 <html lang="${lang}">
 <head>
@@ -1001,10 +1150,31 @@ function buildBlogPages(lang) {
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav">${blogNavigation}</nav>
-    <section class="hero" style="padding: 2rem 0 3rem;"><div class="container"><h1 class="hero-title">${t.blog.index.hero.title}</h1><p class="hero-subtitle">${t.blog.index.hero.subtitle}</p></div></section>
-    <section class="guide-section"><div class="container"><h2 class="section-title">${t.blog.index.featured}</h2>${Object.entries(t.blog.articles).map(([slug, article]) => `<div class="blog-card"><h3><a href="./${slug}.html">${article.title}</a></h3><p class="blog-date">${article.date}</p><p>${article.intro}</p></div>`).join('')}</div></section>
-    <footer class="footer"><div class="container"><p>${t.footer.copyright}</p></div></footer>
+        <nav class="nav">${blogNavigation}</nav>
+
+        <!-- Blog Hero -->
+        <section class="blog-hero">
+            <div class="container">
+                <h1 class="hero-title">${t.blog.index.hero.title}</h1>
+                <p class="hero-subtitle">${t.blog.index.hero.subtitle}</p>
+            </div>
+        </section>
+
+        <!-- Blog Grid -->
+        <section class="guide-section">
+            <div class="container">
+                <h2 class="section-title">${t.blog.index.featured}</h2>
+                <div class="blog-grid">
+            ${blogCards}
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <p>${t.footer.copyright}</p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>`;
@@ -1014,8 +1184,26 @@ function buildBlogPages(lang) {
 
   const articleNavigation = generateNavigation(lang, 'blog-article');
 
-  // Build individual blog articles
-  Object.entries(t.blog.articles).forEach(([slug, article]) => {
+  // Build individual blog articles with magazine layout
+  Object.entries(t.blog.articles).forEach(([slug, article], index) => {
+    const readTime = calculateReadTime(article.intro + article.content.map(s => s.text).join(' '));
+    const imageUrl = getPlaceholderImage(index);
+
+    // Generate table of contents from article sections
+    const tocItems = article.content.map((section, idx) => {
+      const sectionId = `section-${idx}`;
+      return `<li><a href="#${sectionId}">${section.heading}</a></li>`;
+    }).join('\n                    ');
+
+    // Generate article sections with IDs for TOC navigation
+    const articleSections = article.content.map((section, idx) => {
+      const sectionId = `section-${idx}`;
+      return `<div class="blog-section" id="${sectionId}">
+                    <h2>${section.heading}</h2>
+                    <p>${section.text}</p>
+                </div>`;
+    }).join('\n                ');
+
     const articleHtml = `<!DOCTYPE html>
 <html lang="${lang}">
 <head>
@@ -1054,10 +1242,60 @@ function buildBlogPages(lang) {
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav">${articleNavigation}</nav>
-    <article class="blog-article"><div class="container"><h1>${article.title}</h1><p class="blog-date">${article.date}</p><p class="blog-intro">${article.intro}</p>${article.content.map(section => `<div class="blog-section"><h2>${section.heading}</h2><p>${section.text}</p></div>`).join('')}<div class="blog-conclusion"><p>${article.conclusion}</p></div></div></article>
-    <section class="cta"><div class="container"><a href="${t.appStoreUrl}" target="_blank" rel="noopener" class="download-btn"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="${t.hero.downloadBtnAlt}" class="app-store-badge"></a></div></section>
-    <footer class="footer"><div class="container"><p>${t.footer.copyright}</p></div></footer>
+        <nav class="nav">${articleNavigation}</nav>
+
+        <!-- Article Header with Featured Image -->
+        <header class="blog-article-header">
+            <img src="${imageUrl}" alt="${article.title}" class="blog-article-header-image">
+            <div class="blog-article-header-content">
+                <h1>${article.title}</h1>
+                <div class="blog-article-meta">
+                    <span>${article.date}</span>
+                    <span>•</span>
+                    <span>${readTime} min read</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Article Layout with Sticky TOC -->
+        <div class="blog-article-layout">
+            <!-- Sticky Table of Contents -->
+            <aside class="blog-toc">
+                <h4>On This Page</h4>
+                <ul class="blog-toc-list">
+                    ${tocItems}
+                </ul>
+            </aside>
+
+            <!-- Article Content -->
+            <article class="blog-article-content">
+                <p class="blog-intro">${article.intro}</p>
+
+                ${articleSections}
+
+                <div class="blog-conclusion">
+                    <p>${article.conclusion}</p>
+                </div>
+            </article>
+        </div>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <h2 class="cta-title">${t.cta?.title || 'Ready to Play?'}</h2>
+                <a href="${t.appStoreUrl}" target="_blank" rel="noopener" class="download-btn">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                         alt="${t.hero?.downloadBtnAlt || 'Download'}"
+                         class="app-store-badge">
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <p>${t.footer.copyright}</p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>`;

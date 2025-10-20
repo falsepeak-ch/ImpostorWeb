@@ -36,7 +36,7 @@
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav">        <div class="nav-container">
+        <nav class="nav">        <div class="nav-container">
             <a href="./" class="nav-logo">
                 <img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon">
                 <span class="nav-title">Cluso</span>
@@ -66,11 +66,135 @@
         </div>
             </div>
         </div></nav>
-    <section class="hero" style="padding: 2rem 0 3rem;"><div class="container"><h1 class="hero-title">Jogo Impostor <span class="hero-title-accent">Regras Completas</span></h1><p class="hero-subtitle">Tudo o que você precisa saber para jogar Cluso Impostor. Desde a configuração básica até estratégias avançadas, domine a arte do engano e da dedução.</p></div></section>
-    <section class="guide-section"><div class="container"><h2 class="section-title">Configuração do Jogo</h2><p>Antes de começar a jogar, certifique-se de ter tudo pronto para um jogo épico de Impostor.</p><h3>O que você precisa</h3><ul><li>3-20 jogadores reunidos em um local</li><li>Um dispositivo com o app Cluso instalado</li><li>Um espaço tranquilo para discussões</li><li>10-30 minutos de tempo de jogo</li></ul><h3>Entendendo os Papéis</h3><div><h4>Impostores</h4><p>1-4 jogadores (dependendo do tamanho do grupo) que conhecem as identidades uns dos outros. Seu objetivo é evitar a detecção e superar em número os inocentes.</p><h4>Inocentes</h4><p>Todos os jogadores restantes que não conhecem o papel de ninguém. Seu objetivo é identificar e eliminar todos os impostores através de discussão e votação.</p></div></div></section>
-    <section class="guide-section"><div class="container"><h2 class="section-title">Como Jogar</h2><div class="step"><h3>1. Fase de Atribuição de Papéis</h3><p>Passe o dispositivo. Cada jogador vê secretamente seu papel. Os impostores verão quem são os outros impostores. Os inocentes veem apenas que são inocentes.</p></div><div class="step"><h3>2. Fase de Olhos Fechados</h3><p>Todos fecham os olhos. Os impostores abrem os olhos para se reconhecerem mutuamente, depois os fecham novamente. Isso garante que os impostores conheçam seus aliados.</p></div><div class="step"><h3>3. Fase de Discussão</h3><p>Todos abrem os olhos e discutem livremente. Os jogadores fazem perguntas, compartilham observações e tentam deduzir quem podem ser os impostores. Defina um limite de tempo (3-5 minutos recomendado).</p></div><div class="step"><h3>4. Fase de Votação</h3><p>Os jogadores votam para eliminar alguém que suspeitam ser um impostor. A pessoa com mais votos é eliminada e seu papel é revelado. Empates podem ser tratados com revotação ou sem eliminação.</p></div><div class="step"><h3>5. Verificar Condições de Vitória</h3><p>Se todos os impostores forem eliminados, os inocentes ganham. Se os impostores igualarem ou superarem os inocentes, os impostores ganham. Caso contrário, retornar à Fase de Discussão.</p></div></div></section>
-    <section class="cta"><div class="container"><h2 class="cta-title">Pronto para Jogar?</h2><p class="cta-description">Baixe Cluso agora e comece seu primeiro jogo de Impostor com essas regras em mente.</p><a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="download-btn"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download na App Store" class="app-store-badge"></a></div></section>
-    <footer class="footer"><div class="container"><p>© 2025 False Peak. Todos os direitos reservados.</p><div class="footer-links"><a href="https://falsepeak.ch/privacy">Privacidade</a><a href="https://falsepeak.ch/terms">Termos</a><a href="https://falsepeak.ch">Site</a></div></div></footer>
+
+        <!-- Rules Hero with Featured Image -->
+        <header class="rules-hero">
+            <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1200&h=400&fit=crop"
+                 alt="Game Rules"
+                 class="rules-hero-image">
+            <div class="rules-hero-content">
+                <h1>
+                    Jogo Impostor
+                    <span class="hero-title-accent">Regras Completas</span>
+                </h1>
+                <p class="hero-subtitle">Tudo o que você precisa saber para jogar Cluso Impostor. Desde a configuração básica até estratégias avançadas, domine a arte do engano e da dedução.</p>
+            </div>
+        </header>
+
+        <!-- Rules Layout with Sticky TOC -->
+        <div class="rules-layout">
+            <!-- Sticky Table of Contents -->
+            <aside class="rules-toc">
+                <h4>Quick Navigation</h4>
+                <ul class="rules-toc-list">
+
+                    <li><a href="#game-setup">Game Setup</a></li>
+                    <li><a href="#roles">Roles</a></li>
+                    <li><a href="#how-to-play">How to Play</a></li>
+                </ul>
+            </aside>
+
+            <!-- Rules Content -->
+            <div class="rules-content">
+                <!-- Game Setup Section -->
+                <section class="rules-section" id="game-setup">
+                    <h2>Configuração do Jogo</h2>
+                    <p>Antes de começar a jogar, certifique-se de ter tudo pronto para um jogo épico de Impostor.</p>
+
+                    <h3>O que você precisa</h3>
+                    <ul>
+                        <li>3-20 jogadores reunidos em um local</li>
+                        <li>Um dispositivo com o app Cluso instalado</li>
+                        <li>Um espaço tranquilo para discussões</li>
+                        <li>10-30 minutos de tempo de jogo</li>
+                    </ul>
+                </section>
+
+                <!-- Roles Section -->
+                <section class="rules-section" id="roles">
+                    <h2>Entendendo os Papéis</h2>
+
+                    <div class="rule-card">
+                        <span class="rule-card-icon">🎭</span>
+                        <h4>Impostores</h4>
+                        <p>1-4 jogadores (dependendo do tamanho do grupo) que conhecem as identidades uns dos outros. Seu objetivo é evitar a detecção e superar em número os inocentes.</p>
+                    </div>
+
+                    <div class="rule-card">
+                        <span class="rule-card-icon">😇</span>
+                        <h4>Inocentes</h4>
+                        <p>Todos os jogadores restantes que não conhecem o papel de ninguém. Seu objetivo é identificar e eliminar todos os impostores através de discussão e votação.</p>
+                    </div>
+                </section>
+
+                <!-- How to Play Section -->
+                <section class="rules-section" id="how-to-play">
+                    <h2>Como Jogar</h2>
+                    <div class="rule-steps">
+
+                <div class="rule-step">
+                    <div class="rule-step-number">1</div>
+                    <div class="rule-step-content">
+                        <h3>1. Fase de Atribuição de Papéis</h3>
+                        <p>Passe o dispositivo. Cada jogador vê secretamente seu papel. Os impostores verão quem são os outros impostores. Os inocentes veem apenas que são inocentes.</p>
+                    </div>
+                </div>
+                <div class="rule-step">
+                    <div class="rule-step-number">2</div>
+                    <div class="rule-step-content">
+                        <h3>2. Fase de Olhos Fechados</h3>
+                        <p>Todos fecham os olhos. Os impostores abrem os olhos para se reconhecerem mutuamente, depois os fecham novamente. Isso garante que os impostores conheçam seus aliados.</p>
+                    </div>
+                </div>
+                <div class="rule-step">
+                    <div class="rule-step-number">3</div>
+                    <div class="rule-step-content">
+                        <h3>3. Fase de Discussão</h3>
+                        <p>Todos abrem os olhos e discutem livremente. Os jogadores fazem perguntas, compartilham observações e tentam deduzir quem podem ser os impostores. Defina um limite de tempo (3-5 minutos recomendado).</p>
+                    </div>
+                </div>
+                <div class="rule-step">
+                    <div class="rule-step-number">4</div>
+                    <div class="rule-step-content">
+                        <h3>4. Fase de Votação</h3>
+                        <p>Os jogadores votam para eliminar alguém que suspeitam ser um impostor. A pessoa com mais votos é eliminada e seu papel é revelado. Empates podem ser tratados com revotação ou sem eliminação.</p>
+                    </div>
+                </div>
+                <div class="rule-step">
+                    <div class="rule-step-number">5</div>
+                    <div class="rule-step-content">
+                        <h3>5. Verificar Condições de Vitória</h3>
+                        <p>Se todos os impostores forem eliminados, os inocentes ganham. Se os impostores igualarem ou superarem os inocentes, os impostores ganham. Caso contrário, retornar à Fase de Discussão.</p>
+                    </div>
+                </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <h2 class="cta-title">Pronto para Jogar?</h2>
+                <p class="cta-description">Baixe Cluso agora e comece seu primeiro jogo de Impostor com essas regras em mente.</p>
+                <a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="download-btn">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                         alt="Download na App Store"
+                         class="app-store-badge">
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <p>© 2025 False Peak. Todos os direitos reservados.</p>
+                <div class="footer-links">
+                    <a href="https://falsepeak.ch/privacy">Privacidade</a>
+                    <a href="https://falsepeak.ch/terms">Termos</a>
+                    <a href="https://falsepeak.ch">Site</a>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
