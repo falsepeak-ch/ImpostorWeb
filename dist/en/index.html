@@ -179,14 +179,14 @@
     }
     </script>
 
-    <!-- Language Switcher Script -->
+    <!-- Navigation Scripts -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
+        // Language Selector
         const languageBtn = document.getElementById('languageBtn');
         const languageDropdown = document.getElementById('languageDropdown');
 
         if (languageBtn && languageDropdown) {
-            // Toggle dropdown
             languageBtn.addEventListener('click', function(e) {
                 e.stopPropagation();
                 const isOpen = languageDropdown.classList.contains('show');
@@ -194,21 +194,36 @@
                 languageBtn.setAttribute('aria-expanded', !isOpen);
             });
 
-            // Close dropdown when clicking outside
             document.addEventListener('click', function() {
                 languageDropdown.classList.remove('show');
                 languageBtn.setAttribute('aria-expanded', 'false');
             });
 
-            // Prevent dropdown from closing when clicking inside it
             languageDropdown.addEventListener('click', function(e) {
                 e.stopPropagation();
+            });
+        }
+
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+
+            document.addEventListener('click', function(e) {
+                if (!navLinks.contains(e.target) && e.target !== menuToggle) {
+                    navLinks.classList.remove('show');
+                }
             });
         }
     });
     </script>
   <script type="module" crossorigin src="/assets/js/firebase-init-cSEAVSBv.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/css/main-D25bStDw.css">
+  <link rel="stylesheet" crossorigin href="/assets/css/main-BK3U2sQQ.css">
 </head>
 <body>
     <div class="main-content">
@@ -219,7 +234,23 @@
                 <img src="/assets/images/Icon-B52R27ce.png" alt="Cluso" class="nav-icon">
                 <span class="nav-title">Cluso</span>
             </div>
-        <div class="language-selector">
+        <div class="nav-container">
+            <a href="./" class="nav-logo">
+                <img src="/assets/images/Icon-B52R27ce.png" alt="Cluso" class="nav-icon">
+                <span class="nav-title">Cluso</span>
+            </a>
+<button class="nav-menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+<nav class="nav-links" id="navLinks">
+                <a href="./how-to-play.html" class="nav-link">How to Play</a>
+                <a href="./rules.html" class="nav-link">Rules</a>
+                <a href="./blog/" class="nav-link">Blog</a>
+            </nav>
+            <div class="nav-right">
+<a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="nav-download-btn">
+                <span class="nav-download-icon">↓</span>
+                <span>Download</span>
+            </a>
+<div class="language-selector">
             <button class="language-btn" id="languageBtn" aria-label="Select language" aria-haspopup="true" aria-expanded="false">
                 <span class="language-current">🌐 English</span>
                 <svg class="language-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -233,6 +264,8 @@
                 <a href="/ca/" class="language-option">🇨🇦 Català</a>
                 <a href="/pt/" class="language-option">🇵🇹 Português</a>
                 <a href="/fr/" class="language-option">🇫🇷 Français</a>
+            </div>
+        </div>
             </div>
         </div>
         </div>

@@ -9,10 +9,50 @@
     <link rel="canonical" href="https://falsepeak.ch/cluso/de/blog/how-to-host-game-night.html">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
+    <!-- Navigation Scripts -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const languageBtn = document.getElementById('languageBtn');
+        const languageDropdown = document.getElementById('languageDropdown');
+        if (languageBtn && languageDropdown) {
+            languageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                languageDropdown.classList.toggle('show');
+            });
+            document.addEventListener('click', function() {
+                languageDropdown.classList.remove('show');
+            });
+        }
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+        }
+    });
+    </script>
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="../" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;"><img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon"><span class="nav-title">Cluso</span></a></div>        <div class="language-selector">
+    <nav class="nav">        <div class="nav-container">
+            <a href="../" class="nav-logo">
+                <img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon">
+                <span class="nav-title">Cluso</span>
+            </a>
+<button class="nav-menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+<nav class="nav-links" id="navLinks">
+                <a href="../how-to-play.html" class="nav-link">How to Play</a>
+                <a href="../rules.html" class="nav-link">Rules</a>
+                <a href="../blog/" class="nav-link">Blog</a>
+            </nav>
+            <div class="nav-right">
+<a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="nav-download-btn">
+                <span class="nav-download-icon">↓</span>
+                <span>Download</span>
+            </a>
+<div class="language-selector">
             <button class="language-btn" id="languageBtn" aria-label="Select language" aria-haspopup="true" aria-expanded="false">
                 <span class="language-current">🌐 Deutsch</span>
                 <svg class="language-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +67,9 @@
                 <a href="/pt/" class="language-option">🇵🇹 Português</a>
                 <a href="/fr/" class="language-option">🇫🇷 Français</a>
             </div>
-        </div></div></nav>
+        </div>
+            </div>
+        </div></nav>
     <article class="blog-article"><div class="container"><h1>Wie man den Perfekten Spieleabend Veranstaltet</h1><p class="blog-date">2025-01-10</p><p class="blog-intro">Einen erfolgreichen Spieleabend zu veranstalten erfordert mehr als nur das Herunterladen einiger Apps. Hier ist dein kompletter Leitfaden zur Schaffung unvergesslicher Spielerlebnisse.</p><div class="blog-section"><h2>1. Wähle die Richtigen Spiele</h2><p>Wähle Spiele basierend auf deiner Gruppengröße und Vorlieben. Für 6-12 Personen sind Social-Deduction-Spiele wie Cluso Impostor ideal. Habe immer Ersatz-Optionen bereit.</p></div><div class="blog-section"><h2>2. Bereite Deinen Raum Vor</h2><p>Stelle ausreichend Sitzgelegenheiten in einer Kreisformation für eine einfache Kommunikation sicher. Gute Beleuchtung ist wichtig, aber dimmbar für Atmosphäre. Halte Ablenkungen wie Fernseher fern.</p></div><div class="blog-section"><h2>3. Snacks und Getränke</h2><p>Biete einfach zu essende Snacks an, die deine Hände nicht fettig machen. Fingerfood, Chips und Dips funktionieren gut. Stelle sicher, dass genügend Getränke für alle vorhanden sind.</p></div><div class="blog-section"><h2>4. Setze die Stimmung</h2><p>Hintergrundmusik vor Spielbeginn hilft Menschen sich zu entspannen. Erstelle eine Playlist, die für Gespräche leise genug ist. Erwäge thematisches Dekor für besondere Anlässe.</p></div><div class="blog-section"><h2>5. Erkläre Regeln Klar</h2><p>Nimm dir Zeit, Spielregeln gründlich zu erklären bevor du beginnst. Verwende Beispiele und mache vielleicht eine Übungsrunde. Stelle sicher, dass alle verstehen bevor das eigentliche Spiel beginnt.</p></div><div class="blog-section"><h2>6. Verwalte Gruppendynamik</h2><p>Achte auf ruhige Spieler und beziehe sie ein. Balanciere wettbewerbsorientierte Spieler mit freundlichem Spaß aus. Sei bereit, Spiele zu wechseln, wenn die Energie nachlässt.</p></div><div class="blog-section"><h2>7. Timing ist Alles</h2><p>Plane 3-4 Stunden für einen vollen Spieleabend ein. Beginne mit Eisbrecher-Spielen, gehe dann zu Hauptspielen über. Lasse zwischen Spielen Zeit für Gespräche.</p></div><div class="blog-section"><h2>8. Habe einen Backup-Plan</h2><p>Technologie kann versagen, also habe alternative Spiele bereit. Sorge dafür, dass dein Gerät für App-basierte Spiele wie Cluso aufgeladen ist. Erwäge auch physische Backup-Spiele.</p></div><div class="blog-conclusion"><p>Mit der richtigen Vorbereitung wird dein Spieleabend zum Ereignis, auf das sich alle freuen. Lade Cluso herunter, um Zugriff auf mehrere Spiele in einer App zu haben - perfekt für jeden Spieleabend!</p></div></div></article>
     <section class="cta"><div class="container"><a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="download-btn"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Laden im App Store" class="app-store-badge"></a></div></section>
     <footer class="footer"><div class="container"><p>© 2025 False Peak. Alle Rechte vorbehalten.</p></div></footer>

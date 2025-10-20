@@ -9,10 +9,50 @@
     <link rel="canonical" href="https://falsepeak.ch/cluso/de/blog/">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
+    <!-- Navigation Scripts -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const languageBtn = document.getElementById('languageBtn');
+        const languageDropdown = document.getElementById('languageDropdown');
+        if (languageBtn && languageDropdown) {
+            languageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                languageDropdown.classList.toggle('show');
+            });
+            document.addEventListener('click', function() {
+                languageDropdown.classList.remove('show');
+            });
+        }
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+        }
+    });
+    </script>
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="../" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;"><img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon"><span class="nav-title">Cluso</span></a></div>        <div class="language-selector">
+    <nav class="nav">        <div class="nav-container">
+            <a href="./" class="nav-logo">
+                <img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon">
+                <span class="nav-title">Cluso</span>
+            </a>
+<button class="nav-menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+<nav class="nav-links" id="navLinks">
+                <a href="./how-to-play.html" class="nav-link">How to Play</a>
+                <a href="./rules.html" class="nav-link">Rules</a>
+                <a href="./blog/" class="nav-link">Blog</a>
+            </nav>
+            <div class="nav-right">
+<a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="nav-download-btn">
+                <span class="nav-download-icon">↓</span>
+                <span>Download</span>
+            </a>
+<div class="language-selector">
             <button class="language-btn" id="languageBtn" aria-label="Select language" aria-haspopup="true" aria-expanded="false">
                 <span class="language-current">🌐 Deutsch</span>
                 <svg class="language-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +67,9 @@
                 <a href="/pt/" class="language-option">🇵🇹 Português</a>
                 <a href="/fr/" class="language-option">🇫🇷 Français</a>
             </div>
-        </div></div></nav>
+        </div>
+            </div>
+        </div></nav>
     <section class="hero" style="padding: 2rem 0 3rem;"><div class="container"><h1 class="hero-title">Cluso Blog</h1><p class="hero-subtitle">Expertenanleitungen, Tipps und Strategien für das ultimative Party-Spiel-Erlebnis</p></div></section>
     <section class="guide-section"><div class="container"><h2 class="section-title">Empfohlene Artikel</h2><div class="blog-card"><h3><a href="./best-offline-party-games.html">10 Beste Offline Party-Spiele für Gruppen</a></h3><p class="blog-date">2025-01-15</p><p>Auf der Suche nach dem perfekten Party-Spiel für dein nächstes Treffen? Wir haben die besten Offline-Spiele zusammengestellt, die keine WiFi-Verbindung benötigen und stundenlangen Spaß bieten.</p></div><div class="blog-card"><h3><a href="./how-to-host-game-night.html">Wie man den Perfekten Spieleabend Veranstaltet</a></h3><p class="blog-date">2025-01-10</p><p>Einen erfolgreichen Spieleabend zu veranstalten erfordert mehr als nur das Herunterladen einiger Apps. Hier ist dein kompletter Leitfaden zur Schaffung unvergesslicher Spielerlebnisse.</p></div><div class="blog-card"><h3><a href="./social-deduction-games-explained.html">Social Deduction-Spiele Erklärt</a></h3><p class="blog-date">2025-01-05</p><p>Social-Deduction-Spiele sind zu einem Party-Phänomen geworden. Aber was macht sie so fesselnd? Tauchen wir ein in die Psychologie und Mechaniken hinter diesem beliebten Genre.</p></div></div></section>
     <footer class="footer"><div class="container"><p>© 2025 False Peak. Alle Rechte vorbehalten.</p></div></footer>

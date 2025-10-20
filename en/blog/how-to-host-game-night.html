@@ -9,10 +9,50 @@
     <link rel="canonical" href="https://falsepeak.ch/cluso/en/blog/how-to-host-game-night.html">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
+    <!-- Navigation Scripts -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const languageBtn = document.getElementById('languageBtn');
+        const languageDropdown = document.getElementById('languageDropdown');
+        if (languageBtn && languageDropdown) {
+            languageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                languageDropdown.classList.toggle('show');
+            });
+            document.addEventListener('click', function() {
+                languageDropdown.classList.remove('show');
+            });
+        }
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+        }
+    });
+    </script>
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="../" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;"><img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon"><span class="nav-title">Cluso</span></a></div>        <div class="language-selector">
+    <nav class="nav">        <div class="nav-container">
+            <a href="../" class="nav-logo">
+                <img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon">
+                <span class="nav-title">Cluso</span>
+            </a>
+<button class="nav-menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+<nav class="nav-links" id="navLinks">
+                <a href="../how-to-play.html" class="nav-link">How to Play</a>
+                <a href="../rules.html" class="nav-link">Rules</a>
+                <a href="../blog/" class="nav-link">Blog</a>
+            </nav>
+            <div class="nav-right">
+<a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="nav-download-btn">
+                <span class="nav-download-icon">↓</span>
+                <span>Download</span>
+            </a>
+<div class="language-selector">
             <button class="language-btn" id="languageBtn" aria-label="Select language" aria-haspopup="true" aria-expanded="false">
                 <span class="language-current">🌐 English</span>
                 <svg class="language-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +67,9 @@
                 <a href="/pt/" class="language-option">🇵🇹 Português</a>
                 <a href="/fr/" class="language-option">🇫🇷 Français</a>
             </div>
-        </div></div></nav>
+        </div>
+            </div>
+        </div></nav>
     <article class="blog-article"><div class="container"><h1>How to Host the Perfect Game Night</h1><p class="blog-date">2025-01-10</p><p class="blog-intro">Hosting a game night can be the highlight of your social calendar. With proper planning and the right games, you'll create memorable experiences for your friends.</p><div class="blog-section"><h2>1. Choose the Right Games</h2><p>Select 2-3 games that match your group size and interests. For versatility, include a social deduction game like Cluso Impostor that works with any number of players. Have backup options ready in case the energy shifts.</p></div><div class="blog-section"><h2>2. Prepare Your Space</h2><p>Arrange seating so everyone can see and hear each other. Clear space for movement if needed. Ensure good lighting and comfortable temperature. Test your phone/tablet if using digital games.</p></div><div class="blog-section"><h2>3. Set the Atmosphere</h2><p>Create a welcoming environment with background music at low volume. Dim harsh lights for a more intimate feel. Remove distractions like TV or loud appliances.</p></div><div class="blog-section"><h2>4. Plan Simple Snacks</h2><p>Offer easy finger foods that won't interrupt gameplay. Chips, dips, pizza, and cookies work well. Avoid messy foods. Keep drinks accessible with coasters to protect surfaces.</p></div><div class="blog-section"><h2>5. Explain Rules Clearly</h2><p>Before starting, explain rules concisely. Use examples if needed. For games like Cluso Impostor, do a quick practice round. Don't overwhelm with every detail upfront.</p></div><div class="blog-section"><h2>6. Manage Group Dynamics</h2><p>As host, you set the tone. Keep energy positive and inclusive. Gently redirect if one person dominates. Ensure quieter guests feel comfortable participating.</p></div><div class="blog-section"><h2>7. Time Management</h2><p>Plan for 3-4 hours total. Factor in arrival time, eating, and socializing. Don't overschedule games. Build in breaks between intense games.</p></div><div class="blog-section"><h2>8. Be Flexible</h2><p>Read the room and adjust plans accordingly. If a game isn't working, move on. If everyone loves something, play more rounds. Your comfort matters too - choose games you enjoy.</p></div><div class="blog-conclusion"><p>The secret to a great game night is preparation mixed with flexibility. With games like Cluso Impostor that work for any group size and create natural conversation, you're set for success. Focus on creating a welcoming atmosphere and let the games do the rest!</p></div></div></article>
     <section class="cta"><div class="container"><a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="download-btn"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" class="app-store-badge"></a></div></section>
     <footer class="footer"><div class="container"><p>© 2025 False Peak. All rights reserved.</p></div></footer>

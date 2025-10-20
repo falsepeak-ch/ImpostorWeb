@@ -26,21 +26,27 @@ function generateHreflangLinks(currentLang, isHomePage = true) {
   }).join('\n');
 }
 
-// Generate language selector HTML
-function generateLanguageSelector(currentLang) {
-  const currentTranslation = JSON.parse(fs.readFileSync(`./translations/${currentLang}.json`, 'utf8'));
+// Generate complete navigation with links
+function generateNavigation(currentLang, currentPage = 'home') {
+  const t = JSON.parse(fs.readFileSync(`./translations/${currentLang}.json`, 'utf8'));
 
+  // Determine base path based on current page
+  let basePath = './';
+  if (currentPage === 'blog-article') {
+    basePath = '../';
+  }
+
+  // Generate language selector options
   const languageLinks = languages.map(lang => {
     const translation = JSON.parse(fs.readFileSync(`./translations/${lang}.json`, 'utf8'));
-    const isHomePage = true; // Default to home page
     const href = `/${lang}/`;
     const activeClass = lang === currentLang ? ' active' : '';
     return `                <a href="${href}" class="language-option${activeClass}">${languageFlags[lang]} ${translation.langName}</a>`;
   }).join('\n');
 
-  return `        <div class="language-selector">
+  const languageSelector = `<div class="language-selector">
             <button class="language-btn" id="languageBtn" aria-label="Select language" aria-haspopup="true" aria-expanded="false">
-                <span class="language-current">🌐 ${currentTranslation.langName}</span>
+                <span class="language-current">🌐 ${t.langName}</span>
                 <svg class="language-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1.41 0L6 4.58 10.59 0 12 1.41l-6 6-6-6z" fill="currentColor"/>
                 </svg>
@@ -49,6 +55,41 @@ function generateLanguageSelector(currentLang) {
 ${languageLinks}
             </div>
         </div>`;
+
+  // Navigation links with translations
+  const navLinks = `<nav class="nav-links" id="navLinks">
+                <a href="${basePath}how-to-play.html" class="nav-link">${t.nav?.howToPlay || 'How to Play'}</a>
+                <a href="${basePath}rules.html" class="nav-link">${t.nav?.rules || 'Rules'}</a>
+                <a href="${basePath}blog/" class="nav-link">${t.nav?.blog || 'Blog'}</a>
+            </nav>`;
+
+  // Download button
+  const downloadBtn = `<a href="${t.appStoreUrl}" target="_blank" rel="noopener" class="nav-download-btn">
+                <span class="nav-download-icon">↓</span>
+                <span>${t.nav?.download || 'Download'}</span>
+            </a>`;
+
+  // Mobile menu toggle
+  const menuToggle = `<button class="nav-menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>`;
+
+  return `        <div class="nav-container">
+            <a href="${basePath}" class="nav-logo">
+                <img src="/src/assets/images/Icon.png" alt="${t.nav.title}" class="nav-icon">
+                <span class="nav-title">${t.nav.title}</span>
+            </a>
+${menuToggle}
+${navLinks}
+            <div class="nav-right">
+${downloadBtn}
+${languageSelector}
+            </div>
+        </div>`
+;
+}
+
+// Legacy function for compatibility
+function generateLanguageSelector(currentLang) {
+  return generateNavigation(currentLang, 'home');
 }
 
 // Build index.html for each language
@@ -235,14 +276,14 @@ ${t.faq ? `
     }
     </script>
 ` : ''}
-    <!-- Language Switcher Script -->
+    <!-- Navigation Scripts -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
+        // Language Selector
         const languageBtn = document.getElementById('languageBtn');
         const languageDropdown = document.getElementById('languageDropdown');
 
         if (languageBtn && languageDropdown) {
-            // Toggle dropdown
             languageBtn.addEventListener('click', function(e) {
                 e.stopPropagation();
                 const isOpen = languageDropdown.classList.contains('show');
@@ -250,15 +291,30 @@ ${t.faq ? `
                 languageBtn.setAttribute('aria-expanded', !isOpen);
             });
 
-            // Close dropdown when clicking outside
             document.addEventListener('click', function() {
                 languageDropdown.classList.remove('show');
                 languageBtn.setAttribute('aria-expanded', 'false');
             });
 
-            // Prevent dropdown from closing when clicking inside it
             languageDropdown.addEventListener('click', function(e) {
                 e.stopPropagation();
+            });
+        }
+
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+
+            document.addEventListener('click', function(e) {
+                if (!navLinks.contains(e.target) && e.target !== menuToggle) {
+                    navLinks.classList.remove('show');
+                }
             });
         }
     });
@@ -560,14 +616,14 @@ ${hreflangLinks}
     <!-- Firebase Analytics -->
     <script type="module" src="/src/firebase-init.js"></script>
 
-    <!-- Language Switcher Script -->
+    <!-- Navigation Scripts -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
+        // Language Selector
         const languageBtn = document.getElementById('languageBtn');
         const languageDropdown = document.getElementById('languageDropdown');
 
         if (languageBtn && languageDropdown) {
-            // Toggle dropdown
             languageBtn.addEventListener('click', function(e) {
                 e.stopPropagation();
                 const isOpen = languageDropdown.classList.contains('show');
@@ -575,15 +631,30 @@ ${hreflangLinks}
                 languageBtn.setAttribute('aria-expanded', !isOpen);
             });
 
-            // Close dropdown when clicking outside
             document.addEventListener('click', function() {
                 languageDropdown.classList.remove('show');
                 languageBtn.setAttribute('aria-expanded', 'false');
             });
 
-            // Prevent dropdown from closing when clicking inside it
             languageDropdown.addEventListener('click', function(e) {
                 e.stopPropagation();
+            });
+        }
+
+        // Mobile Menu Toggle
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+
+            document.addEventListener('click', function(e) {
+                if (!navLinks.contains(e.target) && e.target !== menuToggle) {
+                    navLinks.classList.remove('show');
+                }
             });
         }
     });
@@ -783,7 +854,7 @@ function buildRulesPage(lang) {
     return;
   }
 
-  const langSelector = generateLanguageSelector(lang);
+  const navigation = generateNavigation(lang, 'rules');
   const html = `<!DOCTYPE html>
 <html lang="${lang}">
 <head>
@@ -795,10 +866,34 @@ function buildRulesPage(lang) {
     <link rel="canonical" href="https://falsepeak.ch/cluso/${lang}/rules.html">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
+    <!-- Navigation Scripts -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const languageBtn = document.getElementById('languageBtn');
+        const languageDropdown = document.getElementById('languageDropdown');
+        if (languageBtn && languageDropdown) {
+            languageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                languageDropdown.classList.toggle('show');
+            });
+            document.addEventListener('click', function() {
+                languageDropdown.classList.remove('show');
+            });
+        }
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+        }
+    });
+    </script>
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="./" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;"><img src="/src/assets/images/Icon.png" alt="${t.nav.title}" class="nav-icon"><span class="nav-title">${t.nav.title}</span></a></div>${langSelector}</div></nav>
+    <nav class="nav">${navigation}</nav>
     <section class="hero" style="padding: 2rem 0 3rem;"><div class="container"><h1 class="hero-title">${t.rulesPage.hero.title} <span class="hero-title-accent">${t.rulesPage.hero.titleAccent}</span></h1><p class="hero-subtitle">${t.rulesPage.hero.subtitle}</p></div></section>
     <section class="guide-section"><div class="container"><h2 class="section-title">${t.rulesPage.gameSetup.title}</h2><p>${t.rulesPage.gameSetup.intro}</p><h3>${t.rulesPage.gameSetup.requirements.title}</h3><ul>${t.rulesPage.gameSetup.requirements.items.map(item => `<li>${item}</li>`).join('')}</ul><h3>${t.rulesPage.gameSetup.roles.title}</h3><div><h4>${t.rulesPage.gameSetup.roles.impostor.name}</h4><p>${t.rulesPage.gameSetup.roles.impostor.description}</p><h4>${t.rulesPage.gameSetup.roles.innocent.name}</h4><p>${t.rulesPage.gameSetup.roles.innocent.description}</p></div></div></section>
     <section class="guide-section"><div class="container"><h2 class="section-title">${t.rulesPage.howToPlay.title}</h2>${t.rulesPage.howToPlay.phases.map(phase => `<div class="step"><h3>${phase.title}</h3><p>${phase.description}</p></div>`).join('')}</div></section>
@@ -820,7 +915,7 @@ function buildTipsPage(lang) {
     return;
   }
 
-  const langSelector = generateLanguageSelector(lang);
+  const navigation = generateNavigation(lang, 'tips');
   const html = `<!DOCTYPE html>
 <html lang="${lang}">
 <head>
@@ -832,10 +927,34 @@ function buildTipsPage(lang) {
     <link rel="canonical" href="https://falsepeak.ch/cluso/${lang}/tips.html">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
+    <!-- Navigation Scripts -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const languageBtn = document.getElementById('languageBtn');
+        const languageDropdown = document.getElementById('languageDropdown');
+        if (languageBtn && languageDropdown) {
+            languageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                languageDropdown.classList.toggle('show');
+            });
+            document.addEventListener('click', function() {
+                languageDropdown.classList.remove('show');
+            });
+        }
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+        }
+    });
+    </script>
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="./" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;"><img src="/src/assets/images/Icon.png" alt="${t.nav.title}" class="nav-icon"><span class="nav-title">${t.nav.title}</span></a></div>${langSelector}</div></nav>
+    <nav class="nav">${navigation}</nav>
     <section class="hero" style="padding: 2rem 0 3rem;"><div class="container"><h1 class="hero-title">${t.tipsPage.hero.title} <span class="hero-title-accent">${t.tipsPage.hero.titleAccent}</span></h1><p class="hero-subtitle">${t.tipsPage.hero.subtitle}</p></div></section>
     <section class="guide-section"><div class="container"><h2 class="section-title">${t.tipsPage.forInnocents.title}</h2><p>${t.tipsPage.forInnocents.intro}</p>${t.tipsPage.forInnocents.tips.map(tip => `<div class="tip"><h3>${tip.title}</h3><p>${tip.description}</p></div>`).join('')}</div></section>
     <section class="guide-section"><div class="container"><h2 class="section-title">${t.tipsPage.forImpostors.title}</h2><p>${t.tipsPage.forImpostors.intro}</p>${t.tipsPage.forImpostors.tips.map(tip => `<div class="tip"><h3>${tip.title}</h3><p>${tip.description}</p></div>`).join('')}</div></section>
@@ -863,6 +982,8 @@ function buildBlogPages(lang) {
     fs.mkdirSync(blogDir, { recursive: true });
   }
 
+  const blogNavigation = generateNavigation(lang, 'blog');
+
   // Build blog index
   const indexHtml = `<!DOCTYPE html>
 <html lang="${lang}">
@@ -875,10 +996,34 @@ function buildBlogPages(lang) {
     <link rel="canonical" href="https://falsepeak.ch/cluso/${lang}/blog/">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
+    <!-- Navigation Scripts -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const languageBtn = document.getElementById('languageBtn');
+        const languageDropdown = document.getElementById('languageDropdown');
+        if (languageBtn && languageDropdown) {
+            languageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                languageDropdown.classList.toggle('show');
+            });
+            document.addEventListener('click', function() {
+                languageDropdown.classList.remove('show');
+            });
+        }
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+        }
+    });
+    </script>
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="../" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;"><img src="/src/assets/images/Icon.png" alt="${t.nav.title}" class="nav-icon"><span class="nav-title">${t.nav.title}</span></a></div>${langSelector}</div></nav>
+    <nav class="nav">${blogNavigation}</nav>
     <section class="hero" style="padding: 2rem 0 3rem;"><div class="container"><h1 class="hero-title">${t.blog.index.hero.title}</h1><p class="hero-subtitle">${t.blog.index.hero.subtitle}</p></div></section>
     <section class="guide-section"><div class="container"><h2 class="section-title">${t.blog.index.featured}</h2>${Object.entries(t.blog.articles).map(([slug, article]) => `<div class="blog-card"><h3><a href="./${slug}.html">${article.title}</a></h3><p class="blog-date">${article.date}</p><p>${article.intro}</p></div>`).join('')}</div></section>
     <footer class="footer"><div class="container"><p>${t.footer.copyright}</p></div></footer>
@@ -888,6 +1033,8 @@ function buildBlogPages(lang) {
 
   fs.writeFileSync(`${blogDir}/index.html`, indexHtml);
   console.log(`✅ Generated ${lang}/blog/index.html`);
+
+  const articleNavigation = generateNavigation(lang, 'blog-article');
 
   // Build individual blog articles
   Object.entries(t.blog.articles).forEach(([slug, article]) => {
@@ -902,10 +1049,34 @@ function buildBlogPages(lang) {
     <link rel="canonical" href="https://falsepeak.ch/cluso/${lang}/blog/${slug}.html">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
+    <!-- Navigation Scripts -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const languageBtn = document.getElementById('languageBtn');
+        const languageDropdown = document.getElementById('languageDropdown');
+        if (languageBtn && languageDropdown) {
+            languageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                languageDropdown.classList.toggle('show');
+            });
+            document.addEventListener('click', function() {
+                languageDropdown.classList.remove('show');
+            });
+        }
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+        }
+    });
+    </script>
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="../" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;"><img src="/src/assets/images/Icon.png" alt="${t.nav.title}" class="nav-icon"><span class="nav-title">${t.nav.title}</span></a></div>${langSelector}</div></nav>
+    <nav class="nav">${articleNavigation}</nav>
     <article class="blog-article"><div class="container"><h1>${article.title}</h1><p class="blog-date">${article.date}</p><p class="blog-intro">${article.intro}</p>${article.content.map(section => `<div class="blog-section"><h2>${section.heading}</h2><p>${section.text}</p></div>`).join('')}<div class="blog-conclusion"><p>${article.conclusion}</p></div></div></article>
     <section class="cta"><div class="container"><a href="${t.appStoreUrl}" target="_blank" rel="noopener" class="download-btn"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="${t.hero.downloadBtnAlt}" class="app-store-badge"></a></div></section>
     <footer class="footer"><div class="container"><p>${t.footer.copyright}</p></div></footer>

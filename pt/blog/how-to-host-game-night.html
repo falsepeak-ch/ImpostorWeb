@@ -9,10 +9,50 @@
     <link rel="canonical" href="https://falsepeak.ch/cluso/pt/blog/how-to-host-game-night.html">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
+    <!-- Navigation Scripts -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const languageBtn = document.getElementById('languageBtn');
+        const languageDropdown = document.getElementById('languageDropdown');
+        if (languageBtn && languageDropdown) {
+            languageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                languageDropdown.classList.toggle('show');
+            });
+            document.addEventListener('click', function() {
+                languageDropdown.classList.remove('show');
+            });
+        }
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+        }
+    });
+    </script>
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="../" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;"><img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon"><span class="nav-title">Cluso</span></a></div>        <div class="language-selector">
+    <nav class="nav">        <div class="nav-container">
+            <a href="../" class="nav-logo">
+                <img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon">
+                <span class="nav-title">Cluso</span>
+            </a>
+<button class="nav-menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+<nav class="nav-links" id="navLinks">
+                <a href="../how-to-play.html" class="nav-link">How to Play</a>
+                <a href="../rules.html" class="nav-link">Rules</a>
+                <a href="../blog/" class="nav-link">Blog</a>
+            </nav>
+            <div class="nav-right">
+<a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="nav-download-btn">
+                <span class="nav-download-icon">↓</span>
+                <span>Download</span>
+            </a>
+<div class="language-selector">
             <button class="language-btn" id="languageBtn" aria-label="Select language" aria-haspopup="true" aria-expanded="false">
                 <span class="language-current">🌐 Português</span>
                 <svg class="language-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +67,9 @@
                 <a href="/pt/" class="language-option active">🇵🇹 Português</a>
                 <a href="/fr/" class="language-option">🇫🇷 Français</a>
             </div>
-        </div></div></nav>
+        </div>
+            </div>
+        </div></nav>
     <article class="blog-article"><div class="container"><h1>Como Organizar a Noite de Jogos Perfeita</h1><p class="blog-date">2025-01-10</p><p class="blog-intro">Organizar uma noite de jogos bem-sucedida requer mais do que apenas baixar alguns apps. Aqui está seu guia completo para criar experiências de jogo inesquecíveis.</p><div class="blog-section"><h2>1. Escolha os Jogos Certos</h2><p>Selecione jogos baseados no tamanho do seu grupo e preferências. Para 6-12 pessoas, jogos de dedução social como Cluso Impostor são ideais. Sempre tenha opções de backup prontas.</p></div><div class="blog-section"><h2>2. Prepare Seu Espaço</h2><p>Garanta assentos suficientes em formação circular para comunicação fácil. Boa iluminação é importante, mas regulável para ambiente. Mantenha distrações como televisores desligados.</p></div><div class="blog-section"><h2>3. Lanches e Bebidas</h2><p>Ofereça lanches fáceis de comer que não sujem as mãos. Finger foods, batatas fritas e molhos funcionam bem. Garanta bebidas suficientes para todos.</p></div><div class="blog-section"><h2>4. Defina o Clima</h2><p>Música de fundo antes dos jogos começarem ajuda as pessoas a relaxarem. Crie uma playlist baixa o suficiente para conversas. Considere decoração temática para ocasiões especiais.</p></div><div class="blog-section"><h2>5. Explique as Regras Claramente</h2><p>Reserve tempo para explicar as regras do jogo completamente antes de começar. Use exemplos e talvez faça uma rodada de prática. Certifique-se de que todos entendam antes do jogo real começar.</p></div><div class="blog-section"><h2>6. Gerencie a Dinâmica do Grupo</h2><p>Preste atenção a jogadores silenciosos e inclua-os. Equilibre jogadores competitivos com diversão amigável. Esteja pronto para mudar de jogos se a energia diminuir.</p></div><div class="blog-section"><h2>7. Tempo é Tudo</h2><p>Planeje 3-4 horas para uma noite de jogos completa. Comece com jogos quebra-gelo, depois passe para jogos principais. Deixe tempo entre jogos para conversa.</p></div><div class="blog-section"><h2>8. Tenha um Plano de Backup</h2><p>A tecnologia pode falhar, então tenha jogos alternativos prontos. Certifique-se de que seu dispositivo esteja carregado para jogos baseados em apps como Cluso. Considere também jogos físicos de backup.</p></div><div class="blog-conclusion"><p>Com a preparação certa, sua noite de jogos se tornará o evento que todos aguardam. Baixe Cluso para acessar múltiplos jogos em um app - perfeito para qualquer noite de jogos!</p></div></div></article>
     <section class="cta"><div class="container"><a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="download-btn"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download na App Store" class="app-store-badge"></a></div></section>
     <footer class="footer"><div class="container"><p>© 2025 False Peak. Todos os direitos reservados.</p></div></footer>

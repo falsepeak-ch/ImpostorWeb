@@ -9,10 +9,50 @@
     <link rel="canonical" href="https://falsepeak.ch/cluso/pt/tips.html">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
+    <!-- Navigation Scripts -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const languageBtn = document.getElementById('languageBtn');
+        const languageDropdown = document.getElementById('languageDropdown');
+        if (languageBtn && languageDropdown) {
+            languageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                languageDropdown.classList.toggle('show');
+            });
+            document.addEventListener('click', function() {
+                languageDropdown.classList.remove('show');
+            });
+        }
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+        }
+    });
+    </script>
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="./" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;"><img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon"><span class="nav-title">Cluso</span></a></div>        <div class="language-selector">
+    <nav class="nav">        <div class="nav-container">
+            <a href="./" class="nav-logo">
+                <img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon">
+                <span class="nav-title">Cluso</span>
+            </a>
+<button class="nav-menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+<nav class="nav-links" id="navLinks">
+                <a href="./how-to-play.html" class="nav-link">How to Play</a>
+                <a href="./rules.html" class="nav-link">Rules</a>
+                <a href="./blog/" class="nav-link">Blog</a>
+            </nav>
+            <div class="nav-right">
+<a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="nav-download-btn">
+                <span class="nav-download-icon">↓</span>
+                <span>Download</span>
+            </a>
+<div class="language-selector">
             <button class="language-btn" id="languageBtn" aria-label="Select language" aria-haspopup="true" aria-expanded="false">
                 <span class="language-current">🌐 Português</span>
                 <svg class="language-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +67,9 @@
                 <a href="/pt/" class="language-option active">🇵🇹 Português</a>
                 <a href="/fr/" class="language-option">🇫🇷 Français</a>
             </div>
-        </div></div></nav>
+        </div>
+            </div>
+        </div></nav>
     <section class="hero" style="padding: 2rem 0 3rem;"><div class="container"><h1 class="hero-title">Dicas e Estratégias <span class="hero-title-accent">Domine o Jogo</span></h1><p class="hero-subtitle">Melhore seu jogo de Impostor com estratégias experientes para inocentes e impostores. Aprenda truques psicológicos, táticas avançadas e jogadas vencedoras.</p></div></section>
     <section class="guide-section"><div class="container"><h2 class="section-title">Estratégias para Inocentes</h2><p>Como inocente, seu objetivo é identificar e eliminar impostores através de observação e dedução cuidadosa.</p><div class="tip"><h3>Faça Perguntas Específicas</h3><p>Não faça perguntas genéricas. Direcione perguntas específicas e detalhadas a jogadores sobre suas ações ou observações. Impostores frequentemente têm dificuldades com detalhes específicos.</p></div><div class="tip"><h3>Observe Padrões de Comportamento</h3><p>Note quem fala primeiro, quem permanece quieto, quem desvia a culpa. Impostores frequentemente exibem comportamentos nervosos como sobre-explicar ou evitar contato visual.</p></div><div class="tip"><h3>Rastreie Padrões de Votação</h3><p>Preste atenção em quem vota em quem. Impostores podem votar juntos ou estrategicamente em inocentes para criar caos.</p></div><div class="tip"><h3>Construa Alianças Cuidadosamente</h3><p>Junte-se com jogadores em quem você confia, mas não confie muito rápido. Impostores adoram ganhar confiança cedo.</p></div><div class="tip"><h3>Não Revele Tudo</h3><p>Guarde algumas observações. Se um impostor sabe o que você sabe, ele pode criar mentiras melhores.</p></div></div></section>
     <section class="guide-section"><div class="container"><h2 class="section-title">Estratégias para Impostores</h2><p>Como impostor, adapte-se, desvie suspeitas e elimine ameaças estrategicamente sem ser pego.</p><div class="tip"><h3>Aja Naturalmente</h3><p>Não exagere na inocência ou seja muito defensivo. Espelhe o comportamento de inocentes reais - confuso, questionador e analítico.</p></div><div class="tip"><h3>Crie Dúvida Razoável</h3><p>Não tente provar completamente sua inocência. Apenas crie dúvida suficiente para mudar suspeita para outros.</p></div><div class="tip"><h3>Acuse Estrategicamente</h3><p>Ocasionalmente acuse outros jogadores (incluindo companheiros impostores) para parecer envolvido. Mas não seja muito agressivo.</p></div><div class="tip"><h3>Controle a Narrativa</h3><p>Guie discussões sutilmente. Faça perguntas direcionadas que direcionem suspeita para outro lugar. Enquadre debates de forma que beneficiem você.</p></div><div class="tip"><h3>Vote com a Maioria</h3><p>A menos que esteja coordenando com outros impostores, vote com a maioria. Destacar-se com votos incomuns levanta suspeitas.</p></div></div></section>

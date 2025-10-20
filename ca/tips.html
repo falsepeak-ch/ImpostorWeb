@@ -9,10 +9,50 @@
     <link rel="canonical" href="https://falsepeak.ch/cluso/ca/tips.html">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
+    <!-- Navigation Scripts -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const languageBtn = document.getElementById('languageBtn');
+        const languageDropdown = document.getElementById('languageDropdown');
+        if (languageBtn && languageDropdown) {
+            languageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                languageDropdown.classList.toggle('show');
+            });
+            document.addEventListener('click', function() {
+                languageDropdown.classList.remove('show');
+            });
+        }
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+        }
+    });
+    </script>
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="./" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;"><img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon"><span class="nav-title">Cluso</span></a></div>        <div class="language-selector">
+    <nav class="nav">        <div class="nav-container">
+            <a href="./" class="nav-logo">
+                <img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon">
+                <span class="nav-title">Cluso</span>
+            </a>
+<button class="nav-menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+<nav class="nav-links" id="navLinks">
+                <a href="./how-to-play.html" class="nav-link">How to Play</a>
+                <a href="./rules.html" class="nav-link">Rules</a>
+                <a href="./blog/" class="nav-link">Blog</a>
+            </nav>
+            <div class="nav-right">
+<a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="nav-download-btn">
+                <span class="nav-download-icon">↓</span>
+                <span>Download</span>
+            </a>
+<div class="language-selector">
             <button class="language-btn" id="languageBtn" aria-label="Select language" aria-haspopup="true" aria-expanded="false">
                 <span class="language-current">🌐 Català</span>
                 <svg class="language-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +67,9 @@
                 <a href="/pt/" class="language-option">🇵🇹 Português</a>
                 <a href="/fr/" class="language-option">🇫🇷 Français</a>
             </div>
-        </div></div></nav>
+        </div>
+            </div>
+        </div></nav>
     <section class="hero" style="padding: 2rem 0 3rem;"><div class="container"><h1 class="hero-title">Consells i Estratègies <span class="hero-title-accent">Domina el Joc</span></h1><p class="hero-subtitle">Millora el teu joc d'Impostor amb estratègies expertes per a innocents i impostors. Aprèn trucs psicològics, tàctiques avançades i jugades guanyadores.</p></div></section>
     <section class="guide-section"><div class="container"><h2 class="section-title">Estratègies per a Innocents</h2><p>Com a innocent, el teu objectiu és identificar i eliminar impostors mitjançant observació i deducció acurada.</p><div class="tip"><h3>Fes Preguntes Específiques</h3><p>No facis preguntes genèriques. Dirigeix preguntes específiques i detallades a jugadors sobre les seves accions o observacions. Els impostors sovint tenen dificultats amb detalls específics.</p></div><div class="tip"><h3>Observa Patrons de Comportament</h3><p>Nota qui parla primer, qui roman callat, qui desvia la culpa. Els impostors sovint mostren comportaments nerviosos com sobre-explicar o evitar contacte visual.</p></div><div class="tip"><h3>Segueix Patrons de Votació</h3><p>Presta atenció a qui vota per qui. Els impostors poden votar junts o estratègicament per innocents per crear caos.</p></div><div class="tip"><h3>Construeix Aliances Curadament</h3><p>Uneix-te amb jugadors en qui confies, però no confiïs massa ràpid. Els impostors estimen guanyar confiança aviat.</p></div><div class="tip"><h3>No Revelzis Tot</h3><p>Guarda algunes observacions. Si un impostor sap el que saps, pot crear millors mentides.</p></div></div></section>
     <section class="guide-section"><div class="container"><h2 class="section-title">Estratègies per a Impostors</h2><p>Com a impostor, adapta't, desvia sospites i elimina amenaces estratègicament sense ser atrapat.</p><div class="tip"><h3>Actua Natural</h3><p>No sobreactüs innocència o siguis massa defensiu. Imita el comportament d'innocents reals - confós, qüestionador i analític.</p></div><div class="tip"><h3>Crea Dubte Raonable</h3><p>No intentis provar completament la teva innocència. Només crea prou dubte per canviar sospita a altres.</p></div><div class="tip"><h3>Acusa Estratègicament</h3><p>Ocasionalment acusa altres jugadors (incloent company impostors) per semblar involucrat. Però no siguis massa agressiu.</p></div><div class="tip"><h3>Controla la Narrativa</h3><p>Guia discussions subtilment. Fes preguntes dirigides que dirigeixin sospita a un altre lloc. Emmarca debats de manera que et beneficiïn.</p></div><div class="tip"><h3>Vota amb la Majoria</h3><p>A menys que et coordinis amb altres impostors, vota amb la majoria. Destacar amb vots inusuals aixeca sospites.</p></div></div></section>

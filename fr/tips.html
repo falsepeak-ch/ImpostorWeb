@@ -9,10 +9,50 @@
     <link rel="canonical" href="https://falsepeak.ch/cluso/fr/tips.html">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
+    <!-- Navigation Scripts -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const languageBtn = document.getElementById('languageBtn');
+        const languageDropdown = document.getElementById('languageDropdown');
+        if (languageBtn && languageDropdown) {
+            languageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                languageDropdown.classList.toggle('show');
+            });
+            document.addEventListener('click', function() {
+                languageDropdown.classList.remove('show');
+            });
+        }
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+        }
+    });
+    </script>
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="./" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;"><img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon"><span class="nav-title">Cluso</span></a></div>        <div class="language-selector">
+    <nav class="nav">        <div class="nav-container">
+            <a href="./" class="nav-logo">
+                <img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon">
+                <span class="nav-title">Cluso</span>
+            </a>
+<button class="nav-menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+<nav class="nav-links" id="navLinks">
+                <a href="./how-to-play.html" class="nav-link">How to Play</a>
+                <a href="./rules.html" class="nav-link">Rules</a>
+                <a href="./blog/" class="nav-link">Blog</a>
+            </nav>
+            <div class="nav-right">
+<a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="nav-download-btn">
+                <span class="nav-download-icon">↓</span>
+                <span>Download</span>
+            </a>
+<div class="language-selector">
             <button class="language-btn" id="languageBtn" aria-label="Select language" aria-haspopup="true" aria-expanded="false">
                 <span class="language-current">🌐 Français</span>
                 <svg class="language-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +67,9 @@
                 <a href="/pt/" class="language-option">🇵🇹 Português</a>
                 <a href="/fr/" class="language-option active">🇫🇷 Français</a>
             </div>
-        </div></div></nav>
+        </div>
+            </div>
+        </div></nav>
     <section class="hero" style="padding: 2rem 0 3rem;"><div class="container"><h1 class="hero-title">Conseils et Stratégies <span class="hero-title-accent">Maîtrisez le Jeu</span></h1><p class="hero-subtitle">Améliorez votre jeu Imposteur avec des stratégies d'experts pour innocents et imposteurs. Apprenez des astuces psychologiques, des tactiques avancées et des coups gagnants.</p></div></section>
     <section class="guide-section"><div class="container"><h2 class="section-title">Stratégies pour les Innocents</h2><p>En tant qu'innocent, votre objectif est d'identifier et d'éliminer les imposteurs par observation et déduction minutieuses.</p><div class="tip"><h3>Posez des Questions Spécifiques</h3><p>Ne posez pas de questions génériques. Ciblez des joueurs spécifiques avec des questions détaillées sur leurs actions ou observations. Les imposteurs ont souvent du mal avec les détails spécifiques.</p></div><div class="tip"><h3>Observez les Modèles de Comportement</h3><p>Notez qui parle en premier, qui reste silencieux, qui détourne le blâme. Les imposteurs affichent souvent des comportements nerveux comme sur-expliquer ou éviter le contact visuel.</p></div><div class="tip"><h3>Suivez les Modèles de Vote</h3><p>Faites attention à qui vote pour qui. Les imposteurs peuvent voter ensemble ou stratégiquement pour les innocents pour créer le chaos.</p></div><div class="tip"><h3>Construisez des Alliances Prudemment</h3><p>Faites équipe avec des joueurs en qui vous avez confiance, mais ne faites pas confiance trop rapidement. Les imposteurs adorent gagner la confiance tôt.</p></div><div class="tip"><h3>Ne Révélez Pas Tout</h3><p>Gardez certaines observations. Si un imposteur sait ce que vous savez, il peut fabriquer de meilleurs mensonges.</p></div></div></section>
     <section class="guide-section"><div class="container"><h2 class="section-title">Stratégies pour les Imposteurs</h2><p>En tant qu'imposteur, intégrez-vous, détournez les soupçons et éliminez stratégiquement les menaces sans vous faire prendre.</p><div class="tip"><h3>Agissez Naturellement</h3><p>Ne surjouez pas l'innocence ou ne soyez pas trop défensif. Imitez le comportement des vrais innocents - confus, interrogateur et analytique.</p></div><div class="tip"><h3>Créez un Doute Raisonnable</h3><p>N'essayez pas de prouver complètement votre innocence. Créez juste assez de doute pour déplacer les soupçons vers d'autres.</p></div><div class="tip"><h3>Accusez Stratégiquement</h3><p>Accusez occasionnellement d'autres joueurs (y compris des co-imposteurs) pour paraître engagé. Mais ne soyez pas trop agressif.</p></div><div class="tip"><h3>Contrôlez le Récit</h3><p>Guidez subtilement les discussions. Posez des questions suggestives qui dirigent les soupçons ailleurs. Cadrez les débats de manière à vous bénéficier.</p></div><div class="tip"><h3>Votez avec la Foule</h3><p>Sauf coordination avec d'autres imposteurs, votez avec la majorité. Se démarquer avec des votes inhabituels soulève des soupçons.</p></div></div></section>

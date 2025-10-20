@@ -9,10 +9,50 @@
     <link rel="canonical" href="https://falsepeak.ch/cluso/pt/blog/social-deduction-games-explained.html">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
+    <!-- Navigation Scripts -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const languageBtn = document.getElementById('languageBtn');
+        const languageDropdown = document.getElementById('languageDropdown');
+        if (languageBtn && languageDropdown) {
+            languageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                languageDropdown.classList.toggle('show');
+            });
+            document.addEventListener('click', function() {
+                languageDropdown.classList.remove('show');
+            });
+        }
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+        }
+    });
+    </script>
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="../" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;"><img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon"><span class="nav-title">Cluso</span></a></div>        <div class="language-selector">
+    <nav class="nav">        <div class="nav-container">
+            <a href="../" class="nav-logo">
+                <img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon">
+                <span class="nav-title">Cluso</span>
+            </a>
+<button class="nav-menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+<nav class="nav-links" id="navLinks">
+                <a href="../how-to-play.html" class="nav-link">How to Play</a>
+                <a href="../rules.html" class="nav-link">Rules</a>
+                <a href="../blog/" class="nav-link">Blog</a>
+            </nav>
+            <div class="nav-right">
+<a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="nav-download-btn">
+                <span class="nav-download-icon">↓</span>
+                <span>Download</span>
+            </a>
+<div class="language-selector">
             <button class="language-btn" id="languageBtn" aria-label="Select language" aria-haspopup="true" aria-expanded="false">
                 <span class="language-current">🌐 Português</span>
                 <svg class="language-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +67,9 @@
                 <a href="/pt/" class="language-option active">🇵🇹 Português</a>
                 <a href="/fr/" class="language-option">🇫🇷 Français</a>
             </div>
-        </div></div></nav>
+        </div>
+            </div>
+        </div></nav>
     <article class="blog-article"><div class="container"><h1>Jogos de Dedução Social Explicados</h1><p class="blog-date">2025-01-05</p><p class="blog-intro">Jogos de dedução social se tornaram um fenômeno de festa. Mas o que os torna tão envolventes? Vamos mergulhar na psicologia e mecânicas por trás deste popular gênero.</p><div class="blog-section"><h2>O Que São Jogos de Dedução Social?</h2><p>Jogos de dedução social são jogos multijogador onde os jogadores tentam descobrir os papéis uns dos outros através de discussão, observação e raciocínio lógico. Tipicamente, um pequeno grupo conhece secretamente as identidades uns dos outros enquanto a maioria tenta identificá-los.</p></div><div class="blog-section"><h2>História do Gênero</h2><p>O gênero começou com Máfia (também conhecido como Lobisomem) nos anos 1980. Ganhou popularidade mainstream com Among Us em 2020, que introduziu milhões ao jogo de dedução social. Agora o gênero está evoluindo com apps como Cluso que oferecem jogo offline.</p></div><div class="blog-section"><h2>Mecânicas Centrais</h2><p>A maioria dos jogos de dedução social compartilha elementos comuns: atribuição secreta de papéis, fases de discussão, mecânicas de votação e eliminação. O equilíbrio entre informação e engano cria tensão.</p></div><div class="blog-section"><h2>A Psicologia Por Trás</h2><p>Esses jogos exploram a psicologia humana fundamental - nossa necessidade de confiar, medo de traição e amor por resolver enigmas. O aspecto social adiciona investimento emocional que outros jogos não podem replicar.</p></div><div class="blog-section"><h2>Por Que Funcionam em Festas</h2><p>Jogos de dedução social são perfeitos para festas porque acomodam grupos grandes, fomentam conversa e criam momentos memoráveis. Ao contrário de jogos competitivos, são divertidos para todos independentemente do nível de habilidade.</p></div><div class="blog-section"><h2>Versões Online vs. Offline</h2><p>Enquanto versões online como Among Us são populares, versões offline como Cluso Impostor oferecem vantagens únicas: interação pessoal, leitura de linguagem corporal e sem requisito de internet. O aspecto pessoal amplifica o elemento psicológico.</p></div><div class="blog-section"><h2>O Futuro do Gênero</h2><p>Jogos de dedução social continuam evoluindo com novas mecânicas, papéis e variações. Apps móveis democratizam o acesso, enquanto o apelo central - interação humana e engano - permanece atemporal.</p></div><div class="blog-conclusion"><p>Seja você um jogador veterano ou novato, jogos de dedução social oferecem entretenimento sem fim. Experimente Cluso Impostor para vivenciar o gênero em sua melhor forma offline!</p></div></div></article>
     <section class="cta"><div class="container"><a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="download-btn"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download na App Store" class="app-store-badge"></a></div></section>
     <footer class="footer"><div class="container"><p>© 2025 False Peak. Todos os direitos reservados.</p></div></footer>

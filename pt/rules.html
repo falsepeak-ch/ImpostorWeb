@@ -9,10 +9,50 @@
     <link rel="canonical" href="https://falsepeak.ch/cluso/pt/rules.html">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
+    <!-- Navigation Scripts -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const languageBtn = document.getElementById('languageBtn');
+        const languageDropdown = document.getElementById('languageDropdown');
+        if (languageBtn && languageDropdown) {
+            languageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                languageDropdown.classList.toggle('show');
+            });
+            document.addEventListener('click', function() {
+                languageDropdown.classList.remove('show');
+            });
+        }
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+        }
+    });
+    </script>
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="./" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;"><img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon"><span class="nav-title">Cluso</span></a></div>        <div class="language-selector">
+    <nav class="nav">        <div class="nav-container">
+            <a href="./" class="nav-logo">
+                <img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon">
+                <span class="nav-title">Cluso</span>
+            </a>
+<button class="nav-menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+<nav class="nav-links" id="navLinks">
+                <a href="./how-to-play.html" class="nav-link">How to Play</a>
+                <a href="./rules.html" class="nav-link">Rules</a>
+                <a href="./blog/" class="nav-link">Blog</a>
+            </nav>
+            <div class="nav-right">
+<a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="nav-download-btn">
+                <span class="nav-download-icon">↓</span>
+                <span>Download</span>
+            </a>
+<div class="language-selector">
             <button class="language-btn" id="languageBtn" aria-label="Select language" aria-haspopup="true" aria-expanded="false">
                 <span class="language-current">🌐 Português</span>
                 <svg class="language-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +67,9 @@
                 <a href="/pt/" class="language-option active">🇵🇹 Português</a>
                 <a href="/fr/" class="language-option">🇫🇷 Français</a>
             </div>
-        </div></div></nav>
+        </div>
+            </div>
+        </div></nav>
     <section class="hero" style="padding: 2rem 0 3rem;"><div class="container"><h1 class="hero-title">Jogo Impostor <span class="hero-title-accent">Regras Completas</span></h1><p class="hero-subtitle">Tudo o que você precisa saber para jogar Cluso Impostor. Desde a configuração básica até estratégias avançadas, domine a arte do engano e da dedução.</p></div></section>
     <section class="guide-section"><div class="container"><h2 class="section-title">Configuração do Jogo</h2><p>Antes de começar a jogar, certifique-se de ter tudo pronto para um jogo épico de Impostor.</p><h3>O que você precisa</h3><ul><li>3-20 jogadores reunidos em um local</li><li>Um dispositivo com o app Cluso instalado</li><li>Um espaço tranquilo para discussões</li><li>10-30 minutos de tempo de jogo</li></ul><h3>Entendendo os Papéis</h3><div><h4>Impostores</h4><p>1-4 jogadores (dependendo do tamanho do grupo) que conhecem as identidades uns dos outros. Seu objetivo é evitar a detecção e superar em número os inocentes.</p><h4>Inocentes</h4><p>Todos os jogadores restantes que não conhecem o papel de ninguém. Seu objetivo é identificar e eliminar todos os impostores através de discussão e votação.</p></div></div></section>
     <section class="guide-section"><div class="container"><h2 class="section-title">Como Jogar</h2><div class="step"><h3>1. Fase de Atribuição de Papéis</h3><p>Passe o dispositivo. Cada jogador vê secretamente seu papel. Os impostores verão quem são os outros impostores. Os inocentes veem apenas que são inocentes.</p></div><div class="step"><h3>2. Fase de Olhos Fechados</h3><p>Todos fecham os olhos. Os impostores abrem os olhos para se reconhecerem mutuamente, depois os fecham novamente. Isso garante que os impostores conheçam seus aliados.</p></div><div class="step"><h3>3. Fase de Discussão</h3><p>Todos abrem os olhos e discutem livremente. Os jogadores fazem perguntas, compartilham observações e tentam deduzir quem podem ser os impostores. Defina um limite de tempo (3-5 minutos recomendado).</p></div><div class="step"><h3>4. Fase de Votação</h3><p>Os jogadores votam para eliminar alguém que suspeitam ser um impostor. A pessoa com mais votos é eliminada e seu papel é revelado. Empates podem ser tratados com revotação ou sem eliminação.</p></div><div class="step"><h3>5. Verificar Condições de Vitória</h3><p>Se todos os impostores forem eliminados, os inocentes ganham. Se os impostores igualarem ou superarem os inocentes, os impostores ganham. Caso contrário, retornar à Fase de Discussão.</p></div></div></section>

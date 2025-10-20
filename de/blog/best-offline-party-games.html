@@ -9,10 +9,50 @@
     <link rel="canonical" href="https://falsepeak.ch/cluso/de/blog/best-offline-party-games.html">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
+    <!-- Navigation Scripts -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const languageBtn = document.getElementById('languageBtn');
+        const languageDropdown = document.getElementById('languageDropdown');
+        if (languageBtn && languageDropdown) {
+            languageBtn.addEventListener('click', function(e) {
+                e.stopPropagation();
+                languageDropdown.classList.toggle('show');
+            });
+            document.addEventListener('click', function() {
+                languageDropdown.classList.remove('show');
+            });
+        }
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+        if (menuToggle && navLinks) {
+            menuToggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('show');
+            });
+        }
+    });
+    </script>
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav"><div class="nav-container"><div class="nav-logo"><a href="../" style="display: flex; align-items: center; gap: 0.75rem; text-decoration: none;"><img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon"><span class="nav-title">Cluso</span></a></div>        <div class="language-selector">
+    <nav class="nav">        <div class="nav-container">
+            <a href="../" class="nav-logo">
+                <img src="/src/assets/images/Icon.png" alt="Cluso" class="nav-icon">
+                <span class="nav-title">Cluso</span>
+            </a>
+<button class="nav-menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+<nav class="nav-links" id="navLinks">
+                <a href="../how-to-play.html" class="nav-link">How to Play</a>
+                <a href="../rules.html" class="nav-link">Rules</a>
+                <a href="../blog/" class="nav-link">Blog</a>
+            </nav>
+            <div class="nav-right">
+<a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="nav-download-btn">
+                <span class="nav-download-icon">↓</span>
+                <span>Download</span>
+            </a>
+<div class="language-selector">
             <button class="language-btn" id="languageBtn" aria-label="Select language" aria-haspopup="true" aria-expanded="false">
                 <span class="language-current">🌐 Deutsch</span>
                 <svg class="language-arrow" width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +67,9 @@
                 <a href="/pt/" class="language-option">🇵🇹 Português</a>
                 <a href="/fr/" class="language-option">🇫🇷 Français</a>
             </div>
-        </div></div></nav>
+        </div>
+            </div>
+        </div></nav>
     <article class="blog-article"><div class="container"><h1>10 Beste Offline Party-Spiele für Gruppen</h1><p class="blog-date">2025-01-15</p><p class="blog-intro">Auf der Suche nach dem perfekten Party-Spiel für dein nächstes Treffen? Wir haben die besten Offline-Spiele zusammengestellt, die keine WiFi-Verbindung benötigen und stundenlangen Spaß bieten.</p><div class="blog-section"><h2>1. Cluso Impostor - Bestes Social Deduction-Spiel</h2><p>Cluso Impostor führt unsere Liste an als das ultimative Offline-Social-Deduction-Spiel. Mit Unterstützung für 3-20 Spieler auf einem einzigen Gerät bietet es spannende Spielerfahrung ohne Internet-Anforderung.</p></div><div class="blog-section"><h2>2. Mafia / Werwolf - Klassisches Social Deduction</h2><p>Der zeitlose Klassiker, der das Social-Deduction-Genre populär gemacht hat. Spieler werden heimlich als Mafia/Werwölfe oder Dorfbewohner zugewiesen, mit Diskussions- und Eliminierungsphasen.</p></div><div class="blog-section"><h2>3. Wahrheit oder Pflicht - Klassischer Party-Favorit</h2><p>Das ultimative Eisbrecher-Spiel für jedes Alter. Spieler wählen zwischen dem Beantworten wahrheitsgemäßer Fragen oder dem Erfüllen unterhaltsamer Herausforderungen.</p></div><div class="blog-section"><h2>4. Würdest du eher - Debatte und Diskussion</h2><p>Stelle Spieler vor unmögliche Entscheidungen und beobachte, wie Debatten entstehen. Perfekt, um Menschen auf unterhaltsame Weise kennenzulernen.</p></div><div class="blog-section"><h2>5. Charades - Klassisches Ratespiel</h2><p>Zeitloser Party-Spaß, bei dem Spieler Wörter oder Phrasen ohne Sprechen pantomimisch darstellen. Großartig für große Gruppen und alle Altersgruppen.</p></div><div class="blog-section"><h2>6. Zwei Wahrheiten und eine Lüge</h2><p>Ein einfaches, aber effektives Kennenlernspiel. Jeder Spieler teilt drei Aussagen über sich mit - zwei wahr, eine falsch - während andere raten.</p></div><div class="blog-section"><h2>7. Wer bin ich? - Ratespiel</h2><p>Spieler bekommen den Namen einer berühmten Person auf die Stirn geklebt und müssen durch Ja/Nein-Fragen ihre Identität erraten.</p></div><div class="blog-section"><h2>8. Niemals habe ich jemals</h2><p>Offenbare interessante Fakten über Freunde, indem du Aussagen machst, die mit 'Niemals habe ich jemals' beginnen. Spieler, die es getan haben, müssen einen Finger senken.</p></div><div class="blog-section"><h2>9. Die Widerstandsbewegung - Strategisches Teamspiel</h2><p>Ein Social-Deduction-Spiel, bei dem Teams von Widerstandskämpfern versuchen, Spione zu identifizieren, die ihre Missionen sabotieren.</p></div><div class="blog-section"><h2>10. Codenames - Wortassoziationsspiel</h2><p>Teambasiertes Wortspiel, bei dem Spymasters Ein-Wort-Hinweise geben, um ihr Team zu helfen, ihre Agenten auf dem Brett zu identifizieren.</p></div><div class="blog-conclusion"><p>Obwohl all diese Spiele Spaß bieten, sticht Cluso Impostor mit seiner perfekten Balance aus Strategie, Psychologie und zugänglichem Offline-Gameplay hervor. Lade es kostenlos herunter und verwandle jedes Treffen in ein unvergessliches Erlebnis!</p></div></div></article>
     <section class="cta"><div class="container"><a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="download-btn"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Laden im App Store" class="app-store-badge"></a></div></section>
     <footer class="footer"><div class="container"><p>© 2025 False Peak. Alle Rechte vorbehalten.</p></div></footer>
