@@ -1066,14 +1066,35 @@ function getCategoryClass(title) {
   return 'guides';
 }
 
-// Helper function to get placeholder image URL
-function getPlaceholderImage(index) {
-  const images = [
-    'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&h=600&fit=crop', // Party
-    'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop', // Game night
-    'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop'  // Friends
-  ];
-  return images[index % images.length];
+// Helper function to get article-specific image URL
+function getArticleImage(slug) {
+  const imageMap = {
+    // Board games and party games - diverse group playing cards/board games
+    'best-offline-party-games': 'https://images.unsplash.com/photo-1606167668584-78701c57f13d?w=1200&h=600&fit=crop',
+
+    // Large group activity - people in circle/team activity
+    'group-games-for-large-parties': 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&h=600&fit=crop',
+
+    // Hosting game night - table setup with snacks and games
+    'how-to-host-game-night': 'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1200&h=600&fit=crop',
+
+    // Icebreaker activities - team building / group discussion
+    'icebreaker-games-for-adults': 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop',
+
+    // Social deduction / mystery - discussion and strategy
+    'social-deduction-games-explained': 'https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=1200&h=600&fit=crop'
+  };
+
+  return imageMap[slug] || 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=600&fit=crop';
+}
+
+// Legacy function for backward compatibility (uses slug now)
+function getPlaceholderImage(index, slug = null) {
+  if (slug) {
+    return getArticleImage(slug);
+  }
+  // Fallback for any old code
+  return 'https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=1200&h=600&fit=crop';
 }
 
 // Build blog pages for each language
@@ -1095,7 +1116,7 @@ function buildBlogPages(lang) {
   const blogCards = Object.entries(t.blog.articles).map(([slug, article], index) => {
     const category = getCategoryClass(article.title);
     const readTime = calculateReadTime(article.intro + article.content.map(s => s.text).join(' '));
-    const imageUrl = getPlaceholderImage(index);
+    const imageUrl = getArticleImage(slug);  // Use article-specific image
     const excerpt = article.intro.substring(0, 150) + (article.intro.length > 150 ? '...' : '');
 
     return `<article class="blog-card">
@@ -1187,14 +1208,14 @@ function buildBlogPages(lang) {
   // Build individual blog articles with magazine layout
   Object.entries(t.blog.articles).forEach(([slug, article], index) => {
     const readTime = calculateReadTime(article.intro + article.content.map(s => s.text).join(' '));
-    const imageUrl = getPlaceholderImage(index);
+    const imageUrl = getArticleImage(slug);  // Use article-specific image
 
     // Generate related articles (other articles excluding current one)
     const relatedArticles = Object.entries(t.blog.articles)
       .filter(([relSlug]) => relSlug !== slug)
       .map(([relSlug, relArticle], relIndex) => {
         const relCategory = getCategoryClass(relArticle.title);
-        const relImageUrl = getPlaceholderImage(relIndex);
+        const relImageUrl = getArticleImage(relSlug);  // Use article-specific image
         return `<article class="blog-card">
                     <img src="${relImageUrl}" alt="${relArticle.title}" class="blog-card-image" loading="lazy">
                     <div class="blog-card-content">
