@@ -3,162 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cluso - Party Game</title>
+    <meta name="robots" content="noindex, follow">
+    <link rel="canonical" href="https://falsepeak.ch/cluso/en/">
 
-    <!-- Primary Meta Tags -->
-    <title>Cluso - Social Deduction Party Game</title>
-    <meta name="title" content="Cluso - Social Deduction Party Game">
-    <meta name="description" content="The ultimate offline party game for up to 20 players. Play Cluso anywhere, no internet required. Download free on App Store.">
-    <meta name="keywords" content="party game, social deduction, offline game, impostor game, mobile game">
+    <!-- Redirect script with language detection -->
+    <script>
+    (function() {
+        // Supported languages
+        const supportedLangs = ['en', 'de', 'es', 'ca', 'pt', 'fr'];
+        const defaultLang = 'en';
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://falsepeak.ch/cluso">
-    <meta property="og:title" content="Cluso - Social Deduction Party Game">
-    <meta property="og:description" content="The ultimate offline party game for up to 20 players. Play anywhere, no internet required.">
-    <meta property="og:image" content="/src/assets/images/Icon.png">
+        // Check if user has a stored preference
+        const storedLang = localStorage.getItem('preferredLanguage');
+        if (storedLang && supportedLangs.includes(storedLang)) {
+            window.location.href = '/' + storedLang + '/';
+            return;
+        }
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://falsepeak.ch/cluso">
-    <meta property="twitter:title" content="Cluso - Social Deduction Party Game">
-    <meta property="twitter:description" content="The ultimate offline party game for up to 20 players. Play anywhere, no internet required.">
-    <meta property="twitter:image" content="/src/assets/images/Icon.png">
+        // Detect browser language
+        const browserLang = (navigator.language || navigator.userLanguage).toLowerCase().split('-')[0];
 
-    <!-- App Store Meta Tags -->
-    <meta name="apple-itunes-app" content="app-id=6747049428">
-    <meta name="apple-mobile-web-app-capable" content="yes">
+        // Use browser language if supported, otherwise default
+        const targetLang = supportedLangs.includes(browserLang) ? browserLang : defaultLang;
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="/assets/images/Icon-B52R27ce.png">
-    <link rel="apple-touch-icon" href="/assets/images/Icon-B52R27ce.png">
+        // Store preference
+        localStorage.setItem('preferredLanguage', targetLang);
 
-    <!-- CSS -->
-  <link rel="stylesheet" crossorigin href="/assets/css/main-DyUtXH3t.css">
+        // Redirect
+        window.location.href = '/' + targetLang + '/';
+    })();
+    </script>
+
+    <!-- Fallback for users with JavaScript disabled -->
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=/en/">
+    </noscript>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0f;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .loader {
+            text-align: center;
+        }
+        .loader h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+        .spinner {
+            width: 50px;
+            height: 50px;
+            margin: 0 auto;
+            border: 4px solid rgba(139, 92, 246, 0.3);
+            border-top-color: #8b5cf6;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
 </head>
 <body>
-    <div class="main-content">
-    <!-- Navigation -->
-    <nav class="nav">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <img src="/assets/images/Icon-B52R27ce.png" alt="Cluso" class="nav-icon">
-                <span class="nav-title">Cluso</span>
-            </div>
-            <a href="./how-to-play.html" class="nav-link">How to play</a>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">
-                    Making parties
-                    <span class="hero-title-accent">feel good</span>
-                </h1>
-                <p class="hero-subtitle">
-                    We're Cluso, the ultimate party game. We help friends and families create unforgettable moments through smart, strategic social deduction.
-                </p>
-
-                <div class="hero-rating">
-                    <div class="stars">★★★★★</div>
-                    <span class="rating-text">4.9 • Free Download</span>
-                </div>
-
-                <a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8"
-                   target="_blank"
-                   rel="noopener"
-                   class="download-btn">
-                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-                         alt="Download on the App Store"
-                         class="app-store-badge">
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Screenshots -->
-    <section class="screenshots">
-        <div class="container">
-            <h2 class="section-title">Experience Cluso</h2>
-            <div class="screenshots-grid">
-                <div class="screenshot-item">
-                    <img src="/assets/images/0-c-BENsZSdt.png" alt="Game selection screen" class="screenshot-img">
-                    <p class="screenshot-caption">Choose your game</p>
-                </div>
-                <div class="screenshot-item">
-                    <img src="/assets/images/1-kLofw8wx.png" alt="Impostor gameplay" class="screenshot-img">
-                    <p class="screenshot-caption">Play with friends</p>
-                </div>
-                <div class="screenshot-item">
-                    <img src="/assets/images/2-Cszbd8Ss.png" alt="Voting interface" class="screenshot-img">
-                    <p class="screenshot-caption">Vote and discuss</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Games -->
-    <section class="games">
-        <div class="container">
-            <h2 class="section-title">Six games, one app</h2>
-            <div class="games-list">
-                <div class="game-item">
-                    <h3>Impostor</h3>
-                    <p>Master the art of deception</p>
-                </div>
-                <div class="game-item">
-                    <h3>Truth or Dare</h3>
-                    <p>Classic party challenges</p>
-                </div>
-                <div class="game-item">
-                    <h3>Would You Rather</h3>
-                    <p>Impossible choices and debates</p>
-                </div>
-                <div class="game-item">
-                    <h3>Bet Buddy</h3>
-                    <p>Predictions and competition</p>
-                </div>
-                <div class="game-item">
-                    <h3>Put a Finger Down</h3>
-                    <p>Share experiences and connect</p>
-                </div>
-                <div class="game-item">
-                    <h3>Fact or Fake</h3>
-                    <p>Test your knowledge</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="cta">
-        <div class="container">
-            <h2 class="cta-title">Ready to play?</h2>
-            <p class="cta-description">Download Cluso and make your next gathering unforgettable.</p>
-            <a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8"
-               target="_blank"
-               rel="noopener"
-               class="download-btn">
-                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-                     alt="Download on the App Store"
-                     class="app-store-badge">
-            </a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 False Peak. All rights reserved.</p>
-            <div class="footer-links">
-                <a href="https://falsepeak.ch/privacy">Privacy</a>
-                <a href="https://falsepeak.ch/terms">Terms</a>
-                <a href="https://falsepeak.ch">Website</a>
-            </div>
-        </div>
-    </footer>
+    <div class="loader">
+        <h1>Cluso</h1>
+        <div class="spinner"></div>
     </div>
 </body>
 </html>

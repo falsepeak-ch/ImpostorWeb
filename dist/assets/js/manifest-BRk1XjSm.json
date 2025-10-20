@@ -1,0 +1,41 @@
+{
+  "name": "Cluso - Social Deduction Party Game",
+  "short_name": "Cluso",
+  "description": "The ultimate offline party game for 3-20 players. Play Impostor, Truth or Dare, and more. Featuring Halloween Special Edition!",
+  "start_url": "/cluso/",
+  "display": "standalone",
+  "background_color": "#0078CC",
+  "theme_color": "#0078CC",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/src/assets/images/Icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["games", "entertainment", "social"],
+  "screenshots": [
+    {
+      "src": "/src/assets/images/Screenshots/1.png",
+      "sizes": "1170x2532",
+      "type": "image/png",
+      "label": "Impostor gameplay"
+    },
+    {
+      "src": "/src/assets/images/Screenshots/2.png",
+      "sizes": "1170x2532",
+      "type": "image/png",
+      "label": "Voting interface"
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "itunes",
+      "url": "https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8",
+      "id": "id6747049428"
+    }
+  ],
+  "prefer_related_applications": true
+}
