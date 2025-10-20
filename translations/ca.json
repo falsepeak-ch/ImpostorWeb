@@ -244,6 +244,152 @@
       "description": "Descarrega Cluso i porta aquests increïbles jocs a la teva propera trobada."
     }
   },
+  "rulesPage": {
+    "meta": {
+      "title": "Regles del Joc Impostor - Guia Completa | Com Jugar a Cluso",
+      "description": "Aprèn les regles completes per jugar jocs Impostor amb Cluso. Guia detallada amb configuració del joc, fases de torn, condicions de victòria, variacions i estratègies per a 3-20 jugadors. Perfecte per a principiants i jugadors experimentats.",
+      "keywords": "regles joc impostor, com jugar impostor, regles impostor, regles deducció social, regles joc festa, regles cluso, jugabilitat impostor, instruccions joc, guia impostor"
+    },
+    "hero": {
+      "title": "Joc Impostor",
+      "titleAccent": "Regles Completes",
+      "subtitle": "Tot el que necessites saber per jugar a Cluso Impostor. Des de la configuració bàsica fins a estratègies avançades, domina l'art de l'engany i la deducció."
+    },
+    "gameSetup": {
+      "title": "Configuració del Joc",
+      "intro": "Abans de començar a jugar, assegura't de tenir tot preparat per a un joc èpic d'Impostor.",
+      "requirements": {
+        "title": "El que necessites",
+        "items": [
+          "3-20 jugadors reunits en un lloc",
+          "Un dispositiu amb l'app Cluso instal·lada",
+          "Un espai tranquil per a discussions",
+          "10-30 minuts de temps de joc"
+        ]
+      },
+      "roles": {
+        "title": "Entenent els Rols",
+        "impostor": {
+          "name": "Impostors",
+          "description": "1-4 jugadors (depenent de la mida del grup) que coneixen les identitats dels altres. El seu objectiu és evitar la detecció i superar en nombre als innocents."
+        },
+        "innocent": {
+          "name": "Innocents",
+          "description": "Tots els jugadors restants que no coneixen el rol de ningú. El seu objectiu és identificar i eliminar tots els impostors mitjançant discussió i votació."
+        }
+      }
+    },
+    "howToPlay": {
+      "title": "Com Jugar",
+      "phases": [
+        {
+          "title": "1. Fase d'Assignació de Rols",
+          "description": "Passa el dispositiu al voltant. Cada jugador veu secretament el seu rol. Els impostors veuran qui són els altres impostors. Els innocents només veuen que són innocents."
+        },
+        {
+          "title": "2. Fase d'Ulls Tancats",
+          "description": "Tothom tanca els ulls. Els impostors obren els ulls per reconèixer-se mútuament, després els tanquen de nou. Això assegura que els impostors coneguin els seus aliats."
+        },
+        {
+          "title": "3. Fase de Discussió",
+          "description": "Tothom obre els ulls i discuteix lliurement. Els jugadors fan preguntes, comparteixen observacions i intenten deduir qui podrien ser els impostors. Estableix un límit de temps (3-5 minuts recomanat)."
+        },
+        {
+          "title": "4. Fase de Votació",
+          "description": "Els jugadors voten per eliminar algú que sospiten que és un impostor. La persona amb més vots és eliminada i el seu rol és revelat. Els empats poden gestionar-se amb revotació o sense eliminació."
+        },
+        {
+          "title": "5. Verificar Condicions de Victòria",
+          "description": "Si tots els impostors són eliminats, els innocents guanyen. Si els impostors igualen o superen als innocents, els impostors guanyen. Si no, tornar a la Fase de Discussió."
+        }
+      ]
+    },
+    "winConditions": {
+      "title": "Guanyar el Joc",
+      "innocent": {
+        "title": "Els Innocents Guanyen Quan:",
+        "conditions": [
+          "Tots els impostors han estat eliminats mitjançant votació",
+          "Això ha de passar abans que els impostors igualin el nombre d'innocents"
+        ]
+      },
+      "impostor": {
+        "title": "Els Impostors Guanyen Quan:",
+        "conditions": [
+          "Els impostors igualen o superen en nombre als innocents restants",
+          "En aquest punt, els impostors no poden ser superats en vots i han guanyat"
+        ]
+      }
+    },
+    "variations": {
+      "title": "Variacions del Joc",
+      "list": [
+        {
+          "title": "Ronda Ràpida",
+          "description": "Limita el temps de discussió a 2 minuts per ronda per a un joc ràpid i caòtic."
+        },
+        {
+          "title": "Impostors Silenciosos",
+          "description": "Els impostors no poden veure's entre ells i han de treballar independentment per evitar la detecció."
+        },
+        {
+          "title": "Mode Detectiu",
+          "description": "Un innocent és designat secretament com a detectiu que té una oportunitat per saber si un jugador és un impostor."
+        },
+        {
+          "title": "Eliminació Doble",
+          "description": "Vota per eliminar dos jugadors cada ronda per a un joc més ràpid i intens."
+        }
+      ]
+    },
+    "commonMistakes": {
+      "title": "Errors Comuns a Evitar",
+      "mistakes": [
+        {
+          "title": "Votar Massa Ràpid",
+          "description": "Pren temps per discutir i recopilar informació. Votar a l'atzar ajuda que els impostors guanyin."
+        },
+        {
+          "title": "Ignorar Jugadors Callats",
+          "description": "Els impostors sovint romanen callats per evitar sospites. Involucra a tots en la discussió."
+        },
+        {
+          "title": "Revelar Informació Massa Aviat",
+          "description": "Com a innocent, no revelzis totes les teves observacions immediatament. Guarda informació per a moments estratègics."
+        },
+        {
+          "title": "Sobreactuar com a Impostor",
+          "description": "Els impostors que actuen massa sospitosos o massa innocents poden atraure atenció. Mantén-te natural."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ de Regles",
+      "questions": {
+        "howManyImpostors": {
+          "q": "Quants impostors hi hauria d'haver?",
+          "a": "Per a 3-5 jugadors: 1 impostor. Per a 6-9 jugadors: 2 impostors. Per a 10-15 jugadors: 3 impostors. Per a 16+ jugadors: 4 impostors. Pots ajustar segons la preferència de dificultat."
+        },
+        "canSkipVote": {
+          "q": "Els jugadors poden ometre la votació?",
+          "a": "Sí, però no és recomanable. Ometre vots fa més difícil que els innocents guanyin. No obstant això, ometre pot ser estratègic si no hi ha prou informació."
+        },
+        "whatIfTie": {
+          "q": "Què passa si hi ha un empat en la votació?",
+          "a": "Pots: (1) Tenir una revotació només entre els jugadors empatats, (2) Ningú és eliminat aquesta ronda, o (3) Eliminar tots els jugadors empatats. Decideix la teva regla de casa abans de començar."
+        },
+        "canDiscussAfterElimination": {
+          "q": "Els jugadors eliminats poden seguir parlant?",
+          "a": "No. Un cop eliminats, els jugadors han de romandre en silenci i no influir en el joc. Poden observar però no participar en discussions."
+        }
+      }
+    },
+    "cta": {
+      "title": "Preparat per Jugar?",
+      "description": "Descarrega Cluso ara i comença el teu primer joc d'Impostor amb aquestes regles en ment.",
+      "button": "Descarregar Cluso"
+    }
+  },
   "footer": {
     "copyright": "© 2025 False Peak. Tots els drets reservats.",
     "links": {

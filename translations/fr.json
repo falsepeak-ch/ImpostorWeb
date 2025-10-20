@@ -1,0 +1,338 @@
+{
+  "lang": "fr",
+  "langName": "Français",
+  "meta": {
+    "home": {
+      "title": "Cluso Imposteur - Jeu de Déduction Sociale Ultime | Gratuit iOS",
+      "description": "Jouez à Cluso Imposteur, le jeu de déduction sociale hors ligne #1 pour 3-20 joueurs. Avec Spécial Halloween et personnages effrayants ! Trouvez l'imposteur parmi vos amis. Pas d'internet requis. Gratuit sur l'App Store.",
+      "keywords": "cluso, jeu imposteur, jeu déduction sociale, jeu hors ligne, alternative among us, jeu mafia, jeu fête mobile, jeu halloween, imposteur halloween, jeu groupe, multijoueur, app jeu société, jeu gratuit, sans wifi, 6-20 joueurs"
+    },
+    "howToPlay": {
+      "title": "Comment Jouer à Cluso Imposteur - Guide Spécial Halloween | Règles du Jeu",
+      "description": "Apprenez à jouer à Cluso Imposteur avec notre guide complet. Inclut des conseils de l'Édition Spéciale Halloween, des stratégies et des instructions étape par étape. Maîtrisez le meilleur jeu de société de déduction sociale !",
+      "keywords": "comment jouer cluso, règles imposteur, guide déduction sociale, jeu fête halloween, instructions jeu, comment jouer imposteur, tutoriel cluso, stratégie jeu société"
+    }
+  },
+  "nav": {
+    "title": "Cluso",
+    "backToHome": "← Retour à l'accueil",
+    "languageSelector": "Langue"
+  },
+  "hero": {
+    "title": "Trouvez l'Imposteur",
+    "titleAccent": "Parmi Vos Amis",
+    "subtitle": "Cluso est le jeu de déduction sociale ultime. Rassemblez 3 à 20 joueurs, découvrez les mensonges et découvrez qui trompe secrètement le groupe. Un seul appareil suffit.",
+    "howToPlayBtn": "Comment jouer",
+    "ratingStars": "★★★★★",
+    "ratingText": "4,9 • Téléchargement Gratuit",
+    "downloadBtnAlt": "Télécharger sur l'App Store"
+  },
+  "halloween": {
+    "badge": "Temps Limité",
+    "title": "Édition Spéciale Halloween",
+    "description": "Découvrez le jeu Imposteur comme jamais auparavant avec des personnages effrayants, des scénarios hantés et des questions thématiques d'Halloween. Le jeu parfait pour votre fête d'Halloween !",
+    "features": {
+      "characters": "Personnages Effrayants",
+      "questions": "Questions d'Halloween",
+      "scenarios": "Scénarios Hantés"
+    },
+    "cta": "Télécharger l'Édition Halloween"
+  },
+  "screenshots": {
+    "title": "Découvrez le Jeu",
+    "captions": {
+      "game": "Démarrez le jeu",
+      "play": "Discutez et déduisez",
+      "vote": "Votez et éliminez"
+    }
+  },
+  "games": {
+    "title": "Six jeux, une app",
+    "list": {
+      "impostor": {
+        "title": "Imposteur",
+        "description": "Maîtrisez l'art de la tromperie"
+      },
+      "truthOrDare": {
+        "title": "Action ou Vérité",
+        "description": "Défis classiques de fête"
+      },
+      "wouldYouRather": {
+        "title": "Tu Préfères",
+        "description": "Choix impossibles et débats"
+      },
+      "betBuddy": {
+        "title": "Pari Copain",
+        "description": "Prédictions et compétition"
+      },
+      "putAFingerDown": {
+        "title": "Baisse un Doigt",
+        "description": "Partagez des expériences et connectez-vous"
+      },
+      "factOrFake": {
+        "title": "Vrai ou Faux",
+        "description": "Testez vos connaissances"
+      }
+    }
+  },
+  "cta": {
+    "title": "Prêt à jouer ?",
+    "description": "Téléchargez Cluso et rendez votre prochaine réunion inoubliable."
+  },
+  "howToPlayPage": {
+    "hero": {
+      "title": "Comment jouer à",
+      "titleAccent": "Cluso",
+      "subtitle": "Tout ce que vous devez savoir pour commencer à jouer au meilleur jeu de société avec vos amis et votre famille."
+    },
+    "gettingStarted": {
+      "title": "Premiers pas",
+      "steps": {
+        "download": {
+          "title": "Téléchargez l'app",
+          "description": "Obtenez Cluso sur l'App Store sur votre iPhone ou iPad"
+        },
+        "gather": {
+          "title": "Rassemblez vos amis",
+          "description": "Vous avez besoin d'au moins 3 joueurs, mais c'est plus amusant avec 6-20 personnes"
+        },
+        "choose": {
+          "title": "Choisissez un jeu",
+          "description": "Choisissez parmi six jeux de société différents, chacun avec des règles uniques"
+        },
+        "pass": {
+          "title": "Passez le téléphone",
+          "description": "Un seul appareil suffit - tout le monde joue à tour de rôle"
+        }
+      }
+    },
+    "impostorGuide": {
+      "title": "Comment jouer à Imposteur",
+      "gameTitle": "Imposteur",
+      "description": "Le meilleur jeu de déduction sociale. Trouvez l'imposteur parmi vos amis avant que le temps ne soit écoulé.",
+      "howToPlay": {
+        "title": "Comment jouer :",
+        "steps": [
+          "Tout le monde ferme les yeux sauf le(s) imposteur(s)",
+          "L'imposteur voit qui d'autre est un imposteur",
+          "Tout le monde ouvre les yeux et discute de qui pourrait être l'imposteur",
+          "Votez pour éliminer quelqu'un que vous pensez être l'imposteur",
+          "La personne avec le plus de votes est éliminée",
+          "Répétez jusqu'à ce que tous les imposteurs soient trouvés ou qu'ils soient plus nombreux que les innocents"
+        ]
+      },
+      "tips": {
+        "title": "Conseils :",
+        "list": [
+          "Faites attention aux comportements suspects et aux incohérences",
+          "En tant qu'imposteur, essayez de vous fondre dans la masse et de détourner les soupçons",
+          "Posez des questions pointues pour piéger les imposteurs dans leurs mensonges",
+          "N'éliminez pas au hasard - pensez stratégiquement"
+        ]
+      }
+    },
+    "masterGame": {
+      "title": "Maîtrisez le jeu",
+      "tips": {
+        "innocents": {
+          "title": "Pour les Innocents",
+          "description": "Observez le comportement nerveux, les contradictions et les joueurs qui détournent les questions"
+        },
+        "impostors": {
+          "title": "Pour les Imposteurs",
+          "description": "Restez calme, agissez naturellement et votez stratégiquement pour vous fondre dans le groupe"
+        },
+        "discussion": {
+          "title": "Phase de Discussion",
+          "description": "Posez des questions spécifiques et écoutez attentivement les réponses de chacun"
+        },
+        "voting": {
+          "title": "Stratégie de Vote",
+          "description": "Ne votez pas au hasard - construisez des alliances et réfléchissez à qui profite le plus"
+        }
+      }
+    },
+    "halloweenSection": {
+      "title": "Édition Spéciale Halloween",
+      "subtitle": "Essayez la nouvelle édition effrayante d'Halloween avec des personnages et des scénarios thématiques !",
+      "features": {
+        "characters": {
+          "title": "👻 Personnages Effrayants",
+          "description": "Jouez avec des personnages d'Halloween qui ajoutent une touche terrifiante à votre soirée jeux"
+        },
+        "questions": {
+          "title": "🕷️ Questions Hantées",
+          "description": "Découvrez des scénarios et des questions exclusifs d'Halloween conçus pour la saison effrayante"
+        },
+        "parties": {
+          "title": "🦇 Parfait pour les Fêtes",
+          "description": "Rendez votre fête d'Halloween inoubliable avec cette édition spéciale à durée limitée"
+        },
+        "limited": {
+          "title": "🎃 Seulement pour un Temps Limité",
+          "description": "Téléchargez maintenant pour découvrir le spécial Halloween avant qu'il ne disparaisse !"
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Prêt à commencer à jouer ?",
+      "description": "Téléchargez Cluso et apportez ces jeux incroyables à votre prochaine réunion."
+    }
+  },
+  "rulesPage": {
+    "meta": {
+      "title": "Règles du Jeu Imposteur - Guide Complet | Comment Jouer à Cluso",
+      "description": "Apprenez les règles complètes pour jouer aux jeux Imposteur avec Cluso. Guide détaillé avec configuration du jeu, phases de tour, conditions de victoire, variations et stratégies pour 3-20 joueurs. Parfait pour les débutants et les joueurs expérimentés.",
+      "keywords": "règles jeu imposteur, comment jouer imposteur, règles imposteur, règles déduction sociale, règles jeu fête, règles cluso, gameplay imposteur, instructions jeu, guide imposteur"
+    },
+    "hero": {
+      "title": "Jeu Imposteur",
+      "titleAccent": "Règles Complètes",
+      "subtitle": "Tout ce que vous devez savoir pour jouer à Cluso Imposteur. De la configuration de base aux stratégies avancées, maîtrisez l'art de la tromperie et de la déduction."
+    },
+    "gameSetup": {
+      "title": "Configuration du Jeu",
+      "intro": "Avant de commencer à jouer, assurez-vous d'avoir tout prêt pour un jeu épique d'Imposteur.",
+      "requirements": {
+        "title": "Ce dont vous avez besoin",
+        "items": [
+          "3-20 joueurs réunis en un lieu",
+          "Un appareil avec l'app Cluso installée",
+          "Un espace calme pour les discussions",
+          "10-30 minutes de temps de jeu"
+        ]
+      },
+      "roles": {
+        "title": "Comprendre les Rôles",
+        "impostor": {
+          "name": "Imposteurs",
+          "description": "1-4 joueurs (selon la taille du groupe) qui connaissent les identités des autres. Leur objectif est d'éviter la détection et de surpasser en nombre les innocents."
+        },
+        "innocent": {
+          "name": "Innocents",
+          "description": "Tous les joueurs restants qui ne connaissent le rôle de personne. Leur objectif est d'identifier et d'éliminer tous les imposteurs par la discussion et le vote."
+        }
+      }
+    },
+    "howToPlay": {
+      "title": "Comment Jouer",
+      "phases": [
+        {
+          "title": "1. Phase d'Attribution des Rôles",
+          "description": "Passez l'appareil. Chaque joueur voit secrètement son rôle. Les imposteurs verront qui sont les autres imposteurs. Les innocents voient seulement qu'ils sont innocents."
+        },
+        {
+          "title": "2. Phase Yeux Fermés",
+          "description": "Tout le monde ferme les yeux. Les imposteurs ouvrent leurs yeux pour se reconnaître mutuellement, puis les referment. Cela assure que les imposteurs connaissent leurs alliés."
+        },
+        {
+          "title": "3. Phase de Discussion",
+          "description": "Tout le monde ouvre les yeux et discute librement. Les joueurs posent des questions, partagent des observations et tentent de déduire qui pourraient être les imposteurs. Fixez une limite de temps (3-5 minutes recommandé)."
+        },
+        {
+          "title": "4. Phase de Vote",
+          "description": "Les joueurs votent pour éliminer quelqu'un qu'ils soupçonnent être un imposteur. La personne avec le plus de votes est éliminée et son rôle est révélé. Les égalités peuvent être gérées par revote ou sans élimination."
+        },
+        {
+          "title": "5. Vérifier les Conditions de Victoire",
+          "description": "Si tous les imposteurs sont éliminés, les innocents gagnent. Si les imposteurs égalent ou dépassent les innocents, les imposteurs gagnent. Sinon, retour à la Phase de Discussion."
+        }
+      ]
+    },
+    "winConditions": {
+      "title": "Gagner le Jeu",
+      "innocent": {
+        "title": "Les Innocents Gagnent Quand :",
+        "conditions": [
+          "Tous les imposteurs ont été éliminés par vote",
+          "Cela doit se produire avant que les imposteurs n'égalent le nombre d'innocents"
+        ]
+      },
+      "impostor": {
+        "title": "Les Imposteurs Gagnent Quand :",
+        "conditions": [
+          "Les imposteurs égalent ou dépassent en nombre les innocents restants",
+          "À ce stade, les imposteurs ne peuvent pas être dépassés en votes et ont gagné"
+        ]
+      }
+    },
+    "variations": {
+      "title": "Variations du Jeu",
+      "list": [
+        {
+          "title": "Tour Rapide",
+          "description": "Limitez le temps de discussion à 2 minutes par tour pour un jeu rapide et chaotique."
+        },
+        {
+          "title": "Imposteurs Silencieux",
+          "description": "Les imposteurs ne peuvent pas se voir et doivent travailler indépendamment pour éviter la détection."
+        },
+        {
+          "title": "Mode Détective",
+          "description": "Un innocent est secrètement désigné comme détective qui a une chance de savoir si un joueur est un imposteur."
+        },
+        {
+          "title": "Élimination Double",
+          "description": "Votez pour éliminer deux joueurs à chaque tour pour un jeu plus rapide et intense."
+        }
+      ]
+    },
+    "commonMistakes": {
+      "title": "Erreurs Courantes à Éviter",
+      "mistakes": [
+        {
+          "title": "Voter Trop Vite",
+          "description": "Prenez le temps de discuter et de recueillir des informations. Voter au hasard aide les imposteurs à gagner."
+        },
+        {
+          "title": "Ignorer les Joueurs Silencieux",
+          "description": "Les imposteurs restent souvent silencieux pour éviter les soupçons. Impliquez tout le monde dans la discussion."
+        },
+        {
+          "title": "Révéler les Informations Trop Tôt",
+          "description": "En tant qu'innocent, ne révélez pas toutes vos observations immédiatement. Gardez les informations pour des moments stratégiques."
+        },
+        {
+          "title": "Surjouer en tant qu'Imposteur",
+          "description": "Les imposteurs qui agissent trop suspects ou trop innocents peuvent attirer l'attention. Restez naturel."
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ des Règles",
+      "questions": {
+        "howManyImpostors": {
+          "q": "Combien d'imposteurs devrait-il y avoir ?",
+          "a": "Pour 3-5 joueurs : 1 imposteur. Pour 6-9 joueurs : 2 imposteurs. Pour 10-15 joueurs : 3 imposteurs. Pour 16+ joueurs : 4 imposteurs. Vous pouvez ajuster selon la préférence de difficulté."
+        },
+        "canSkipVote": {
+          "q": "Les joueurs peuvent-ils sauter le vote ?",
+          "a": "Oui, mais ce n'est pas recommandé. Sauter les votes rend plus difficile la victoire des innocents. Cependant, sauter peut être stratégique s'il n'y a pas assez d'informations."
+        },
+        "whatIfTie": {
+          "q": "Que se passe-t-il en cas d'égalité au vote ?",
+          "a": "Vous pouvez : (1) Faire un nouveau vote uniquement entre les joueurs à égalité, (2) Personne n'est éliminé ce tour, ou (3) Éliminer tous les joueurs à égalité. Décidez de votre règle maison avant de commencer."
+        },
+        "canDiscussAfterElimination": {
+          "q": "Les joueurs éliminés peuvent-ils encore parler ?",
+          "a": "Non. Une fois éliminés, les joueurs doivent rester silencieux et ne pas influencer le jeu. Ils peuvent regarder mais ne pas participer aux discussions."
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à Jouer ?",
+      "description": "Téléchargez Cluso maintenant et commencez votre premier jeu d'Imposteur avec ces règles en tête.",
+      "button": "Télécharger Cluso"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 False Peak. Tous droits réservés.",
+    "links": {
+      "privacy": "Confidentialité",
+      "terms": "Conditions",
+      "website": "Site web"
+    }
+  },
+  "appStoreUrl": "https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8",
+  "halloweenUrl": "https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=halloween"
+}

@@ -1,0 +1,374 @@
+{
+  "lang": "en",
+  "langName": "English",
+  "meta": {
+    "home": {
+      "title": "Cluso - Offline Impostor Party Game | Social Deduction for 3-20 Players",
+      "description": "Play Cluso - the ultimate offline impostor party game for 3-20 players. Find the imposter among your friends in this social deduction game. No WiFi needed. Perfect for parties, gatherings & game nights. Free download on iOS.",
+      "keywords": "impostor game, imposter game, social deduction game, offline party game, among us alternative, mafia game, party games, halloween impostor, offline multiplayer, no wifi game, group games, 3-20 players, cluso"
+    },
+    "howToPlay": {
+      "title": "How to Play Cluso Impostor - Halloween Special Guide | Game Rules",
+      "description": "Learn how to play Cluso Impostor with our complete guide. Includes Halloween Special edition tips, strategies, and step-by-step instructions. Master the ultimate social deduction party game!",
+      "keywords": "cluso how to play, impostor game rules, social deduction guide, halloween party game, party game instructions, how to play impostor, cluso tutorial, party game strategy, halloween impostor game"
+    }
+  },
+  "nav": {
+    "title": "Cluso",
+    "backToHome": "← Back to home",
+    "languageSelector": "Language"
+  },
+  "hero": {
+    "title": "Find the Impostor",
+    "titleAccent": "Among Your Friends",
+    "subtitle": "Cluso is the ultimate social deduction game. Gather 3-20 players, uncover lies, and discover who's secretly deceiving the group. One device is all you need.",
+    "howToPlayBtn": "How to play",
+    "ratingStars": "★★★★★",
+    "ratingText": "4.9 • Free Download",
+    "downloadBtnAlt": "Download on the App Store"
+  },
+  "halloween": {
+    "badge": "Limited Time",
+    "title": "Halloween Special Edition",
+    "description": "Experience the Impostor game like never before with spooky characters, haunted scenarios, and Halloween-themed questions. The perfect game for your Halloween party!",
+    "features": {
+      "characters": "Spooky Characters",
+      "questions": "Halloween Questions",
+      "scenarios": "Haunted Scenarios"
+    },
+    "cta": "Download Halloween Edition"
+  },
+  "screenshots": {
+    "title": "Experience the Game",
+    "captions": {
+      "game": "Start the game",
+      "play": "Discuss and deduce",
+      "vote": "Vote and eliminate"
+    }
+  },
+  "aboutGame": {
+    "title": "The Ultimate Impostor Party Game",
+    "description": "Cluso is an offline social deduction game where players must find the impostor hiding among them. Perfect for 3-20 players, this party game combines strategy, psychology, and deception. No internet connection required - just gather your friends, pass one device, and start playing. Whether you're hosting a game night, party, or casual gathering, Cluso's Impostor mode delivers endless entertainment. The game is similar to popular titles like Among Us and Mafia, but designed specifically for in-person play with no WiFi needed.",
+    "features": {
+      "offline": {
+        "title": "Play Offline Anywhere",
+        "description": "No internet or WiFi required. Perfect for parties, camping trips, or anywhere without connection."
+      },
+      "players": {
+        "title": "3-20 Players Support",
+        "description": "Works with small groups or large parties. The more players, the more challenging and fun!"
+      },
+      "oneDevice": {
+        "title": "One Device Needed",
+        "description": "Just one phone or tablet for everyone. Pass it around and keep the impostor secret."
+      }
+    }
+  },
+  "perfectFor": {
+    "title": "Perfect for Every Occasion",
+    "subtitle": "The impostor game that brings people together",
+    "occasions": {
+      "parties": {
+        "title": "Party Game Night",
+        "description": "Break the ice and get everyone laughing at your next party"
+      },
+      "family": {
+        "title": "Family Gatherings",
+        "description": "Fun for all ages - from teens to adults"
+      },
+      "friends": {
+        "title": "Friends Hangout",
+        "description": "The perfect activity when friends come over"
+      },
+      "events": {
+        "title": "Special Events",
+        "description": "Weddings, birthdays, holidays - Cluso fits any celebration"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": {
+      "whatIs": {
+        "q": "What is Cluso Impostor?",
+        "a": "Cluso Impostor is an offline social deduction party game for 3-20 players where you must find the impostor hiding among your group. It's similar to Among Us and Mafia but designed for in-person play with no internet required."
+      },
+      "howMany": {
+        "q": "How many players do you need?",
+        "a": "You can play with 3-20 players. The game works with small groups but is more exciting with 6 or more people. Only one device is needed for everyone."
+      },
+      "offline": {
+        "q": "Can you play without internet?",
+        "a": "Yes! Cluso is completely offline. No WiFi or internet connection is required. Perfect for parties, camping, or anywhere without signal."
+      },
+      "devices": {
+        "q": "Do all players need the app?",
+        "a": "No! Only one person needs to download the app. You pass one device around to all players - keeping the impostor's identity secret."
+      },
+      "free": {
+        "q": "Is the game free?",
+        "a": "Yes, Cluso is free to download and play. Available on iOS App Store."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to play?",
+    "description": "Download Cluso Impostor and make your next gathering unforgettable."
+  },
+  "howToPlayPage": {
+    "hero": {
+      "title": "How to play",
+      "titleAccent": "Impostor",
+      "subtitle": "Everything you need to know to start playing the ultimate social deduction game with your friends and family."
+    },
+    "gettingStarted": {
+      "title": "Getting started",
+      "steps": {
+        "download": {
+          "title": "Download the app",
+          "description": "Get Cluso from the App Store on your iPhone or iPad"
+        },
+        "gather": {
+          "title": "Gather your friends",
+          "description": "You need at least 3 players, but it's more fun with 6-20 people"
+        },
+        "choose": {
+          "title": "Start Impostor",
+          "description": "Launch the Impostor game mode and pass the device around"
+        },
+        "pass": {
+          "title": "Pass the phone",
+          "description": "One device is all you need - everyone takes turns looking"
+        }
+      }
+    },
+    "impostorGuide": {
+      "title": "How to play Impostor",
+      "gameTitle": "Impostor",
+      "description": "The ultimate social deduction game. Find the impostor among your friends before time runs out.",
+      "howToPlay": {
+        "title": "How to play:",
+        "steps": [
+          "Everyone closes their eyes except the impostor(s)",
+          "The impostor sees who else is an impostor",
+          "Everyone opens their eyes and discusses who might be the impostor",
+          "Vote to eliminate someone you think is the impostor",
+          "The person with the most votes is eliminated",
+          "Repeat until all impostors are found or they outnumber the innocents"
+        ]
+      },
+      "tips": {
+        "title": "Tips:",
+        "list": [
+          "Pay attention to suspicious behavior and inconsistencies",
+          "As an impostor, try to blend in and deflect suspicion",
+          "Ask probing questions to catch impostors in lies",
+          "Don't eliminate randomly - think strategically"
+        ]
+      }
+    },
+    "masterGame": {
+      "title": "Master the game",
+      "tips": {
+        "innocents": {
+          "title": "For Innocents",
+          "description": "Watch for nervous behavior, contradictions, and players who deflect questions"
+        },
+        "impostors": {
+          "title": "For Impostors",
+          "description": "Stay calm, act natural, and vote strategically to blend in with the group"
+        },
+        "discussion": {
+          "title": "Discussion Phase",
+          "description": "Ask specific questions and listen carefully to everyone's responses"
+        },
+        "voting": {
+          "title": "Voting Strategy",
+          "description": "Don't vote randomly - build alliances and think about who benefits most"
+        }
+      }
+    },
+    "halloweenSection": {
+      "title": "Halloween Special Edition",
+      "subtitle": "Try the spooky new Halloween edition with themed characters and scenarios!",
+      "features": {
+        "characters": {
+          "title": "👻 Spooky Characters",
+          "description": "Play with Halloween-themed characters that add a frightening twist to your game night"
+        },
+        "questions": {
+          "title": "🕷️ Haunted Questions",
+          "description": "Discover exclusive Halloween scenarios and questions designed for the spooky season"
+        },
+        "parties": {
+          "title": "🦇 Perfect for Parties",
+          "description": "Make your Halloween party unforgettable with this limited-time special edition"
+        },
+        "limited": {
+          "title": "🎃 Limited Time Only",
+          "description": "Download now to experience the Halloween special before it's gone!"
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Ready to start playing?",
+      "description": "Download Cluso Impostor and bring the ultimate social deduction game to your next gathering."
+    }
+  },
+  "rulesPage": {
+    "meta": {
+      "title": "Impostor Game Rules - Complete Guide | How to Play Cluso",
+      "description": "Learn the complete rules for playing Impostor games with Cluso. Detailed guide covering game setup, turn phases, winning conditions, variations, and strategies for 3-20 players. Perfect for beginners and experienced players.",
+      "keywords": "impostor game rules, how to play impostor, impostor rules, social deduction rules, party game rules, cluso rules, impostor gameplay, game instructions, impostor guide"
+    },
+    "hero": {
+      "title": "Impostor Game",
+      "titleAccent": "Complete Rules",
+      "subtitle": "Everything you need to know to play Cluso Impostor. From basic setup to advanced strategies, master the art of deception and deduction."
+    },
+    "gameSetup": {
+      "title": "Game Setup",
+      "intro": "Before you start playing, make sure you have everything ready for an epic game of Impostor.",
+      "requirements": {
+        "title": "What You Need",
+        "items": [
+          "3-20 players gathered in one location",
+          "One device with Cluso app installed",
+          "A quiet space for discussions",
+          "10-30 minutes of playing time"
+        ]
+      },
+      "roles": {
+        "title": "Understanding Roles",
+        "impostor": {
+          "name": "Impostors",
+          "description": "1-4 players (depending on group size) who know each other's identities. Their goal is to avoid detection and outnumber the innocents."
+        },
+        "innocent": {
+          "name": "Innocents",
+          "description": "All remaining players who don't know anyone's role. Their goal is to identify and eliminate all impostors through discussion and voting."
+        }
+      }
+    },
+    "howToPlay": {
+      "title": "How to Play",
+      "phases": [
+        {
+          "title": "1. Role Assignment Phase",
+          "description": "Pass the device around. Each player secretly views their role. Impostors will see who the other impostors are. Innocents see only that they are innocent."
+        },
+        {
+          "title": "2. Eyes Closed Phase",
+          "description": "Everyone closes their eyes. Impostors open their eyes to acknowledge each other, then close them again. This ensures impostors know their allies."
+        },
+        {
+          "title": "3. Discussion Phase",
+          "description": "Everyone opens their eyes and discusses freely. Players ask questions, share observations, and try to deduce who the impostors might be. Set a time limit (3-5 minutes recommended)."
+        },
+        {
+          "title": "4. Voting Phase",
+          "description": "Players vote to eliminate someone they suspect is an impostor. The person with the most votes is eliminated and their role is revealed. Ties can be handled by revote or no elimination."
+        },
+        {
+          "title": "5. Check Win Conditions",
+          "description": "If all impostors are eliminated, innocents win. If impostors equal or outnumber innocents, impostors win. Otherwise, return to Discussion Phase."
+        }
+      ]
+    },
+    "winConditions": {
+      "title": "Winning the Game",
+      "innocent": {
+        "title": "Innocents Win When:",
+        "conditions": [
+          "All impostors have been eliminated through voting",
+          "This must happen before impostors reach equal numbers with innocents"
+        ]
+      },
+      "impostor": {
+        "title": "Impostors Win When:",
+        "conditions": [
+          "Impostors equal or outnumber the remaining innocents",
+          "At this point, impostors can't be outvoted and have won"
+        ]
+      }
+    },
+    "variations": {
+      "title": "Game Variations",
+      "list": [
+        {
+          "title": "Speed Round",
+          "description": "Limit discussion time to 2 minutes per round for a fast-paced, chaotic game."
+        },
+        {
+          "title": "Silent Impostors",
+          "description": "Impostors cannot see each other and must work independently to avoid detection."
+        },
+        {
+          "title": "Detective Mode",
+          "description": "One innocent is secretly designated as a detective who gets one chance to learn if a player is an impostor."
+        },
+        {
+          "title": "Double Elimination",
+          "description": "Vote to eliminate two players each round for a faster, more intense game."
+        }
+      ]
+    },
+    "commonMistakes": {
+      "title": "Common Mistakes to Avoid",
+      "mistakes": [
+        {
+          "title": "Voting Too Quickly",
+          "description": "Take time to discuss and gather information. Random voting helps impostors win."
+        },
+        {
+          "title": "Ignoring Quiet Players",
+          "description": "Impostors often stay quiet to avoid suspicion. Engage everyone in the discussion."
+        },
+        {
+          "title": "Revealing Information Too Early",
+          "description": "As an innocent, don't reveal all your observations immediately. Save information for strategic moments."
+        },
+        {
+          "title": "Overacting as Impostor",
+          "description": "Impostors who act too suspicious or too innocent can draw attention. Stay natural."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Rules FAQ",
+      "questions": {
+        "howManyImpostors": {
+          "q": "How many impostors should there be?",
+          "a": "For 3-5 players: 1 impostor. For 6-9 players: 2 impostors. For 10-15 players: 3 impostors. For 16+ players: 4 impostors. You can adjust based on difficulty preference."
+        },
+        "canSkipVote": {
+          "q": "Can players skip voting?",
+          "a": "Yes, but it's not recommended. Skipping votes makes it harder for innocents to win. However, skipping can be strategic if there's not enough information."
+        },
+        "whatIfTie": {
+          "q": "What happens if there's a tie in voting?",
+          "a": "You can either: (1) Have a revote between tied players only, (2) No one is eliminated that round, or (3) Eliminate all tied players. Decide on your house rule before starting."
+        },
+        "canDiscussAfterElimination": {
+          "q": "Can eliminated players still talk?",
+          "a": "No. Once eliminated, players should remain silent and not influence the game. They can watch but not participate in discussions."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Play?",
+      "description": "Download Cluso now and start your first game of Impostor with these rules in mind.",
+      "button": "Download Cluso"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 False Peak. All rights reserved.",
+    "links": {
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "website": "Website"
+    }
+  },
+  "appStoreUrl": "https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8",
+  "halloweenUrl": "https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=halloween"
+}

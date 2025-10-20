@@ -244,6 +244,152 @@
       "description": "Lade Cluso herunter und bringe diese tollen Spiele zu deinem nächsten Treffen."
     }
   },
+  "rulesPage": {
+    "meta": {
+      "title": "Impostor Spielregeln - Vollständige Anleitung | Wie man Cluso spielt",
+      "description": "Lerne die vollständigen Regeln für Impostor-Spiele mit Cluso. Detaillierte Anleitung mit Spielaufbau, Spielphasen, Gewinnbedingungen, Variationen und Strategien für 3-20 Spieler. Perfekt für Anfänger und erfahrene Spieler.",
+      "keywords": "impostor spielregeln, wie spielt man impostor, impostor regeln, social deduction regeln, party spiel regeln, cluso regeln, impostor gameplay, spielanleitung, impostor guide"
+    },
+    "hero": {
+      "title": "Impostor Spiel",
+      "titleAccent": "Vollständige Regeln",
+      "subtitle": "Alles, was du wissen musst, um Cluso Impostor zu spielen. Von der Grundeinrichtung bis zu fortgeschrittenen Strategien - meistere die Kunst der Täuschung und Deduktion."
+    },
+    "gameSetup": {
+      "title": "Spielaufbau",
+      "intro": "Bevor du anfängst zu spielen, stelle sicher, dass du alles für ein episches Impostor-Spiel bereit hast.",
+      "requirements": {
+        "title": "Was du brauchst",
+        "items": [
+          "3-20 Spieler an einem Ort versammelt",
+          "Ein Gerät mit installierter Cluso-App",
+          "Ein ruhiger Raum für Diskussionen",
+          "10-30 Minuten Spielzeit"
+        ]
+      },
+      "roles": {
+        "title": "Rollen verstehen",
+        "impostor": {
+          "name": "Impostoren",
+          "description": "1-4 Spieler (abhängig von der Gruppengröße), die die Identitäten der anderen kennen. Ihr Ziel ist es, Entdeckung zu vermeiden und die Unschuldigen zu übertreffen."
+        },
+        "innocent": {
+          "name": "Unschuldige",
+          "description": "Alle übrigen Spieler, die niemandes Rolle kennen. Ihr Ziel ist es, alle Impostoren durch Diskussion und Abstimmung zu identifizieren und zu eliminieren."
+        }
+      }
+    },
+    "howToPlay": {
+      "title": "So wird gespielt",
+      "phases": [
+        {
+          "title": "1. Rollenzuteilungsphase",
+          "description": "Gib das Gerät herum. Jeder Spieler sieht heimlich seine Rolle. Impostoren sehen, wer die anderen Impostoren sind. Unschuldige sehen nur, dass sie unschuldig sind."
+        },
+        {
+          "title": "2. Augen-Geschlossen-Phase",
+          "description": "Alle schließen ihre Augen. Impostoren öffnen ihre Augen, um sich gegenseitig zu erkennen, dann schließen sie sie wieder. Dies stellt sicher, dass Impostoren ihre Verbündeten kennen."
+        },
+        {
+          "title": "3. Diskussionsphase",
+          "description": "Alle öffnen ihre Augen und diskutieren frei. Spieler stellen Fragen, teilen Beobachtungen und versuchen zu deduzieren, wer die Impostoren sein könnten. Setze ein Zeitlimit (3-5 Minuten empfohlen)."
+        },
+        {
+          "title": "4. Abstimmungsphase",
+          "description": "Spieler stimmen ab, um jemanden zu eliminieren, den sie für einen Impostor halten. Die Person mit den meisten Stimmen wird eliminiert und ihre Rolle wird enthüllt. Gleichstand kann durch Neuabstimmung oder keine Eliminierung gehandhabt werden."
+        },
+        {
+          "title": "5. Gewinnbedingungen prüfen",
+          "description": "Wenn alle Impostoren eliminiert sind, gewinnen die Unschuldigen. Wenn Impostoren gleich viele oder mehr als Unschuldige sind, gewinnen Impostoren. Andernfalls zurück zur Diskussionsphase."
+        }
+      ]
+    },
+    "winConditions": {
+      "title": "Das Spiel gewinnen",
+      "innocent": {
+        "title": "Unschuldige gewinnen wenn:",
+        "conditions": [
+          "Alle Impostoren durch Abstimmung eliminiert wurden",
+          "Dies muss geschehen, bevor Impostoren gleich viele wie Unschuldige sind"
+        ]
+      },
+      "impostor": {
+        "title": "Impostoren gewinnen wenn:",
+        "conditions": [
+          "Impostoren gleich viele oder mehr als die verbleibenden Unschuldigen sind",
+          "An diesem Punkt können Impostoren nicht überstimmt werden und haben gewonnen"
+        ]
+      }
+    },
+    "variations": {
+      "title": "Spielvariationen",
+      "list": [
+        {
+          "title": "Schnellrunde",
+          "description": "Begrenze die Diskussionszeit auf 2 Minuten pro Runde für ein schnelles, chaotisches Spiel."
+        },
+        {
+          "title": "Stille Impostoren",
+          "description": "Impostoren können sich nicht gegenseitig sehen und müssen unabhängig arbeiten, um nicht entdeckt zu werden."
+        },
+        {
+          "title": "Detektiv-Modus",
+          "description": "Ein Unschuldiger wird heimlich als Detektiv bestimmt, der eine Chance hat, herauszufinden, ob ein Spieler ein Impostor ist."
+        },
+        {
+          "title": "Doppel-Eliminierung",
+          "description": "Stimme ab, um zwei Spieler pro Runde zu eliminieren für ein schnelleres, intensiveres Spiel."
+        }
+      ]
+    },
+    "commonMistakes": {
+      "title": "Häufige Fehler vermeiden",
+      "mistakes": [
+        {
+          "title": "Zu schnell abstimmen",
+          "description": "Nimm dir Zeit zum Diskutieren und Informationen sammeln. Zufällige Abstimmungen helfen Impostoren zu gewinnen."
+        },
+        {
+          "title": "Ruhige Spieler ignorieren",
+          "description": "Impostoren bleiben oft ruhig, um Verdacht zu vermeiden. Beziehe alle in die Diskussion ein."
+        },
+        {
+          "title": "Informationen zu früh preisgeben",
+          "description": "Als Unschuldiger solltest du nicht alle Beobachtungen sofort offenlegen. Speichere Informationen für strategische Momente."
+        },
+        {
+          "title": "Als Impostor übertreiben",
+          "description": "Impostoren, die zu verdächtig oder zu unschuldig wirken, können Aufmerksamkeit erregen. Bleib natürlich."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Regeln-FAQ",
+      "questions": {
+        "howManyImpostors": {
+          "q": "Wie viele Impostoren sollte es geben?",
+          "a": "Für 3-5 Spieler: 1 Impostor. Für 6-9 Spieler: 2 Impostoren. Für 10-15 Spieler: 3 Impostoren. Für 16+ Spieler: 4 Impostoren. Du kannst nach Schwierigkeitsgrad anpassen."
+        },
+        "canSkipVote": {
+          "q": "Können Spieler die Abstimmung überspringen?",
+          "a": "Ja, aber es wird nicht empfohlen. Abstimmungen zu überspringen macht es für Unschuldige schwerer zu gewinnen. Überspringen kann jedoch strategisch sein, wenn nicht genug Informationen vorhanden sind."
+        },
+        "whatIfTie": {
+          "q": "Was passiert bei Gleichstand beim Abstimmen?",
+          "a": "Du kannst entweder: (1) Neuabstimmung nur zwischen gleichgestellten Spielern, (2) Niemand wird in dieser Runde eliminiert, oder (3) Alle gleichgestellten Spieler eliminieren. Entscheide deine Hausregel vor Spielbeginn."
+        },
+        "canDiscussAfterElimination": {
+          "q": "Können eliminierte Spieler noch reden?",
+          "a": "Nein. Einmal eliminiert, sollten Spieler schweigen und das Spiel nicht beeinflussen. Sie können zuschauen, aber nicht an Diskussionen teilnehmen."
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit zum Spielen?",
+      "description": "Lade Cluso jetzt herunter und starte dein erstes Impostor-Spiel mit diesen Regeln im Hinterkopf.",
+      "button": "Cluso herunterladen"
+    }
+  },
   "footer": {
     "copyright": "© 2025 False Peak. Alle Rechte vorbehalten.",
     "links": {
