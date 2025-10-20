@@ -215,6 +215,113 @@
       "description": "Download Cluso Impostor and bring the ultimate social deduction game to your next gathering."
     }
   },
+  "tipsPage": {
+    "meta": {
+      "title": "Impostor Game Tips & Strategies - Win More Games | Cluso Guide",
+      "description": "Master Cluso Impostor with expert tips and strategies. Learn advanced tactics for innocents and impostors, psychological tricks, and winning strategies. Improve your game now!",
+      "keywords": "impostor tips, impostor strategies, how to win impostor, social deduction tips, party game strategies, cluso strategies, impostor tactics, game psychology"
+    },
+    "hero": {
+      "title": "Tips & Strategies",
+      "titleAccent": "Master the Game",
+      "subtitle": "Level up your Impostor gameplay with expert strategies for both innocents and impostors. Learn psychological tricks, advanced tactics, and winning plays."
+    },
+    "forInnocents": {
+      "title": "Strategies for Innocents",
+      "intro": "As an innocent, your goal is to identify and eliminate impostors through careful observation and deduction.",
+      "tips": [
+        {
+          "title": "Ask Specific Questions",
+          "description": "Don't ask generic questions. Target specific players with detailed questions about their actions, observations, or reasoning. Impostors often struggle with specific details."
+        },
+        {
+          "title": "Watch for Behavioral Patterns",
+          "description": "Notice who speaks first, who stays quiet, who deflects blame. Impostors often display nervous behaviors like over-explaining or avoiding eye contact."
+        },
+        {
+          "title": "Track Voting Patterns",
+          "description": "Pay attention to who votes for whom. Impostors may vote together or strategically vote for innocents to create chaos."
+        },
+        {
+          "title": "Build Alliances Carefully",
+          "description": "Team up with players you trust, but don't trust too quickly. Impostors love to gain trust early."
+        },
+        {
+          "title": "Don't Reveal Everything",
+          "description": "Hold back some observations. If an impostor knows what you know, they can craft better lies."
+        }
+      ]
+    },
+    "forImpostors": {
+      "title": "Strategies for Impostors",
+      "intro": "As an impostor, blend in, deflect suspicion, and strategically eliminate threats without getting caught.",
+      "tips": [
+        {
+          "title": "Act Natural",
+          "description": "Don't overact innocence or be overly defensive. Mirror the behavior of actual innocents - confused, questioning, and analytical."
+        },
+        {
+          "title": "Create Reasonable Doubt",
+          "description": "Don't try to completely prove your innocence. Just create enough doubt to shift suspicion to others."
+        },
+        {
+          "title": "Accuse Strategically",
+          "description": "Occasionally accuse other players (including fellow impostors) to appear engaged. But don't be too aggressive or you'll draw attention."
+        },
+        {
+          "title": "Control the Narrative",
+          "description": "Guide discussions subtly. Ask leading questions that direct suspicion elsewhere. Frame debates in ways that benefit you."
+        },
+        {
+          "title": "Vote with the Crowd",
+          "description": "Unless coordinating with other impostors, vote with the majority. Standing out with unusual votes raises suspicion."
+        }
+      ]
+    },
+    "psychology": {
+      "title": "Psychological Tactics",
+      "tips": [
+        {
+          "title": "Use Social Pressure",
+          "description": "Players hate being the odd one out. Use this to your advantage whether you're innocent trying to build consensus or impostor deflecting blame."
+        },
+        {
+          "title": "Create Time Pressure",
+          "description": "When discussions drag, players make hasty decisions. As impostor, you can benefit from rushed votes."
+        },
+        {
+          "title": "Exploit Confirmation Bias",
+          "description": "People believe what confirms their existing beliefs. Plant seeds early that grow into strong suspicions later."
+        }
+      ]
+    },
+    "commonScenarios": {
+      "title": "Common Scenarios & How to Handle Them",
+      "scenarios": [
+        {
+          "title": "You're Accused as Innocent",
+          "description": "Stay calm and provide specific details about your observations. Don't get defensive. Ask your accuser for their reasoning and poke holes in it."
+        },
+        {
+          "title": "You're Accused as Impostor",
+          "description": "Don't panic. Calmly deny and redirect by questioning the accuser's motives or suggesting alternative suspects with reasonable arguments."
+        },
+        {
+          "title": "Two Players Accusing Each Other",
+          "description": "As innocent, analyze both arguments objectively. As impostor, support whichever narrative helps you most."
+        },
+        {
+          "title": "Final Rounds (3-4 Players Left)",
+          "description": "Critical thinking time. As innocent, trust your instincts. As impostor, you may need bold moves."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Dominate?",
+      "description": "Download Cluso and put these strategies into action. May the best deceiver win!",
+      "button": "Download Cluso"
+    }
+  },
   "rulesPage": {
     "meta": {
       "title": "Impostor Game Rules - Complete Guide | How to Play Cluso",

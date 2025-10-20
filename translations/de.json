@@ -244,6 +244,62 @@
       "description": "Lade Cluso herunter und bringe diese tollen Spiele zu deinem nächsten Treffen."
     }
   },
+  "tipsPage": {
+    "meta": {
+      "title": "Impostor Spiel Tipps & Strategien - Mehr Spiele Gewinnen | Cluso Guide",
+      "description": "Meistere Cluso Impostor mit Experten-Tipps und Strategien. Lerne fortgeschrittene Taktiken für Unschuldige und Impostoren, psychologische Tricks und Gewinnstrategien.",
+      "keywords": "impostor tipps, impostor strategien, impostor gewinnen, social deduction tipps, party spiel strategien, cluso strategien, impostor taktiken, spiel psychologie"
+    },
+    "hero": {
+      "title": "Tipps & Strategien",
+      "titleAccent": "Meistere das Spiel",
+      "subtitle": "Verbessere dein Impostor-Gameplay mit Expertenstrategien für Unschuldige und Impostoren. Lerne psychologische Tricks, fortgeschrittene Taktiken und Gewinnzüge."
+    },
+    "forInnocents": {
+      "title": "Strategien für Unschuldige",
+      "intro": "Als Unschuldiger ist es dein Ziel, Impostoren durch sorgfältige Beobachtung und Deduktion zu identifizieren und zu eliminieren.",
+      "tips": [
+        {"title": "Stelle spezifische Fragen", "description": "Stelle keine generischen Fragen. Richte gezielte, detaillierte Fragen an bestimmte Spieler über ihre Handlungen oder Beobachtungen. Impostoren haben oft Schwierigkeiten mit spezifischen Details."},
+        {"title": "Beobachte Verhaltensmuster", "description": "Achte darauf, wer zuerst spricht, wer ruhig bleibt, wer Schuld ablenkt. Impostoren zeigen oft nervöses Verhalten wie Übererk​lärungen oder vermeiden Blickkontakt."},
+        {"title": "Verfolge Abstimmungsmuster", "description": "Achte darauf, wer für wen stimmt. Impostoren stimmen möglicherweise zusammen oder strategisch für Unschuldige, um Chaos zu schaffen."},
+        {"title": "Baue Allianzen vorsichtig auf", "description": "Verbünde dich mit Spielern, denen du vertraust, aber vertraue nicht zu schnell. Impostoren lieben es, früh Vertrauen zu gewinnen."},
+        {"title": "Verrate nicht alles", "description": "Halte einige Beobachtungen zurück. Wenn ein Impostor weiß, was du weißt, kann er bessere Lügen konstruieren."}
+      ]
+    },
+    "forImpostors": {
+      "title": "Strategien für Impostoren",
+      "intro": "Als Impostor: Füge dich ein, lenke Verdacht ab und eliminiere strategisch Bedrohungen, ohne erwischt zu werden.",
+      "tips": [
+        {"title": "Verhalte dich natürlich", "description": "Überspiele nicht deine Unschuld oder sei nicht zu defensiv. Spiegele das Verhalten echter Unschuldiger - verwirrt, fragend und analytisch."},
+        {"title": "Schaffe begründeten Zweifel", "description": "Versuche nicht, deine Unschuld vollständig zu beweisen. Schaffe nur genug Zweifel, um Verdacht auf andere zu lenken."},
+        {"title": "Beschuldige strategisch", "description": "Beschuldige gelegentlich andere Spieler (auch Mitspieler-Impostoren), um engagiert zu wirken. Aber sei nicht zu aggressiv."},
+        {"title": "Kontrolliere die Erzählung", "description": "Führe Diskussionen subtil. Stelle Suggestivfragen, die Verdacht anderswo hinlenken. Gestalte Debatten zu deinem Vorteil."},
+        {"title": "Stimme mit der Mehrheit", "description": "Sofern nicht mit anderen Impostoren koordiniert, stimme mit der Mehrheit. Auffällige Stimmen erregen Verdacht."}
+      ]
+    },
+    "psychology": {
+      "title": "Psychologische Taktiken",
+      "tips": [
+        {"title": "Nutze sozialen Druck", "description": "Spieler hassen es, anders zu sein. Nutze dies zu deinem Vorteil, ob als Unschuldiger für Konsens oder als Impostor zum Ablenken."},
+        {"title": "Erzeuge Zeitdruck", "description": "Wenn Diskussionen sich hinziehen, treffen Spieler hastige Entscheidungen. Als Impostor profitierst du von überstürzten Abstimmungen."},
+        {"title": "Nutze Bestätigungsfehler", "description": "Menschen glauben, was ihre Überzeugungen bestätigt. Pflanze früh Samen, die später zu starken Verdächtigungen werden."}
+      ]
+    },
+    "commonScenarios": {
+      "title": "Häufige Szenarien & Umgang damit",
+      "scenarios": [
+        {"title": "Du wirst als Unschuldiger beschuldigt", "description": "Bleib ruhig und liefere spezifische Details zu deinen Beobachtungen. Sei nicht defensiv. Frage nach der Begründung und finde Schwachstellen."},
+        {"title": "Du wirst als Impostor beschuldigt", "description": "Gerate nicht in Panik. Leugne ruhig und lenke um, indem du die Motive des Anklägers hinterfragst oder alternative Verdächtige vorschlägst."},
+        {"title": "Zwei Spieler beschuldigen sich gegenseitig", "description": "Als Unschuldiger analysiere beide Argumente objektiv. Als Impostor unterstütze die Erzählung, die dir am meisten hilft."},
+        {"title": "Endrunden (3-4 Spieler übrig)", "description": "Kritische Denkzeit. Als Unschuldiger vertraue deinen Instinkten. Als Impostor brauchst du möglicherweise mutige Züge."}
+      ]
+    },
+    "cta": {
+      "title": "Bereit zu Dominieren?",
+      "description": "Lade Cluso herunter und setze diese Strategien in die Tat um. Möge der beste Täuscher gewinnen!",
+      "button": "Cluso herunterladen"
+    }
+  },
   "rulesPage": {
     "meta": {
       "title": "Impostor Spielregeln - Vollständige Anleitung | Wie man Cluso spielt",
