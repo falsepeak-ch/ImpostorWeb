@@ -4,10 +4,12 @@
         xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+    <!-- ==================== ENGLISH PAGES ==================== -->
+
     <!-- English Homepage -->
     <url>
         <loc>https://falsepeak.ch/cluso/en/</loc>
-        <lastmod>2025-10-19</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <mobile:mobile/>
@@ -17,16 +19,75 @@
         <xhtml:link rel="alternate" hreflang="ca" href="https://falsepeak.ch/cluso/ca/" />
         <xhtml:link rel="alternate" hreflang="pt" href="https://falsepeak.ch/cluso/pt/" />
         <xhtml:link rel="alternate" hreflang="fr" href="https://falsepeak.ch/cluso/fr/" />
-        <image:image>
-            <image:loc>https://falsepeak.ch/cluso/src/assets/images/Icon.png</image:loc>
-            <image:title>Cluso App Icon</image:title>
-        </image:image>
     </url>
+
+    <!-- English How to Play -->
+    <url>
+        <loc>https://falsepeak.ch/cluso/en/how-to-play.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- English Rules -->
+    <url>
+        <loc>https://falsepeak.ch/cluso/en/rules.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- English Tips -->
+    <url>
+        <loc>https://falsepeak.ch/cluso/en/tips.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- English Blog Index -->
+    <url>
+        <loc>https://falsepeak.ch/cluso/en/blog/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- English Blog Articles -->
+    <url>
+        <loc>https://falsepeak.ch/cluso/en/blog/best-offline-party-games.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/en/blog/how-to-host-game-night.html</loc>
+        <lastmod>2025-01-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/en/blog/social-deduction-games-explained.html</loc>
+        <lastmod>2025-01-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- ==================== GERMAN PAGES ==================== -->
 
     <!-- German Homepage -->
     <url>
         <loc>https://falsepeak.ch/cluso/de/</loc>
-        <lastmod>2025-10-19</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <mobile:mobile/>
@@ -36,16 +97,69 @@
         <xhtml:link rel="alternate" hreflang="ca" href="https://falsepeak.ch/cluso/ca/" />
         <xhtml:link rel="alternate" hreflang="pt" href="https://falsepeak.ch/cluso/pt/" />
         <xhtml:link rel="alternate" hreflang="fr" href="https://falsepeak.ch/cluso/fr/" />
-        <image:image>
-            <image:loc>https://falsepeak.ch/cluso/src/assets/images/Icon.png</image:loc>
-            <image:title>Cluso App Icon</image:title>
-        </image:image>
     </url>
 
-    <!-- Spanish Homepage -->
+    <url>
+        <loc>https://falsepeak.ch/cluso/de/how-to-play.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/de/rules.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/de/tips.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/de/blog/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/de/blog/best-offline-party-games.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/de/blog/how-to-host-game-night.html</loc>
+        <lastmod>2025-01-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/de/blog/social-deduction-games-explained.html</loc>
+        <lastmod>2025-01-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- ==================== SPANISH PAGES ==================== -->
+
     <url>
         <loc>https://falsepeak.ch/cluso/es/</loc>
-        <lastmod>2025-10-19</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <mobile:mobile/>
@@ -55,16 +169,69 @@
         <xhtml:link rel="alternate" hreflang="ca" href="https://falsepeak.ch/cluso/ca/" />
         <xhtml:link rel="alternate" hreflang="pt" href="https://falsepeak.ch/cluso/pt/" />
         <xhtml:link rel="alternate" hreflang="fr" href="https://falsepeak.ch/cluso/fr/" />
-        <image:image>
-            <image:loc>https://falsepeak.ch/cluso/src/assets/images/Icon.png</image:loc>
-            <image:title>Cluso App Icon</image:title>
-        </image:image>
     </url>
 
-    <!-- Catalan Homepage -->
+    <url>
+        <loc>https://falsepeak.ch/cluso/es/how-to-play.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/es/rules.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/es/tips.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/es/blog/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/es/blog/best-offline-party-games.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/es/blog/how-to-host-game-night.html</loc>
+        <lastmod>2025-01-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/es/blog/social-deduction-games-explained.html</loc>
+        <lastmod>2025-01-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- ==================== CATALAN PAGES ==================== -->
+
     <url>
         <loc>https://falsepeak.ch/cluso/ca/</loc>
-        <lastmod>2025-10-19</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <mobile:mobile/>
@@ -74,16 +241,69 @@
         <xhtml:link rel="alternate" hreflang="ca" href="https://falsepeak.ch/cluso/ca/" />
         <xhtml:link rel="alternate" hreflang="pt" href="https://falsepeak.ch/cluso/pt/" />
         <xhtml:link rel="alternate" hreflang="fr" href="https://falsepeak.ch/cluso/fr/" />
-        <image:image>
-            <image:loc>https://falsepeak.ch/cluso/src/assets/images/Icon.png</image:loc>
-            <image:title>Cluso App Icon</image:title>
-        </image:image>
     </url>
 
-    <!-- Portuguese Homepage -->
+    <url>
+        <loc>https://falsepeak.ch/cluso/ca/how-to-play.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/ca/rules.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/ca/tips.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/ca/blog/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/ca/blog/best-offline-party-games.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/ca/blog/how-to-host-game-night.html</loc>
+        <lastmod>2025-01-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/ca/blog/social-deduction-games-explained.html</loc>
+        <lastmod>2025-01-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- ==================== PORTUGUESE PAGES ==================== -->
+
     <url>
         <loc>https://falsepeak.ch/cluso/pt/</loc>
-        <lastmod>2025-10-19</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <mobile:mobile/>
@@ -93,16 +313,69 @@
         <xhtml:link rel="alternate" hreflang="ca" href="https://falsepeak.ch/cluso/ca/" />
         <xhtml:link rel="alternate" hreflang="pt" href="https://falsepeak.ch/cluso/pt/" />
         <xhtml:link rel="alternate" hreflang="fr" href="https://falsepeak.ch/cluso/fr/" />
-        <image:image>
-            <image:loc>https://falsepeak.ch/cluso/src/assets/images/Icon.png</image:loc>
-            <image:title>Cluso App Icon</image:title>
-        </image:image>
     </url>
 
-    <!-- French Homepage -->
+    <url>
+        <loc>https://falsepeak.ch/cluso/pt/how-to-play.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/pt/rules.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/pt/tips.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/pt/blog/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/pt/blog/best-offline-party-games.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/pt/blog/how-to-host-game-night.html</loc>
+        <lastmod>2025-01-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/pt/blog/social-deduction-games-explained.html</loc>
+        <lastmod>2025-01-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- ==================== FRENCH PAGES ==================== -->
+
     <url>
         <loc>https://falsepeak.ch/cluso/fr/</loc>
-        <lastmod>2025-10-19</lastmod>
+        <lastmod>2025-01-20</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <mobile:mobile/>
@@ -112,10 +385,62 @@
         <xhtml:link rel="alternate" hreflang="ca" href="https://falsepeak.ch/cluso/ca/" />
         <xhtml:link rel="alternate" hreflang="pt" href="https://falsepeak.ch/cluso/pt/" />
         <xhtml:link rel="alternate" hreflang="fr" href="https://falsepeak.ch/cluso/fr/" />
-        <image:image>
-            <image:loc>https://falsepeak.ch/cluso/src/assets/images/Icon.png</image:loc>
-            <image:title>Cluso App Icon</image:title>
-        </image:image>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/fr/how-to-play.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/fr/rules.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/fr/tips.html</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/fr/blog/</loc>
+        <lastmod>2025-01-20</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/fr/blog/best-offline-party-games.html</loc>
+        <lastmod>2025-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/fr/blog/how-to-host-game-night.html</loc>
+        <lastmod>2025-01-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://falsepeak.ch/cluso/fr/blog/social-deduction-games-explained.html</loc>
+        <lastmod>2025-01-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
     </url>
 
 </urlset>
