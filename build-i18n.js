@@ -21,7 +21,7 @@ const languageFlags = {
 function generateHreflangLinks(currentLang, isHomePage = true) {
   const page = isHomePage ? '' : 'how-to-play.html';
   return languages.map(lang => {
-    const url = `https://falsepeak.ch/cluso/${lang}/${page}`;
+    const url = `https://cluso-impostor.com/${lang}/${page}`;
     return `    <link rel="alternate" hreflang="${lang}" href="${url}">`;
   }).join('\n');
 }
@@ -104,18 +104,18 @@ function buildIndexPage(lang) {
     <meta name="keywords" content="${t.meta.home.keywords}">
     <meta name="author" content="False Peak">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://falsepeak.ch/cluso/${lang}/">
+    <link rel="canonical" href="https://cluso-impostor.com/${lang}/">
 
     <!-- Hreflang Tags -->
 ${hreflangLinks}
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://falsepeak.ch/cluso/${lang}/">
+    <meta property="og:url" content="https://cluso-impostor.com/${lang}/">
     <meta property="og:site_name" content="Cluso">
     <meta property="og:title" content="${t.meta.home.title}">
     <meta property="og:description" content="${t.meta.home.description}">
-    <meta property="og:image" content="https://falsepeak.ch/cluso/src/assets/images/Icon.png">
+    <meta property="og:image" content="https://cluso-impostor.com/src/assets/images/Icon.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">
     <meta property="og:image:alt" content="Cluso App Icon">
@@ -123,10 +123,10 @@ ${hreflangLinks}
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://falsepeak.ch/cluso/${lang}/">
+    <meta name="twitter:url" content="https://cluso-impostor.com/${lang}/">
     <meta name="twitter:title" content="${t.meta.home.title}">
     <meta name="twitter:description" content="${t.meta.home.description}">
-    <meta name="twitter:image" content="https://falsepeak.ch/cluso/src/assets/images/Icon.png">
+    <meta name="twitter:image" content="https://cluso-impostor.com/src/assets/images/Icon.png">
     <meta name="twitter:image:alt" content="Cluso App Icon">
 
     <!-- App Store Meta Tags & Smart Banner -->
@@ -183,7 +183,7 @@ ${hreflangLinks}
         "url": "https://falsepeak.ch"
       },
       "description": "${t.meta.home.description}",
-      "screenshot": "https://falsepeak.ch/cluso/src/assets/images/Screenshots/1.png",
+      "screenshot": "https://cluso-impostor.com/src/assets/images/Screenshots/1.png",
       "downloadUrl": "${t.appStoreUrl}",
       "featureList": [
         "Social deduction game for 3-20 players",
@@ -200,7 +200,7 @@ ${hreflangLinks}
       "@type": "Organization",
       "name": "False Peak",
       "url": "https://falsepeak.ch",
-      "logo": "https://falsepeak.ch/cluso/src/assets/images/Icon.png",
+      "logo": "https://cluso-impostor.com/src/assets/images/Icon.png",
       "sameAs": []
     }
     </script>
@@ -210,7 +210,7 @@ ${hreflangLinks}
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Cluso",
-      "url": "https://falsepeak.ch/cluso/${lang}/",
+      "url": "https://cluso-impostor.com/${lang}/",
       "inLanguage": "${lang}",
       "potentialAction": {
         "@type": "SearchAction",
@@ -557,25 +557,25 @@ function buildHowToPlayPage(lang) {
     <meta name="keywords" content="${t.meta.howToPlay.keywords}">
     <meta name="author" content="False Peak">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://falsepeak.ch/cluso/${lang}/how-to-play.html">
+    <link rel="canonical" href="https://cluso-impostor.com/${lang}/how-to-play.html">
 
     <!-- Hreflang Tags -->
 ${hreflangLinks}
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://falsepeak.ch/cluso/${lang}/how-to-play.html">
+    <meta property="og:url" content="https://cluso-impostor.com/${lang}/how-to-play.html">
     <meta property="og:site_name" content="Cluso">
     <meta property="og:title" content="${t.meta.howToPlay.title}">
     <meta property="og:description" content="${t.meta.howToPlay.description}">
-    <meta property="og:image" content="https://falsepeak.ch/cluso/src/assets/images/Icon.png">
+    <meta property="og:image" content="https://cluso-impostor.com/src/assets/images/Icon.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://falsepeak.ch/cluso/${lang}/how-to-play.html">
+    <meta name="twitter:url" content="https://cluso-impostor.com/${lang}/how-to-play.html">
     <meta name="twitter:title" content="${t.meta.howToPlay.title}">
     <meta name="twitter:description" content="${t.meta.howToPlay.description}">
-    <meta name="twitter:image" content="https://falsepeak.ch/cluso/src/assets/images/Icon.png">
+    <meta name="twitter:image" content="https://cluso-impostor.com/src/assets/images/Icon.png">
 
     <!-- App Store Meta Tags -->
     <meta name="apple-itunes-app" content="app-id=6747049428, affiliate-data=pt=127841352&ct=web">
@@ -862,7 +862,7 @@ function buildRulesPage(lang) {
     <title>${t.rulesPage.meta.title}</title>
     <meta name="description" content="${t.rulesPage.meta.description}">
     <meta name="keywords" content="${t.rulesPage.meta.keywords}">
-    <link rel="canonical" href="https://falsepeak.ch/cluso/${lang}/rules.html">
+    <link rel="canonical" href="https://cluso-impostor.com/${lang}/rules.html">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
     <!-- Navigation Scripts -->
@@ -1006,7 +1006,7 @@ function buildTipsPage(lang) {
     <title>${t.tipsPage.meta.title}</title>
     <meta name="description" content="${t.tipsPage.meta.description}">
     <meta name="keywords" content="${t.tipsPage.meta.keywords}">
-    <link rel="canonical" href="https://falsepeak.ch/cluso/${lang}/tips.html">
+    <link rel="canonical" href="https://cluso-impostor.com/${lang}/tips.html">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
     <!-- Navigation Scripts -->
@@ -1120,7 +1120,7 @@ function buildBlogPages(lang) {
     <title>${t.blog.index.meta.title}</title>
     <meta name="description" content="${t.blog.index.meta.description}">
     <meta name="keywords" content="${t.blog.index.meta.keywords}">
-    <link rel="canonical" href="https://falsepeak.ch/cluso/${lang}/blog/">
+    <link rel="canonical" href="https://cluso-impostor.com/${lang}/blog/">
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
     <!-- Navigation Scripts -->
@@ -1227,7 +1227,7 @@ function buildBlogPages(lang) {
     <title>${article.meta.title}</title>
     <meta name="description" content="${article.meta.description}">
     <meta name="keywords" content="${article.meta.keywords}">
-    <link rel="canonical" href="https://falsepeak.ch/cluso/${lang}/blog/${slug}.html">
+    <link rel="canonical" href="https://cluso-impostor.com/${lang}/blog/${slug}.html">
 
     <!-- Preconnect to external resources -->
     <link rel="preconnect" href="https://images.unsplash.com">
@@ -1246,13 +1246,13 @@ function buildBlogPages(lang) {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://falsepeak.ch/cluso/${lang}/"
+          "item": "https://cluso-impostor.com/${lang}/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Blog",
-          "item": "https://falsepeak.ch/cluso/${lang}/blog/"
+          "item": "https://cluso-impostor.com/${lang}/blog/"
         },
         {
           "@type": "ListItem",

@@ -1,5 +1,5 @@
 # Robots.txt for Cluso - Social Deduction Party Game
-# https://falsepeak.ch/cluso
+# https://cluso-impostor.com
 
 # Allow all search engines
 User-agent: *
@@ -11,7 +11,7 @@ Disallow: /.git/
 Disallow: /dist/
 
 # Sitemap location
-Sitemap: https://falsepeak.ch/cluso/sitemap.xml
+Sitemap: https://cluso-impostor.com/sitemap.xml
 
 # Crawl-delay for specific bots (optional, adjust as needed)
 User-agent: Googlebot
