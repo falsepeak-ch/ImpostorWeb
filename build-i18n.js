@@ -955,7 +955,6 @@ function buildBlogPages(lang) {
     return;
   }
 
-  const langSelector = generateLanguageSelector(lang);
   const blogDir = `./${lang}/blog`;
   if (!fs.existsSync(blogDir)) {
     fs.mkdirSync(blogDir, { recursive: true });
