@@ -1189,6 +1189,21 @@ function buildBlogPages(lang) {
     const readTime = calculateReadTime(article.intro + article.content.map(s => s.text).join(' '));
     const imageUrl = getPlaceholderImage(index);
 
+    // Generate related articles (other articles excluding current one)
+    const relatedArticles = Object.entries(t.blog.articles)
+      .filter(([relSlug]) => relSlug !== slug)
+      .map(([relSlug, relArticle], relIndex) => {
+        const relCategory = getCategoryClass(relArticle.title);
+        const relImageUrl = getPlaceholderImage(relIndex);
+        return `<article class="blog-card">
+                    <img src="${relImageUrl}" alt="${relArticle.title}" class="blog-card-image" loading="lazy">
+                    <div class="blog-card-content">
+                        <span class="blog-card-category ${relCategory}">${relCategory.replace('-', ' ')}</span>
+                        <h3><a href="./${relSlug}.html">${relArticle.title}</a></h3>
+                    </div>
+                </article>`;
+      }).join('\n                ');
+
     // Generate table of contents from article sections
     const tocItems = article.content.map((section, idx) => {
       const sectionId = `section-${idx}`;
@@ -1213,8 +1228,56 @@ function buildBlogPages(lang) {
     <meta name="description" content="${article.meta.description}">
     <meta name="keywords" content="${article.meta.keywords}">
     <link rel="canonical" href="https://falsepeak.ch/cluso/${lang}/blog/${slug}.html">
+
+    <!-- Preconnect to external resources -->
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="dns-prefetch" href="https://images.unsplash.com">
+
     <link rel="stylesheet" href="/src/main.css">
     <script type="module" src="/src/firebase-init.js"></script>
+
+    <!-- Breadcrumb Schema for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://falsepeak.ch/cluso/${lang}/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://falsepeak.ch/cluso/${lang}/blog/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "${article.title}"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Article Schema for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "${article.title}",
+      "description": "${article.meta.description}",
+      "image": "${imageUrl}",
+      "datePublished": "${article.date}",
+      "author": {
+        "@type": "Organization",
+        "name": "Cluso"
+      }
+    }
+    </script>
     <!-- Navigation Scripts -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -1278,6 +1341,16 @@ function buildBlogPages(lang) {
                 </div>
             </article>
         </div>
+
+        <!-- Related Articles Section -->
+        <section class="guide-section" style="background: #fafafa; padding: 4rem 0;">
+            <div class="container">
+                <h2 class="section-title">Related Articles</h2>
+                <div class="blog-grid">
+                    ${relatedArticles}
+                </div>
+            </div>
+        </section>
 
         <!-- CTA Section -->
         <section class="cta">
