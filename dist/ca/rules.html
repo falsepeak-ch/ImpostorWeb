@@ -32,11 +32,11 @@
     });
     </script>
   <script type="module" crossorigin src="/assets/js/firebase-init-cSEAVSBv.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/css/main-BK3U2sQQ.css">
+  <link rel="stylesheet" crossorigin href="/assets/css/main-D4B4h_AI.css">
 </head>
 <body>
     <div class="main-content">
-    <nav class="nav">        <div class="nav-container">
+        <nav class="nav">        <div class="nav-container">
             <a href="./" class="nav-logo">
                 <img src="/assets/images/Icon-B52R27ce.png" alt="Cluso" class="nav-icon">
                 <span class="nav-title">Cluso</span>
@@ -66,11 +66,135 @@
         </div>
             </div>
         </div></nav>
-    <section class="hero" style="padding: 2rem 0 3rem;"><div class="container"><h1 class="hero-title">Joc Impostor <span class="hero-title-accent">Regles Completes</span></h1><p class="hero-subtitle">Tot el que necessites saber per jugar a Cluso Impostor. Des de la configuració bàsica fins a estratègies avançades, domina l'art de l'engany i la deducció.</p></div></section>
-    <section class="guide-section"><div class="container"><h2 class="section-title">Configuració del Joc</h2><p>Abans de començar a jugar, assegura't de tenir tot preparat per a un joc èpic d'Impostor.</p><h3>El que necessites</h3><ul><li>3-20 jugadors reunits en un lloc</li><li>Un dispositiu amb l'app Cluso instal·lada</li><li>Un espai tranquil per a discussions</li><li>10-30 minuts de temps de joc</li></ul><h3>Entenent els Rols</h3><div><h4>Impostors</h4><p>1-4 jugadors (depenent de la mida del grup) que coneixen les identitats dels altres. El seu objectiu és evitar la detecció i superar en nombre als innocents.</p><h4>Innocents</h4><p>Tots els jugadors restants que no coneixen el rol de ningú. El seu objectiu és identificar i eliminar tots els impostors mitjançant discussió i votació.</p></div></div></section>
-    <section class="guide-section"><div class="container"><h2 class="section-title">Com Jugar</h2><div class="step"><h3>1. Fase d'Assignació de Rols</h3><p>Passa el dispositiu al voltant. Cada jugador veu secretament el seu rol. Els impostors veuran qui són els altres impostors. Els innocents només veuen que són innocents.</p></div><div class="step"><h3>2. Fase d'Ulls Tancats</h3><p>Tothom tanca els ulls. Els impostors obren els ulls per reconèixer-se mútuament, després els tanquen de nou. Això assegura que els impostors coneguin els seus aliats.</p></div><div class="step"><h3>3. Fase de Discussió</h3><p>Tothom obre els ulls i discuteix lliurement. Els jugadors fan preguntes, comparteixen observacions i intenten deduir qui podrien ser els impostors. Estableix un límit de temps (3-5 minuts recomanat).</p></div><div class="step"><h3>4. Fase de Votació</h3><p>Els jugadors voten per eliminar algú que sospiten que és un impostor. La persona amb més vots és eliminada i el seu rol és revelat. Els empats poden gestionar-se amb revotació o sense eliminació.</p></div><div class="step"><h3>5. Verificar Condicions de Victòria</h3><p>Si tots els impostors són eliminats, els innocents guanyen. Si els impostors igualen o superen als innocents, els impostors guanyen. Si no, tornar a la Fase de Discussió.</p></div></div></section>
-    <section class="cta"><div class="container"><h2 class="cta-title">Preparat per Jugar?</h2><p class="cta-description">Descarrega Cluso ara i comença el teu primer joc d'Impostor amb aquestes regles en ment.</p><a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="download-btn"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Descarregar a l'App Store" class="app-store-badge"></a></div></section>
-    <footer class="footer"><div class="container"><p>© 2025 False Peak. Tots els drets reservats.</p><div class="footer-links"><a href="https://falsepeak.ch/privacy">Privadesa</a><a href="https://falsepeak.ch/terms">Termes</a><a href="https://falsepeak.ch">Lloc web</a></div></div></footer>
+
+        <!-- Rules Hero with Featured Image -->
+        <header class="rules-hero">
+            <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1200&h=400&fit=crop"
+                 alt="Game Rules"
+                 class="rules-hero-image">
+            <div class="rules-hero-content">
+                <h1>
+                    Joc Impostor
+                    <span class="hero-title-accent">Regles Completes</span>
+                </h1>
+                <p class="hero-subtitle">Tot el que necessites saber per jugar a Cluso Impostor. Des de la configuració bàsica fins a estratègies avançades, domina l'art de l'engany i la deducció.</p>
+            </div>
+        </header>
+
+        <!-- Rules Layout with Sticky TOC -->
+        <div class="rules-layout">
+            <!-- Sticky Table of Contents -->
+            <aside class="rules-toc">
+                <h4>Quick Navigation</h4>
+                <ul class="rules-toc-list">
+
+                    <li><a href="#game-setup">Game Setup</a></li>
+                    <li><a href="#roles">Roles</a></li>
+                    <li><a href="#how-to-play">How to Play</a></li>
+                </ul>
+            </aside>
+
+            <!-- Rules Content -->
+            <div class="rules-content">
+                <!-- Game Setup Section -->
+                <section class="rules-section" id="game-setup">
+                    <h2>Configuració del Joc</h2>
+                    <p>Abans de començar a jugar, assegura't de tenir tot preparat per a un joc èpic d'Impostor.</p>
+
+                    <h3>El que necessites</h3>
+                    <ul>
+                        <li>3-20 jugadors reunits en un lloc</li>
+                        <li>Un dispositiu amb l'app Cluso instal·lada</li>
+                        <li>Un espai tranquil per a discussions</li>
+                        <li>10-30 minuts de temps de joc</li>
+                    </ul>
+                </section>
+
+                <!-- Roles Section -->
+                <section class="rules-section" id="roles">
+                    <h2>Entenent els Rols</h2>
+
+                    <div class="rule-card">
+                        <span class="rule-card-icon">🎭</span>
+                        <h4>Impostors</h4>
+                        <p>1-4 jugadors (depenent de la mida del grup) que coneixen les identitats dels altres. El seu objectiu és evitar la detecció i superar en nombre als innocents.</p>
+                    </div>
+
+                    <div class="rule-card">
+                        <span class="rule-card-icon">😇</span>
+                        <h4>Innocents</h4>
+                        <p>Tots els jugadors restants que no coneixen el rol de ningú. El seu objectiu és identificar i eliminar tots els impostors mitjançant discussió i votació.</p>
+                    </div>
+                </section>
+
+                <!-- How to Play Section -->
+                <section class="rules-section" id="how-to-play">
+                    <h2>Com Jugar</h2>
+                    <div class="rule-steps">
+
+                <div class="rule-step">
+                    <div class="rule-step-number">1</div>
+                    <div class="rule-step-content">
+                        <h3>1. Fase d'Assignació de Rols</h3>
+                        <p>Passa el dispositiu al voltant. Cada jugador veu secretament el seu rol. Els impostors veuran qui són els altres impostors. Els innocents només veuen que són innocents.</p>
+                    </div>
+                </div>
+                <div class="rule-step">
+                    <div class="rule-step-number">2</div>
+                    <div class="rule-step-content">
+                        <h3>2. Fase d'Ulls Tancats</h3>
+                        <p>Tothom tanca els ulls. Els impostors obren els ulls per reconèixer-se mútuament, després els tanquen de nou. Això assegura que els impostors coneguin els seus aliats.</p>
+                    </div>
+                </div>
+                <div class="rule-step">
+                    <div class="rule-step-number">3</div>
+                    <div class="rule-step-content">
+                        <h3>3. Fase de Discussió</h3>
+                        <p>Tothom obre els ulls i discuteix lliurement. Els jugadors fan preguntes, comparteixen observacions i intenten deduir qui podrien ser els impostors. Estableix un límit de temps (3-5 minuts recomanat).</p>
+                    </div>
+                </div>
+                <div class="rule-step">
+                    <div class="rule-step-number">4</div>
+                    <div class="rule-step-content">
+                        <h3>4. Fase de Votació</h3>
+                        <p>Els jugadors voten per eliminar algú que sospiten que és un impostor. La persona amb més vots és eliminada i el seu rol és revelat. Els empats poden gestionar-se amb revotació o sense eliminació.</p>
+                    </div>
+                </div>
+                <div class="rule-step">
+                    <div class="rule-step-number">5</div>
+                    <div class="rule-step-content">
+                        <h3>5. Verificar Condicions de Victòria</h3>
+                        <p>Si tots els impostors són eliminats, els innocents guanyen. Si els impostors igualen o superen als innocents, els impostors guanyen. Si no, tornar a la Fase de Discussió.</p>
+                    </div>
+                </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <h2 class="cta-title">Preparat per Jugar?</h2>
+                <p class="cta-description">Descarrega Cluso ara i comença el teu primer joc d'Impostor amb aquestes regles en ment.</p>
+                <a href="https://apps.apple.com/app/apple-store/id6747049428?pt=127841352&ct=web&mt=8" target="_blank" rel="noopener" class="download-btn">
+                    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                         alt="Descarregar a l'App Store"
+                         class="app-store-badge">
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <p>© 2025 False Peak. Tots els drets reservats.</p>
+                <div class="footer-links">
+                    <a href="https://falsepeak.ch/privacy">Privadesa</a>
+                    <a href="https://falsepeak.ch/terms">Termes</a>
+                    <a href="https://falsepeak.ch">Lloc web</a>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
