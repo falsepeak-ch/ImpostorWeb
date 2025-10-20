@@ -268,16 +268,46 @@
         "date": "2025-01-15",
         "intro": "Procurando o jogo de festa perfeito para sua próxima reunião? Compilamos os melhores jogos offline que não requerem conexão WiFi e proporcionam horas de diversão.",
         "content": [
-          {"heading": "1. Cluso Impostor - Melhor Jogo de Dedução Social", "text": "Cluso Impostor lidera nossa lista como o jogo de dedução social offline definitivo. Com suporte para 3-20 jogadores em um único dispositivo, oferece experiência emocionante sem requisitos de internet."},
-          {"heading": "2. Máfia / Lobisomem - Dedução Social Clássica", "text": "O clássico atemporal que popularizou o gênero de dedução social. Os jogadores são atribuídos secretamente como máfia/lobisomens ou aldeões, com fases de discussão e eliminação."},
-          {"heading": "3. Verdade ou Desafio - Favorito Clássico de Festa", "text": "O melhor jogo quebra-gelo para todas as idades. Os jogadores escolhem entre responder perguntas verdadeiras ou completar desafios divertidos."},
-          {"heading": "4. Você Prefere - Debate e Discussão", "text": "Apresente aos jogadores escolhas impossíveis e observe debates surgirem. Perfeito para conhecer pessoas de forma divertida."},
-          {"heading": "5. Mímica - Jogo de Adivinhação Clássico", "text": "Diversão de festa atemporal onde os jogadores atuam palavras ou frases sem falar. Excelente para grupos grandes e todas as idades."},
-          {"heading": "6. Duas Verdades e uma Mentira", "text": "Um jogo simples mas eficaz para se conhecer. Cada jogador compartilha três declarações sobre si mesmos - duas verdadeiras, uma falsa - enquanto outros adivinham."},
-          {"heading": "7. Quem Sou Eu? - Jogo de Adivinhação", "text": "Os jogadores recebem o nome de uma pessoa famosa colado na testa e devem adivinhar sua identidade fazendo perguntas de sim/não."},
-          {"heading": "8. Eu Nunca", "text": "Revele fatos interessantes sobre amigos fazendo declarações que começam com 'Eu nunca'. Jogadores que fizeram devem abaixar um dedo."},
-          {"heading": "9. A Resistência - Jogo de Equipe Estratégico", "text": "Um jogo de dedução social onde equipes de combatentes da resistência tentam identificar espiões que sabotam suas missões."},
-          {"heading": "10. Codenames - Jogo de Associação de Palavras", "text": "Jogo de palavras baseado em equipes onde mestres espiões dão pistas de uma palavra para ajudar sua equipe a identificar seus agentes no tabuleiro."}
+          {
+            "heading": "1. Cluso Impostor - Melhor Jogo de Dedução Social",
+            "text": "Cluso Impostor lidera nossa lista como o jogo de dedução social offline definitivo. Com suporte para 3-20 jogadores em um único dispositivo, oferece experiência emocionante sem requisitos de internet."
+          },
+          {
+            "heading": "2. Máfia / Lobisomem - Dedução Social Clássica",
+            "text": "O clássico atemporal que popularizou o gênero de dedução social. Os jogadores são atribuídos secretamente como máfia/lobisomens ou aldeões, com fases de discussão e eliminação."
+          },
+          {
+            "heading": "3. Verdade ou Desafio - Favorito Clássico de Festa",
+            "text": "O melhor jogo quebra-gelo para todas as idades. Os jogadores escolhem entre responder perguntas verdadeiras ou completar desafios divertidos."
+          },
+          {
+            "heading": "4. Você Prefere - Debate e Discussão",
+            "text": "Apresente aos jogadores escolhas impossíveis e observe debates surgirem. Perfeito para conhecer pessoas de forma divertida."
+          },
+          {
+            "heading": "5. Mímica - Jogo de Adivinhação Clássico",
+            "text": "Diversão de festa atemporal onde os jogadores atuam palavras ou frases sem falar. Excelente para grupos grandes e todas as idades."
+          },
+          {
+            "heading": "6. Duas Verdades e uma Mentira",
+            "text": "Um jogo simples mas eficaz para se conhecer. Cada jogador compartilha três declarações sobre si mesmos - duas verdadeiras, uma falsa - enquanto outros adivinham."
+          },
+          {
+            "heading": "7. Quem Sou Eu? - Jogo de Adivinhação",
+            "text": "Os jogadores recebem o nome de uma pessoa famosa colado na testa e devem adivinhar sua identidade fazendo perguntas de sim/não."
+          },
+          {
+            "heading": "8. Eu Nunca",
+            "text": "Revele fatos interessantes sobre amigos fazendo declarações que começam com 'Eu nunca'. Jogadores que fizeram devem abaixar um dedo."
+          },
+          {
+            "heading": "9. A Resistência - Jogo de Equipe Estratégico",
+            "text": "Um jogo de dedução social onde equipes de combatentes da resistência tentam identificar espiões que sabotam suas missões."
+          },
+          {
+            "heading": "10. Codenames - Jogo de Associação de Palavras",
+            "text": "Jogo de palavras baseado em equipes onde mestres espiões dão pistas de uma palavra para ajudar sua equipe a identificar seus agentes no tabuleiro."
+          }
         ],
         "conclusion": "Embora todos esses jogos ofereçam diversão, Cluso Impostor se destaca com seu equilíbrio perfeito de estratégia, psicologia e jogabilidade offline acessível. Baixe gratuitamente e transforme qualquer reunião em uma experiência memorável!"
       },
@@ -291,14 +321,38 @@
         "date": "2025-01-10",
         "intro": "Organizar uma noite de jogos bem-sucedida requer mais do que apenas baixar alguns apps. Aqui está seu guia completo para criar experiências de jogo inesquecíveis.",
         "content": [
-          {"heading": "1. Escolha os Jogos Certos", "text": "Selecione jogos baseados no tamanho do seu grupo e preferências. Para 6-12 pessoas, jogos de dedução social como Cluso Impostor são ideais. Sempre tenha opções de backup prontas."},
-          {"heading": "2. Prepare Seu Espaço", "text": "Garanta assentos suficientes em formação circular para comunicação fácil. Boa iluminação é importante, mas regulável para ambiente. Mantenha distrações como televisores desligados."},
-          {"heading": "3. Lanches e Bebidas", "text": "Ofereça lanches fáceis de comer que não sujem as mãos. Finger foods, batatas fritas e molhos funcionam bem. Garanta bebidas suficientes para todos."},
-          {"heading": "4. Defina o Clima", "text": "Música de fundo antes dos jogos começarem ajuda as pessoas a relaxarem. Crie uma playlist baixa o suficiente para conversas. Considere decoração temática para ocasiões especiais."},
-          {"heading": "5. Explique as Regras Claramente", "text": "Reserve tempo para explicar as regras do jogo completamente antes de começar. Use exemplos e talvez faça uma rodada de prática. Certifique-se de que todos entendam antes do jogo real começar."},
-          {"heading": "6. Gerencie a Dinâmica do Grupo", "text": "Preste atenção a jogadores silenciosos e inclua-os. Equilibre jogadores competitivos com diversão amigável. Esteja pronto para mudar de jogos se a energia diminuir."},
-          {"heading": "7. Tempo é Tudo", "text": "Planeje 3-4 horas para uma noite de jogos completa. Comece com jogos quebra-gelo, depois passe para jogos principais. Deixe tempo entre jogos para conversa."},
-          {"heading": "8. Tenha um Plano de Backup", "text": "A tecnologia pode falhar, então tenha jogos alternativos prontos. Certifique-se de que seu dispositivo esteja carregado para jogos baseados em apps como Cluso. Considere também jogos físicos de backup."}
+          {
+            "heading": "1. Escolha os Jogos Certos",
+            "text": "Selecione jogos baseados no tamanho do seu grupo e preferências. Para 6-12 pessoas, jogos de dedução social como Cluso Impostor são ideais. Sempre tenha opções de backup prontas."
+          },
+          {
+            "heading": "2. Prepare Seu Espaço",
+            "text": "Garanta assentos suficientes em formação circular para comunicação fácil. Boa iluminação é importante, mas regulável para ambiente. Mantenha distrações como televisores desligados."
+          },
+          {
+            "heading": "3. Lanches e Bebidas",
+            "text": "Ofereça lanches fáceis de comer que não sujem as mãos. Finger foods, batatas fritas e molhos funcionam bem. Garanta bebidas suficientes para todos."
+          },
+          {
+            "heading": "4. Defina o Clima",
+            "text": "Música de fundo antes dos jogos começarem ajuda as pessoas a relaxarem. Crie uma playlist baixa o suficiente para conversas. Considere decoração temática para ocasiões especiais."
+          },
+          {
+            "heading": "5. Explique as Regras Claramente",
+            "text": "Reserve tempo para explicar as regras do jogo completamente antes de começar. Use exemplos e talvez faça uma rodada de prática. Certifique-se de que todos entendam antes do jogo real começar."
+          },
+          {
+            "heading": "6. Gerencie a Dinâmica do Grupo",
+            "text": "Preste atenção a jogadores silenciosos e inclua-os. Equilibre jogadores competitivos com diversão amigável. Esteja pronto para mudar de jogos se a energia diminuir."
+          },
+          {
+            "heading": "7. Tempo é Tudo",
+            "text": "Planeje 3-4 horas para uma noite de jogos completa. Comece com jogos quebra-gelo, depois passe para jogos principais. Deixe tempo entre jogos para conversa."
+          },
+          {
+            "heading": "8. Tenha um Plano de Backup",
+            "text": "A tecnologia pode falhar, então tenha jogos alternativos prontos. Certifique-se de que seu dispositivo esteja carregado para jogos baseados em apps como Cluso. Considere também jogos físicos de backup."
+          }
         ],
         "conclusion": "Com a preparação certa, sua noite de jogos se tornará o evento que todos aguardam. Baixe Cluso para acessar múltiplos jogos em um app - perfeito para qualquer noite de jogos!"
       },
@@ -312,15 +366,126 @@
         "date": "2025-01-05",
         "intro": "Jogos de dedução social se tornaram um fenômeno de festa. Mas o que os torna tão envolventes? Vamos mergulhar na psicologia e mecânicas por trás deste popular gênero.",
         "content": [
-          {"heading": "O Que São Jogos de Dedução Social?", "text": "Jogos de dedução social são jogos multijogador onde os jogadores tentam descobrir os papéis uns dos outros através de discussão, observação e raciocínio lógico. Tipicamente, um pequeno grupo conhece secretamente as identidades uns dos outros enquanto a maioria tenta identificá-los."},
-          {"heading": "História do Gênero", "text": "O gênero começou com Máfia (também conhecido como Lobisomem) nos anos 1980. Ganhou popularidade mainstream com Among Us em 2020, que introduziu milhões ao jogo de dedução social. Agora o gênero está evoluindo com apps como Cluso que oferecem jogo offline."},
-          {"heading": "Mecânicas Centrais", "text": "A maioria dos jogos de dedução social compartilha elementos comuns: atribuição secreta de papéis, fases de discussão, mecânicas de votação e eliminação. O equilíbrio entre informação e engano cria tensão."},
-          {"heading": "A Psicologia Por Trás", "text": "Esses jogos exploram a psicologia humana fundamental - nossa necessidade de confiar, medo de traição e amor por resolver enigmas. O aspecto social adiciona investimento emocional que outros jogos não podem replicar."},
-          {"heading": "Por Que Funcionam em Festas", "text": "Jogos de dedução social são perfeitos para festas porque acomodam grupos grandes, fomentam conversa e criam momentos memoráveis. Ao contrário de jogos competitivos, são divertidos para todos independentemente do nível de habilidade."},
-          {"heading": "Versões Online vs. Offline", "text": "Enquanto versões online como Among Us são populares, versões offline como Cluso Impostor oferecem vantagens únicas: interação pessoal, leitura de linguagem corporal e sem requisito de internet. O aspecto pessoal amplifica o elemento psicológico."},
-          {"heading": "O Futuro do Gênero", "text": "Jogos de dedução social continuam evoluindo com novas mecânicas, papéis e variações. Apps móveis democratizam o acesso, enquanto o apelo central - interação humana e engano - permanece atemporal."}
+          {
+            "heading": "O Que São Jogos de Dedução Social?",
+            "text": "Jogos de dedução social são jogos multijogador onde os jogadores tentam descobrir os papéis uns dos outros através de discussão, observação e raciocínio lógico. Tipicamente, um pequeno grupo conhece secretamente as identidades uns dos outros enquanto a maioria tenta identificá-los."
+          },
+          {
+            "heading": "História do Gênero",
+            "text": "O gênero começou com Máfia (também conhecido como Lobisomem) nos anos 1980. Ganhou popularidade mainstream com Among Us em 2020, que introduziu milhões ao jogo de dedução social. Agora o gênero está evoluindo com apps como Cluso que oferecem jogo offline."
+          },
+          {
+            "heading": "Mecânicas Centrais",
+            "text": "A maioria dos jogos de dedução social compartilha elementos comuns: atribuição secreta de papéis, fases de discussão, mecânicas de votação e eliminação. O equilíbrio entre informação e engano cria tensão."
+          },
+          {
+            "heading": "A Psicologia Por Trás",
+            "text": "Esses jogos exploram a psicologia humana fundamental - nossa necessidade de confiar, medo de traição e amor por resolver enigmas. O aspecto social adiciona investimento emocional que outros jogos não podem replicar."
+          },
+          {
+            "heading": "Por Que Funcionam em Festas",
+            "text": "Jogos de dedução social são perfeitos para festas porque acomodam grupos grandes, fomentam conversa e criam momentos memoráveis. Ao contrário de jogos competitivos, são divertidos para todos independentemente do nível de habilidade."
+          },
+          {
+            "heading": "Versões Online vs. Offline",
+            "text": "Enquanto versões online como Among Us são populares, versões offline como Cluso Impostor oferecem vantagens únicas: interação pessoal, leitura de linguagem corporal e sem requisito de internet. O aspecto pessoal amplifica o elemento psicológico."
+          },
+          {
+            "heading": "O Futuro do Gênero",
+            "text": "Jogos de dedução social continuam evoluindo com novas mecânicas, papéis e variações. Apps móveis democratizam o acesso, enquanto o apelo central - interação humana e engano - permanece atemporal."
+          }
         ],
         "conclusion": "Seja você um jogador veterano ou novato, jogos de dedução social oferecem entretenimento sem fim. Experimente Cluso Impostor para vivenciar o gênero em sua melhor forma offline!"
+      },
+      "icebreaker-games-for-adults": {
+        "meta": {
+          "title": "Icebreaker Games for Adults: 15+ Activities to Start Any Party | Cluso",
+          "description": "Discover the best icebreaker games for adults to kick off any party or gathering. 15+ activities from quick 5-minute games to deep engagement icebreakers. Perfect for parties, team building, and social events.",
+          "keywords": "icebreaker games for adults, party icebreakers, icebreaker activities, get to know you games, adult party games, team building icebreakers, party starters"
+        },
+        "title": "Icebreaker Games for Adults: 15+ Activities to Start Any Party",
+        "date": "2025-01-20",
+        "intro": "Starting a party can be awkward. Guests arrive at different times, conversations feel forced, and energy is low. The solution? Perfect icebreaker games that warm up the crowd and set the tone for an amazing night. Here are 15+ activities organized by time and engagement level.",
+        "content": [
+          {
+            "heading": "Quick Icebreakers (5 Minutes Each)",
+            "text": "These fast activities are perfect when guests are still arriving or you need a quick energy boost. Name Tag Remix: Instead of normal name tags, guests write a fun fact or unusual skill. Others must guess whose tag belongs to who. Quick Draw: Give everyone 30 seconds to draw the same object (like a cat). Compare results for instant laughs. High-Low: Go around the circle, each person shares the high and low point of their week in one sentence. Two Word Stories: First person says two words, next adds two more, creating a collaborative story. One Unique Thing: Everyone shares something unique about themselves that they think no one else in the room has done."
+          },
+          {
+            "heading": "Medium Engagement Icebreakers (10-15 Minutes)",
+            "text": "These activities create deeper connections while remaining fun and accessible. Find Your Match: Create pairs of related items (peanut butter/jelly, Mario/Luigi) on cards. Guests must find their match and learn three things about each other. Human Bingo: Create bingo cards with traits like 'has been skydiving' or 'speaks 3+ languages'. Guests mingle to find people who match each square. Speed Meeting: Like speed dating but friendly. Pairs have 2 minutes to learn about each other before rotating. Question Ball: Write questions all over a beach ball. Toss it around - wherever your right thumb lands is the question you answer. Common Ground: In groups of 4-5, find something all members have in common that they think no other group will have."
+          },
+          {
+            "heading": "Cluso Impostor as an Icebreaker",
+            "text": "Social deduction games like Cluso make perfect icebreakers because they force interaction while providing structure. Unlike forced 'sharing circle' activities, the game creates natural conversation. Players must talk, ask questions, and read each other - all while having fun. The discussion phase breaks down social barriers quickly. Shy guests find it easier to participate because there's a game framework. Plus, Cluso works for any group size (3-20 players) and only needs one device, making it incredibly versatile. The impostor element adds excitement that energizes the whole room."
+          },
+          {
+            "heading": "Deep Engagement Icebreakers",
+            "text": "For groups that will spend extended time together, these create meaningful connections. Life Map: Each person draws a simple timeline of their life with 3-5 major moments. Share in small groups. Desert Island: What three items would you bring to a desert island and why? Reveals priorities and personality. Rose, Thorn, Bud: Share something good (rose), something challenging (thorn), and something you're looking forward to (bud). Hot Seat: One volunteer sits in the middle while others ask them questions for 3 minutes. Rotate who's in the hot seat. Passion Sharing: Everyone gets 2 minutes to talk about something they're passionate about with zero judgment."
+          },
+          {
+            "heading": "Icebreakers for Shy Guests",
+            "text": "Some people hate traditional icebreakers. These work for introverts and anxious guests. Silent Line Up: Without speaking, line up by birthday (month/day only), height, or shoe size. Builds teamwork without forcing conversation. Partner Introduction: Pair up for 3 minutes. Then introduce your partner to the group instead of yourself. Less pressure. Category Corners: Call out categories (coffee/tea, beach/mountains). People move to corners representing their choice. Natural conversation starts. Would You Rather: Simple either/or questions. Point to your choice. No explanation needed unless you want to share. Drawing Telephone: Like the telephone game but with drawings. Misinterpretations create laughter without anyone being put on the spot."
+          },
+          {
+            "heading": "Icebreakers for Large Groups (15+ People)",
+            "text": "Managing energy in large groups requires special activities. Big Group Cluso: The impostor game scales perfectly to 20 players. The larger the group, the more chaotic and fun the discussions become. Snowball Fight: Everyone writes a fun fact, crumples it into a 'snowball', and throws it. Grab a random one and find whose fact it is. Four Corners: Assign corners different options for questions. People move to their choice corner and discuss why. Mingle Music: Play music while people mingle. When it stops, nearest person becomes your partner for a quick question. Gallery Walk: Post discussion questions around the room. Small groups rotate, adding responses to each question station."
+          },
+          {
+            "heading": "When to Use Each Type",
+            "text": "Quick icebreakers work when: guests are still arriving, you need an energy boost mid-party, or time is limited. Medium icebreakers fit when: most guests have arrived, you have 15-30 minutes before the main event, or you want to create mixed groups. Deep icebreakers suit: team retreats, workshops, groups that will work together, or intimate gatherings where vulnerability is welcome. Game-based icebreakers (like Cluso) excel when: you want extended engagement, the group will be together for hours, or you need something that transitions smoothly into main entertainment."
+          },
+          {
+            "heading": "Pro Tips for Any Icebreaker",
+            "text": "Go first: As the host, model the energy and vulnerability you want from others. Keep it light: Read the room. If people are resistant, switch activities quickly. Don't force it. Make it voluntary: Never force participation. Having an 'observer' option reduces anxiety. Set time limits: Use a timer. It prevents one person from dominating and keeps energy up. Mix groups: Actively split up people who know each other. The point is to meet new people. Transition smoothly: Plan how the icebreaker leads into your next activity. Poor transitions kill momentum."
+          }
+        ],
+        "conclusion": "The best icebreaker transforms strangers into friends and good parties into great ones. Whether you choose a quick 5-minute activity or a deep engagement game like Cluso Impostor, the key is matching the activity to your audience and timing. Download Cluso to have a reliable party-starting icebreaker that works for any group size and guarantees engagement!"
+      },
+      "group-games-for-large-parties": {
+        "meta": {
+          "title": "Group Games for 10+ People: Best Large Party Activities (2025) | Cluso",
+          "description": "Struggling to find games for large groups? Discover the best group games for 10-20+ people. Activities that actually work for big parties, team events, and gatherings. No equipment needed.",
+          "keywords": "group games, large group games, games for 10 people, games for 15 people, games for 20 people, big group activities, party games for large groups, team building games"
+        },
+        "title": "Group Games for 10+ People: Best Large Party Activities",
+        "date": "2025-01-18",
+        "intro": "Finding games that work for large groups is frustrating. Most party games cap at 8 players. Others claim to support big groups but become chaotic messes. Here are activities genuinely designed for 10-20+ people, organized by player count and engagement type.",
+        "content": [
+          {
+            "heading": "Why Large Group Games Are Different",
+            "text": "Games for 10+ people face unique challenges. Too much downtime between turns kills energy. Explaining complex rules to 15 people takes forever. Quiet players get lost in the chaos. The best large group games solve these issues with: simultaneous participation (everyone plays at once), simple rules (explained in under 2 minutes), built-in social mixing (everyone interacts with multiple people), flexible player counts (works with 10 or 20), and minimal equipment (not everyone has 20 game controllers)."
+          },
+          {
+            "heading": "Best Games for 10-15 People",
+            "text": "Cluso Impostor: The social deduction game designed for large groups. 10-15 players creates the perfect balance - enough chaos to hide impostors, but manageable discussion. Only one device needed. Games last 15-20 minutes. Mafia/Werewolf: The classic that popularized social deduction. Requires a moderator who can't play. Works best with 10-12 players. Free but needs a good moderator. Charades (Team Version): Split into two teams of 5-7. Teams alternate acting. Competition keeps energy high. Needs just paper and a timer. Pictionary (Tournament Style): Multiple teams draw simultaneously. Fastest team to guess wins the round. Works with standard Pictionary or improvised. Catchphrase: Teams pass a device and give clues to words. When the timer beeps, the holding team loses. Scalable and fast-paced."
+          },
+          {
+            "heading": "Best Games for 15-20 People",
+            "text": "Cluso Impostor (Large Mode): With 15-20 players, Cluso becomes delightfully chaotic. More impostors hide among more innocents. Discussions become intense debates. The game scales perfectly - larger groups just mean longer but more exciting discussions. Two Rooms and a Boom: Split into two rooms. Each team has a secret president. Opposite team has a bomber. Through timed exchanges, teams try to win. Needs 2 rooms and a moderator. Mafia (Extended): With more players, add more roles: doctor, detective, vigilante. Increases complexity but also engagement. Still requires a skilled moderator. Human Knot: Everyone grabs two random hands in the circle. Must untangle without letting go. Physical and hilarious. No equipment needed. Heads Up Categories: Large group shouts items in a category. First to pause loses. Elimination style until one winner remains."
+          },
+          {
+            "heading": "Games That Scale Infinitely",
+            "text": "These work with any large number and can even accommodate 30+ players. Assassin: Everyone gets a secret target. 'Kill' your target by winking at them. They're out and you inherit their target. Last assassin standing wins. Plays out over hours or days. Telephone (Drawing Version): Start with a phrase. Person 1 draws it. Person 2 guesses the drawing. Person 3 draws that guess. By person 20, it's unrecognizable. Hilarious results. Just needs paper and pens. Silent Line-Up: Without speaking, line up by birthday, height, or another criterion. Communication without words. Teamwork building. Scavenger Hunt (Team-Based): Create teams of 4-5. List of items to photograph or collect. First team with everything wins. Works for any location. Would You Rather (Debate Version): Pose dilemmas. Each side debates their position. Anyone can switch sides based on arguments. Reveals reasoning and creates discussion."
+          },
+          {
+            "heading": "Why Cluso Dominates for Large Groups",
+            "text": "Most party games struggle with 10+ players. Cluso Impostor was specifically designed to excel with large groups. Here's why it works: One device for everyone - no buying 15 copies or controllers. Dynamic scaling - algorithm adjusts impostor count based on players. Simultaneous engagement - everyone participates in discussion phase, zero downtime. Perfect for mixed groups - works if half the people are introverts. Quick rounds - even with 20 players, games finish in 20-25 minutes. No moderator needed - unlike Mafia, everyone can play. Built-in ice breaking - forces everyone to interact naturally. It's the rare game that actually gets BETTER with more players rather than worse."
+          },
+          {
+            "heading": "Managing Large Group Dynamics",
+            "text": "Size creates challenges beyond just the game choice. Make sure everyone can hear: Use a microphone for 15+ people or move to a smaller room. Even sound levels prevent the loudest from dominating. Prevent cliques: Actively mix up people who arrived together. The point of large group games is meeting new people, not hanging with your existing friends. Handle quiet players: Create explicit space for them. In Cluso, go around the circle to ensure everyone speaks. In other games, use talking sticks or turn orders. Set time limits: With 15 people sharing thoughts, set 30-second limits or discussions drag forever. Use a visible timer. Split when needed: Some activities work better with two simultaneous games of 10 than one game of 20. Read the room."
+          },
+          {
+            "heading": "Equipment Considerations for Large Groups",
+            "text": "Running games for 20 people can get expensive. Prioritize these solutions: Phone/tablet games (like Cluso): One device costs nothing extra regardless of player count. Versus buying 20 board game pieces. DIY materials: Paper, pens, and timers replace most commercial games. Write your own Charades prompts or Pictionary words. Team-based sharing: Divide 20 people into 4 teams of 5. Teams share one set of materials. Reduces costs dramatically. Projection: If using a device with a large group, connect to a TV or projector so everyone can see clearly. Free games first: Before buying expensive large-group games, exhaust free options. Many work just as well."
+          },
+          {
+            "heading": "Common Large Group Mistakes to Avoid",
+            "text": "Don't overexplain rules: With 15 people watching you explain, keep it under 2 minutes. Learn by playing. Don't let one person dominate: Designate a facilitator to gently redirect if needed. Democracy dies in large groups without management. Don't skip breaks: After 45-60 minutes, people need bathroom/drink breaks. Factor this in. Don't choose complex games: Simple games like Cluso work better than complex strategy games requiring deep explanation. Don't forget about space: 20 people need physical room. Games with movement need even more."
+          }
+        ],
+        "conclusion": "Large group games aren't just 'games that technically allow more players.' The best ones, like Cluso Impostor, are specifically designed to harness the energy and chaos of big groups into amazing experiences. Whether you're hosting 10 people or 20, having a reliable large-group game in your toolkit transforms impossible hosting situations into unforgettable parties. Download Cluso and discover why it's the go-to game for big gatherings!"
       }
     }
   },
@@ -330,47 +495,106 @@
       "description": "Domine Cluso Impostor com dicas e estratégias experientes. Aprenda táticas avançadas para inocentes e impostores, truques psicológicos e estratégias vencedoras.",
       "keywords": "dicas impostor, estratégias impostor, como ganhar impostor, dicas dedução social, estratégias jogo festa, estratégias cluso, táticas impostor, psicologia jogo"
     },
-    "hero": {"title": "Dicas e Estratégias", "titleAccent": "Domine o Jogo", "subtitle": "Melhore seu jogo de Impostor com estratégias experientes para inocentes e impostores. Aprenda truques psicológicos, táticas avançadas e jogadas vencedoras."},
+    "hero": {
+      "title": "Dicas e Estratégias",
+      "titleAccent": "Domine o Jogo",
+      "subtitle": "Melhore seu jogo de Impostor com estratégias experientes para inocentes e impostores. Aprenda truques psicológicos, táticas avançadas e jogadas vencedoras."
+    },
     "forInnocents": {
       "title": "Estratégias para Inocentes",
       "intro": "Como inocente, seu objetivo é identificar e eliminar impostores através de observação e dedução cuidadosa.",
       "tips": [
-        {"title": "Faça Perguntas Específicas", "description": "Não faça perguntas genéricas. Direcione perguntas específicas e detalhadas a jogadores sobre suas ações ou observações. Impostores frequentemente têm dificuldades com detalhes específicos."},
-        {"title": "Observe Padrões de Comportamento", "description": "Note quem fala primeiro, quem permanece quieto, quem desvia a culpa. Impostores frequentemente exibem comportamentos nervosos como sobre-explicar ou evitar contato visual."},
-        {"title": "Rastreie Padrões de Votação", "description": "Preste atenção em quem vota em quem. Impostores podem votar juntos ou estrategicamente em inocentes para criar caos."},
-        {"title": "Construa Alianças Cuidadosamente", "description": "Junte-se com jogadores em quem você confia, mas não confie muito rápido. Impostores adoram ganhar confiança cedo."},
-        {"title": "Não Revele Tudo", "description": "Guarde algumas observações. Se um impostor sabe o que você sabe, ele pode criar mentiras melhores."}
+        {
+          "title": "Faça Perguntas Específicas",
+          "description": "Não faça perguntas genéricas. Direcione perguntas específicas e detalhadas a jogadores sobre suas ações ou observações. Impostores frequentemente têm dificuldades com detalhes específicos."
+        },
+        {
+          "title": "Observe Padrões de Comportamento",
+          "description": "Note quem fala primeiro, quem permanece quieto, quem desvia a culpa. Impostores frequentemente exibem comportamentos nervosos como sobre-explicar ou evitar contato visual."
+        },
+        {
+          "title": "Rastreie Padrões de Votação",
+          "description": "Preste atenção em quem vota em quem. Impostores podem votar juntos ou estrategicamente em inocentes para criar caos."
+        },
+        {
+          "title": "Construa Alianças Cuidadosamente",
+          "description": "Junte-se com jogadores em quem você confia, mas não confie muito rápido. Impostores adoram ganhar confiança cedo."
+        },
+        {
+          "title": "Não Revele Tudo",
+          "description": "Guarde algumas observações. Se um impostor sabe o que você sabe, ele pode criar mentiras melhores."
+        }
       ]
     },
     "forImpostors": {
       "title": "Estratégias para Impostores",
       "intro": "Como impostor, adapte-se, desvie suspeitas e elimine ameaças estrategicamente sem ser pego.",
       "tips": [
-        {"title": "Aja Naturalmente", "description": "Não exagere na inocência ou seja muito defensivo. Espelhe o comportamento de inocentes reais - confuso, questionador e analítico."},
-        {"title": "Crie Dúvida Razoável", "description": "Não tente provar completamente sua inocência. Apenas crie dúvida suficiente para mudar suspeita para outros."},
-        {"title": "Acuse Estrategicamente", "description": "Ocasionalmente acuse outros jogadores (incluindo companheiros impostores) para parecer envolvido. Mas não seja muito agressivo."},
-        {"title": "Controle a Narrativa", "description": "Guie discussões sutilmente. Faça perguntas direcionadas que direcionem suspeita para outro lugar. Enquadre debates de forma que beneficiem você."},
-        {"title": "Vote com a Maioria", "description": "A menos que esteja coordenando com outros impostores, vote com a maioria. Destacar-se com votos incomuns levanta suspeitas."}
+        {
+          "title": "Aja Naturalmente",
+          "description": "Não exagere na inocência ou seja muito defensivo. Espelhe o comportamento de inocentes reais - confuso, questionador e analítico."
+        },
+        {
+          "title": "Crie Dúvida Razoável",
+          "description": "Não tente provar completamente sua inocência. Apenas crie dúvida suficiente para mudar suspeita para outros."
+        },
+        {
+          "title": "Acuse Estrategicamente",
+          "description": "Ocasionalmente acuse outros jogadores (incluindo companheiros impostores) para parecer envolvido. Mas não seja muito agressivo."
+        },
+        {
+          "title": "Controle a Narrativa",
+          "description": "Guie discussões sutilmente. Faça perguntas direcionadas que direcionem suspeita para outro lugar. Enquadre debates de forma que beneficiem você."
+        },
+        {
+          "title": "Vote com a Maioria",
+          "description": "A menos que esteja coordenando com outros impostores, vote com a maioria. Destacar-se com votos incomuns levanta suspeitas."
+        }
       ]
     },
     "psychology": {
       "title": "Táticas Psicológicas",
       "tips": [
-        {"title": "Use Pressão Social", "description": "Jogadores odeiam ser diferentes. Use isso a seu favor seja como inocente construindo consenso ou impostor desviando culpa."},
-        {"title": "Crie Pressão de Tempo", "description": "Quando discussões se prolongam, jogadores tomam decisões apressadas. Como impostor, você pode se beneficiar de votos apressados."},
-        {"title": "Explore o Viés de Confirmação", "description": "Pessoas acreditam no que confirma suas crenças existentes. Plante sementes cedo que cresçam em suspeitas fortes depois."}
+        {
+          "title": "Use Pressão Social",
+          "description": "Jogadores odeiam ser diferentes. Use isso a seu favor seja como inocente construindo consenso ou impostor desviando culpa."
+        },
+        {
+          "title": "Crie Pressão de Tempo",
+          "description": "Quando discussões se prolongam, jogadores tomam decisões apressadas. Como impostor, você pode se beneficiar de votos apressados."
+        },
+        {
+          "title": "Explore o Viés de Confirmação",
+          "description": "Pessoas acreditam no que confirma suas crenças existentes. Plante sementes cedo que cresçam em suspeitas fortes depois."
+        }
       ]
     },
     "commonScenarios": {
       "title": "Cenários Comuns e Como Lidar com Eles",
       "scenarios": [
-        {"title": "Você É Acusado como Inocente", "description": "Mantenha a calma e forneça detalhes específicos sobre suas observações. Não fique na defensiva. Pergunte ao seu acusador seu raciocínio e encontre buracos nele."},
-        {"title": "Você É Acusado como Impostor", "description": "Não entre em pânico. Negue calmamente e redirecione questionando os motivos do acusador ou sugerindo suspeitos alternativos com argumentos razoáveis."},
-        {"title": "Dois Jogadores Se Acusando Mutuamente", "description": "Como inocente, analise ambos argumentos objetivamente. Como impostor, apoie a narrativa que mais te ajude."},
-        {"title": "Rodadas Finais (3-4 Jogadores Restantes)", "description": "Momento de pensamento crítico. Como inocente, confie em seus instintos. Como impostor, você pode precisar de movimentos ousados."}
+        {
+          "title": "Você É Acusado como Inocente",
+          "description": "Mantenha a calma e forneça detalhes específicos sobre suas observações. Não fique na defensiva. Pergunte ao seu acusador seu raciocínio e encontre buracos nele."
+        },
+        {
+          "title": "Você É Acusado como Impostor",
+          "description": "Não entre em pânico. Negue calmamente e redirecione questionando os motivos do acusador ou sugerindo suspeitos alternativos com argumentos razoáveis."
+        },
+        {
+          "title": "Dois Jogadores Se Acusando Mutuamente",
+          "description": "Como inocente, analise ambos argumentos objetivamente. Como impostor, apoie a narrativa que mais te ajude."
+        },
+        {
+          "title": "Rodadas Finais (3-4 Jogadores Restantes)",
+          "description": "Momento de pensamento crítico. Como inocente, confie em seus instintos. Como impostor, você pode precisar de movimentos ousados."
+        }
       ]
     },
-    "cta": {"title": "Pronto para Dominar?", "description": "Baixe Cluso e coloque essas estratégias em ação. Que vença o melhor enganador!", "button": "Baixar Cluso"}
+    "cta": {
+      "title": "Pronto para Dominar?",
+      "description": "Baixe Cluso e coloque essas estratégias em ação. Que vença o melhor enganador!",
+      "button": "Baixar Cluso"
+    }
   },
   "rulesPage": {
     "meta": {

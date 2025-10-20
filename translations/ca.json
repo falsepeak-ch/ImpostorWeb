@@ -268,16 +268,46 @@
         "date": "2025-01-15",
         "intro": "Busques el joc de festa perfecte per a la teva propera trobada? Hem recopilat els millors jocs offline que no requereixen connexió WiFi i proporcionen hores de diversió.",
         "content": [
-          {"heading": "1. Cluso Impostor - Millor Joc de Deducció Social", "text": "Cluso Impostor encapçala la nostra llista com el joc de deducció social offline definitiu. Amb suport per a 3-20 jugadors en un sol dispositiu, ofereix una experiència emocionant sense requisits d'internet."},
-          {"heading": "2. Màfia / Home Llop - Deducció Social Clàssica", "text": "El clàssic atemporal que va popularitzar el gènere de deducció social. Els jugadors són assignats secretament com màfia/homes llop o vilatans, amb fases de discussió i eliminació."},
-          {"heading": "3. Veritat o Repte - Favorit Clàssic de Festa", "text": "El millor joc per trencar el gel per a totes les edats. Els jugadors trien entre respondre preguntes veritables o completar reptes divertits."},
-          {"heading": "4. Preferiríes - Debat i Discussió", "text": "Presenta als jugadors eleccions impossibles i observa com sorgeixen debats. Perfecte per conèixer les persones de manera divertida."},
-          {"heading": "5. Mímica - Joc d'Endevinalles Clàssic", "text": "Diversió de festa atemporal on els jugadors actuen paraules o frases sense parlar. Excel·lent per a grups grans i totes les edats."},
-          {"heading": "6. Dues Veritats i una Mentida", "text": "Un joc simple però efectiu per conèixer-se. Cada jugador comparteix tres declaracions sobre si mateixos - dues veritables, una falsa - mentre altres endevinen."},
-          {"heading": "7. Qui Sóc? - Joc d'Endevinalles", "text": "Els jugadors reben el nom d'una persona famosa enganxat al seu front i han d'endevinar la seva identitat fent preguntes de sí/no."},
-          {"heading": "8. Mai Mai", "text": "Revela fets interessants sobre amics fent declaracions que comencen amb 'Mai mai'. Els jugadors que ho han fet han de baixar un dit."},
-          {"heading": "9. La Resistència - Joc d'Equip Estratègic", "text": "Un joc de deducció social on equips de combatents de resistència intenten identificar espies que sabotegen les seves missions."},
-          {"heading": "10. Codenames - Joc d'Associació de Paraules", "text": "Joc de paraules basat en equips on els mestres d'espies donen pistes d'una paraula per ajudar el seu equip a identificar els seus agents al tauler."}
+          {
+            "heading": "1. Cluso Impostor - Millor Joc de Deducció Social",
+            "text": "Cluso Impostor encapçala la nostra llista com el joc de deducció social offline definitiu. Amb suport per a 3-20 jugadors en un sol dispositiu, ofereix una experiència emocionant sense requisits d'internet."
+          },
+          {
+            "heading": "2. Màfia / Home Llop - Deducció Social Clàssica",
+            "text": "El clàssic atemporal que va popularitzar el gènere de deducció social. Els jugadors són assignats secretament com màfia/homes llop o vilatans, amb fases de discussió i eliminació."
+          },
+          {
+            "heading": "3. Veritat o Repte - Favorit Clàssic de Festa",
+            "text": "El millor joc per trencar el gel per a totes les edats. Els jugadors trien entre respondre preguntes veritables o completar reptes divertits."
+          },
+          {
+            "heading": "4. Preferiríes - Debat i Discussió",
+            "text": "Presenta als jugadors eleccions impossibles i observa com sorgeixen debats. Perfecte per conèixer les persones de manera divertida."
+          },
+          {
+            "heading": "5. Mímica - Joc d'Endevinalles Clàssic",
+            "text": "Diversió de festa atemporal on els jugadors actuen paraules o frases sense parlar. Excel·lent per a grups grans i totes les edats."
+          },
+          {
+            "heading": "6. Dues Veritats i una Mentida",
+            "text": "Un joc simple però efectiu per conèixer-se. Cada jugador comparteix tres declaracions sobre si mateixos - dues veritables, una falsa - mentre altres endevinen."
+          },
+          {
+            "heading": "7. Qui Sóc? - Joc d'Endevinalles",
+            "text": "Els jugadors reben el nom d'una persona famosa enganxat al seu front i han d'endevinar la seva identitat fent preguntes de sí/no."
+          },
+          {
+            "heading": "8. Mai Mai",
+            "text": "Revela fets interessants sobre amics fent declaracions que comencen amb 'Mai mai'. Els jugadors que ho han fet han de baixar un dit."
+          },
+          {
+            "heading": "9. La Resistència - Joc d'Equip Estratègic",
+            "text": "Un joc de deducció social on equips de combatents de resistència intenten identificar espies que sabotegen les seves missions."
+          },
+          {
+            "heading": "10. Codenames - Joc d'Associació de Paraules",
+            "text": "Joc de paraules basat en equips on els mestres d'espies donen pistes d'una paraula per ajudar el seu equip a identificar els seus agents al tauler."
+          }
         ],
         "conclusion": "Encara que tots aquests jocs ofereixen diversió, Cluso Impostor destaca amb el seu equilibri perfecte d'estratègia, psicologia i jugabilitat offline accessible. Descarrega'l gratis i converteix qualsevol trobada en una experiència memorable!"
       },
@@ -291,14 +321,38 @@
         "date": "2025-01-10",
         "intro": "Organitzar una nit de jocs exitosa requereix més que només descarregar algunes apps. Aquí està la teva guia completa per crear experiències de joc inoblidables.",
         "content": [
-          {"heading": "1. Tria els Jocs Correctes", "text": "Selecciona jocs basats en la mida del teu grup i preferències. Per a 6-12 persones, els jocs de deducció social com Cluso Impostor són ideals. Sempre tingues opcions de reserva llestes."},
-          {"heading": "2. Prepara el Teu Espai", "text": "Assegura seients suficients en formació circular per a comunicació fàcil. La bona il·luminació és important, però regulable per ambient. Mantén les distraccions com televisors apagats."},
-          {"heading": "3. Aperitius i Begudes", "text": "Ofereix aperitius fàcils de menjar que no embrutin les mans. Menjar per picar, patates fregides i salses funcionen bé. Assegura begudes suficients per a tots."},
-          {"heading": "4. Estableix l'Ambient", "text": "La música de fons abans que comencin els jocs ajuda a les persones a relaxar-se. Crea una llista de reproducció prou baixa per a converses. Considera decoració temàtica per a ocasions especials."},
-          {"heading": "5. Explica les Regles Clarament", "text": "Pren temps per explicar les regles del joc a fons abans de començar. Usa exemples i potser fes una ronda de pràctica. Assegura't que tots entenguin abans que comenci el joc real."},
-          {"heading": "6. Gestiona la Dinàmica del Grup", "text": "Para atenció als jugadors silenciosos i inclou'ls. Equilibra jugadors competitius amb diversió amistosa. Prepara't per canviar de jocs si l'energia decau."},
-          {"heading": "7. El Temps ho és Tot", "text": "Planeja 3-4 hores per a una nit de jocs completa. Comença amb jocs per trencar el gel, després passa a jocs principals. Deixa temps entre jocs per a conversa."},
-          {"heading": "8. Tingues un Pla de Reserva", "text": "La tecnologia pot fallar, així que tingues jocs alternatius llestos. Assegura't que el teu dispositiu estigui carregat per a jocs basats en apps com Cluso. Considera també jocs físics de reserva."}
+          {
+            "heading": "1. Tria els Jocs Correctes",
+            "text": "Selecciona jocs basats en la mida del teu grup i preferències. Per a 6-12 persones, els jocs de deducció social com Cluso Impostor són ideals. Sempre tingues opcions de reserva llestes."
+          },
+          {
+            "heading": "2. Prepara el Teu Espai",
+            "text": "Assegura seients suficients en formació circular per a comunicació fàcil. La bona il·luminació és important, però regulable per ambient. Mantén les distraccions com televisors apagats."
+          },
+          {
+            "heading": "3. Aperitius i Begudes",
+            "text": "Ofereix aperitius fàcils de menjar que no embrutin les mans. Menjar per picar, patates fregides i salses funcionen bé. Assegura begudes suficients per a tots."
+          },
+          {
+            "heading": "4. Estableix l'Ambient",
+            "text": "La música de fons abans que comencin els jocs ajuda a les persones a relaxar-se. Crea una llista de reproducció prou baixa per a converses. Considera decoració temàtica per a ocasions especials."
+          },
+          {
+            "heading": "5. Explica les Regles Clarament",
+            "text": "Pren temps per explicar les regles del joc a fons abans de començar. Usa exemples i potser fes una ronda de pràctica. Assegura't que tots entenguin abans que comenci el joc real."
+          },
+          {
+            "heading": "6. Gestiona la Dinàmica del Grup",
+            "text": "Para atenció als jugadors silenciosos i inclou'ls. Equilibra jugadors competitius amb diversió amistosa. Prepara't per canviar de jocs si l'energia decau."
+          },
+          {
+            "heading": "7. El Temps ho és Tot",
+            "text": "Planeja 3-4 hores per a una nit de jocs completa. Comença amb jocs per trencar el gel, després passa a jocs principals. Deixa temps entre jocs per a conversa."
+          },
+          {
+            "heading": "8. Tingues un Pla de Reserva",
+            "text": "La tecnologia pot fallar, així que tingues jocs alternatius llestos. Assegura't que el teu dispositiu estigui carregat per a jocs basats en apps com Cluso. Considera també jocs físics de reserva."
+          }
         ],
         "conclusion": "Amb la preparació adequada, la teva nit de jocs es convertirà en l'esdeveniment que tots esperen. Descarrega Cluso per accedir a múltiples jocs en una app - perfecte per a qualsevol nit de jocs!"
       },
@@ -312,15 +366,126 @@
         "date": "2025-01-05",
         "intro": "Els jocs de deducció social s'han convertit en un fenomen de festa. Però què els fa tan atractius? Aprofundim en la psicologia i mecàniques darrere d'aquest popular gènere.",
         "content": [
-          {"heading": "Què són els Jocs de Deducció Social?", "text": "Els jocs de deducció social són jocs multijugador on els jugadors intenten descobrir els rols d'altres a través de discussió, observació i raonament lògic. Típicament, un petit grup coneix secretament les identitats dels altres mentre la majoria intenta identificar-los."},
-          {"heading": "Història del Gènere", "text": "El gènere va començar amb Màfia (també conegut com Home Llop) a la dècada de 1980. Va guanyar popularitat mainstream amb Among Us el 2020, que va introduir milions al joc de deducció social. Ara el gènere està evolucionant amb apps com Cluso que ofereixen joc offline."},
-          {"heading": "Mecàniques Centrals", "text": "La majoria dels jocs de deducció social comparteixen elements comuns: assignació secreta de rols, fases de discussió, mecàniques de votació i eliminació. L'equilibri entre informació i engany crea tensió."},
-          {"heading": "La Psicologia Darrere", "text": "Aquests jocs aprofiten la psicologia humana fonamental - la nostra necessitat de confiar, por a la traïció i amor per resoldre enigmes. L'aspecte social afegeix inversió emocional que altres jocs no poden replicar."},
-          {"heading": "Per Què Funcionen a Festes", "text": "Els jocs de deducció social són perfectes per a festes perquè acomoden grups grans, fomenten conversa i creen moments memorables. A diferència de jocs competitius, són divertits per a tots independentment del nivell d'habilitat."},
-          {"heading": "Versions Online vs. Offline", "text": "Mentre les versions online com Among Us són populars, les versions offline com Cluso Impostor ofereixen avantatges únics: interacció en persona, lectura de llenguatge corporal i sense requisit d'internet. L'aspecte en persona amplifica l'element psicològic."},
-          {"heading": "El Futur del Gènere", "text": "Els jocs de deducció social continuen evolucionant amb noves mecàniques, rols i variacions. Les apps mòbils democratitzen l'accés, mentre l'atractiu central - interacció humana i engany - roman atemporal."}
+          {
+            "heading": "Què són els Jocs de Deducció Social?",
+            "text": "Els jocs de deducció social són jocs multijugador on els jugadors intenten descobrir els rols d'altres a través de discussió, observació i raonament lògic. Típicament, un petit grup coneix secretament les identitats dels altres mentre la majoria intenta identificar-los."
+          },
+          {
+            "heading": "Història del Gènere",
+            "text": "El gènere va començar amb Màfia (també conegut com Home Llop) a la dècada de 1980. Va guanyar popularitat mainstream amb Among Us el 2020, que va introduir milions al joc de deducció social. Ara el gènere està evolucionant amb apps com Cluso que ofereixen joc offline."
+          },
+          {
+            "heading": "Mecàniques Centrals",
+            "text": "La majoria dels jocs de deducció social comparteixen elements comuns: assignació secreta de rols, fases de discussió, mecàniques de votació i eliminació. L'equilibri entre informació i engany crea tensió."
+          },
+          {
+            "heading": "La Psicologia Darrere",
+            "text": "Aquests jocs aprofiten la psicologia humana fonamental - la nostra necessitat de confiar, por a la traïció i amor per resoldre enigmes. L'aspecte social afegeix inversió emocional que altres jocs no poden replicar."
+          },
+          {
+            "heading": "Per Què Funcionen a Festes",
+            "text": "Els jocs de deducció social són perfectes per a festes perquè acomoden grups grans, fomenten conversa i creen moments memorables. A diferència de jocs competitius, són divertits per a tots independentment del nivell d'habilitat."
+          },
+          {
+            "heading": "Versions Online vs. Offline",
+            "text": "Mentre les versions online com Among Us són populars, les versions offline com Cluso Impostor ofereixen avantatges únics: interacció en persona, lectura de llenguatge corporal i sense requisit d'internet. L'aspecte en persona amplifica l'element psicològic."
+          },
+          {
+            "heading": "El Futur del Gènere",
+            "text": "Els jocs de deducció social continuen evolucionant amb noves mecàniques, rols i variacions. Les apps mòbils democratitzen l'accés, mentre l'atractiu central - interacció humana i engany - roman atemporal."
+          }
         ],
         "conclusion": "Ja siguis un jugador veterà o novell, els jocs de deducció social ofereixen entreteniment sense fi. Prova Cluso Impostor per experimentar el gènere en la seva millor forma offline!"
+      },
+      "icebreaker-games-for-adults": {
+        "meta": {
+          "title": "Icebreaker Games for Adults: 15+ Activities to Start Any Party | Cluso",
+          "description": "Discover the best icebreaker games for adults to kick off any party or gathering. 15+ activities from quick 5-minute games to deep engagement icebreakers. Perfect for parties, team building, and social events.",
+          "keywords": "icebreaker games for adults, party icebreakers, icebreaker activities, get to know you games, adult party games, team building icebreakers, party starters"
+        },
+        "title": "Icebreaker Games for Adults: 15+ Activities to Start Any Party",
+        "date": "2025-01-20",
+        "intro": "Starting a party can be awkward. Guests arrive at different times, conversations feel forced, and energy is low. The solution? Perfect icebreaker games that warm up the crowd and set the tone for an amazing night. Here are 15+ activities organized by time and engagement level.",
+        "content": [
+          {
+            "heading": "Quick Icebreakers (5 Minutes Each)",
+            "text": "These fast activities are perfect when guests are still arriving or you need a quick energy boost. Name Tag Remix: Instead of normal name tags, guests write a fun fact or unusual skill. Others must guess whose tag belongs to who. Quick Draw: Give everyone 30 seconds to draw the same object (like a cat). Compare results for instant laughs. High-Low: Go around the circle, each person shares the high and low point of their week in one sentence. Two Word Stories: First person says two words, next adds two more, creating a collaborative story. One Unique Thing: Everyone shares something unique about themselves that they think no one else in the room has done."
+          },
+          {
+            "heading": "Medium Engagement Icebreakers (10-15 Minutes)",
+            "text": "These activities create deeper connections while remaining fun and accessible. Find Your Match: Create pairs of related items (peanut butter/jelly, Mario/Luigi) on cards. Guests must find their match and learn three things about each other. Human Bingo: Create bingo cards with traits like 'has been skydiving' or 'speaks 3+ languages'. Guests mingle to find people who match each square. Speed Meeting: Like speed dating but friendly. Pairs have 2 minutes to learn about each other before rotating. Question Ball: Write questions all over a beach ball. Toss it around - wherever your right thumb lands is the question you answer. Common Ground: In groups of 4-5, find something all members have in common that they think no other group will have."
+          },
+          {
+            "heading": "Cluso Impostor as an Icebreaker",
+            "text": "Social deduction games like Cluso make perfect icebreakers because they force interaction while providing structure. Unlike forced 'sharing circle' activities, the game creates natural conversation. Players must talk, ask questions, and read each other - all while having fun. The discussion phase breaks down social barriers quickly. Shy guests find it easier to participate because there's a game framework. Plus, Cluso works for any group size (3-20 players) and only needs one device, making it incredibly versatile. The impostor element adds excitement that energizes the whole room."
+          },
+          {
+            "heading": "Deep Engagement Icebreakers",
+            "text": "For groups that will spend extended time together, these create meaningful connections. Life Map: Each person draws a simple timeline of their life with 3-5 major moments. Share in small groups. Desert Island: What three items would you bring to a desert island and why? Reveals priorities and personality. Rose, Thorn, Bud: Share something good (rose), something challenging (thorn), and something you're looking forward to (bud). Hot Seat: One volunteer sits in the middle while others ask them questions for 3 minutes. Rotate who's in the hot seat. Passion Sharing: Everyone gets 2 minutes to talk about something they're passionate about with zero judgment."
+          },
+          {
+            "heading": "Icebreakers for Shy Guests",
+            "text": "Some people hate traditional icebreakers. These work for introverts and anxious guests. Silent Line Up: Without speaking, line up by birthday (month/day only), height, or shoe size. Builds teamwork without forcing conversation. Partner Introduction: Pair up for 3 minutes. Then introduce your partner to the group instead of yourself. Less pressure. Category Corners: Call out categories (coffee/tea, beach/mountains). People move to corners representing their choice. Natural conversation starts. Would You Rather: Simple either/or questions. Point to your choice. No explanation needed unless you want to share. Drawing Telephone: Like the telephone game but with drawings. Misinterpretations create laughter without anyone being put on the spot."
+          },
+          {
+            "heading": "Icebreakers for Large Groups (15+ People)",
+            "text": "Managing energy in large groups requires special activities. Big Group Cluso: The impostor game scales perfectly to 20 players. The larger the group, the more chaotic and fun the discussions become. Snowball Fight: Everyone writes a fun fact, crumples it into a 'snowball', and throws it. Grab a random one and find whose fact it is. Four Corners: Assign corners different options for questions. People move to their choice corner and discuss why. Mingle Music: Play music while people mingle. When it stops, nearest person becomes your partner for a quick question. Gallery Walk: Post discussion questions around the room. Small groups rotate, adding responses to each question station."
+          },
+          {
+            "heading": "When to Use Each Type",
+            "text": "Quick icebreakers work when: guests are still arriving, you need an energy boost mid-party, or time is limited. Medium icebreakers fit when: most guests have arrived, you have 15-30 minutes before the main event, or you want to create mixed groups. Deep icebreakers suit: team retreats, workshops, groups that will work together, or intimate gatherings where vulnerability is welcome. Game-based icebreakers (like Cluso) excel when: you want extended engagement, the group will be together for hours, or you need something that transitions smoothly into main entertainment."
+          },
+          {
+            "heading": "Pro Tips for Any Icebreaker",
+            "text": "Go first: As the host, model the energy and vulnerability you want from others. Keep it light: Read the room. If people are resistant, switch activities quickly. Don't force it. Make it voluntary: Never force participation. Having an 'observer' option reduces anxiety. Set time limits: Use a timer. It prevents one person from dominating and keeps energy up. Mix groups: Actively split up people who know each other. The point is to meet new people. Transition smoothly: Plan how the icebreaker leads into your next activity. Poor transitions kill momentum."
+          }
+        ],
+        "conclusion": "The best icebreaker transforms strangers into friends and good parties into great ones. Whether you choose a quick 5-minute activity or a deep engagement game like Cluso Impostor, the key is matching the activity to your audience and timing. Download Cluso to have a reliable party-starting icebreaker that works for any group size and guarantees engagement!"
+      },
+      "group-games-for-large-parties": {
+        "meta": {
+          "title": "Group Games for 10+ People: Best Large Party Activities (2025) | Cluso",
+          "description": "Struggling to find games for large groups? Discover the best group games for 10-20+ people. Activities that actually work for big parties, team events, and gatherings. No equipment needed.",
+          "keywords": "group games, large group games, games for 10 people, games for 15 people, games for 20 people, big group activities, party games for large groups, team building games"
+        },
+        "title": "Group Games for 10+ People: Best Large Party Activities",
+        "date": "2025-01-18",
+        "intro": "Finding games that work for large groups is frustrating. Most party games cap at 8 players. Others claim to support big groups but become chaotic messes. Here are activities genuinely designed for 10-20+ people, organized by player count and engagement type.",
+        "content": [
+          {
+            "heading": "Why Large Group Games Are Different",
+            "text": "Games for 10+ people face unique challenges. Too much downtime between turns kills energy. Explaining complex rules to 15 people takes forever. Quiet players get lost in the chaos. The best large group games solve these issues with: simultaneous participation (everyone plays at once), simple rules (explained in under 2 minutes), built-in social mixing (everyone interacts with multiple people), flexible player counts (works with 10 or 20), and minimal equipment (not everyone has 20 game controllers)."
+          },
+          {
+            "heading": "Best Games for 10-15 People",
+            "text": "Cluso Impostor: The social deduction game designed for large groups. 10-15 players creates the perfect balance - enough chaos to hide impostors, but manageable discussion. Only one device needed. Games last 15-20 minutes. Mafia/Werewolf: The classic that popularized social deduction. Requires a moderator who can't play. Works best with 10-12 players. Free but needs a good moderator. Charades (Team Version): Split into two teams of 5-7. Teams alternate acting. Competition keeps energy high. Needs just paper and a timer. Pictionary (Tournament Style): Multiple teams draw simultaneously. Fastest team to guess wins the round. Works with standard Pictionary or improvised. Catchphrase: Teams pass a device and give clues to words. When the timer beeps, the holding team loses. Scalable and fast-paced."
+          },
+          {
+            "heading": "Best Games for 15-20 People",
+            "text": "Cluso Impostor (Large Mode): With 15-20 players, Cluso becomes delightfully chaotic. More impostors hide among more innocents. Discussions become intense debates. The game scales perfectly - larger groups just mean longer but more exciting discussions. Two Rooms and a Boom: Split into two rooms. Each team has a secret president. Opposite team has a bomber. Through timed exchanges, teams try to win. Needs 2 rooms and a moderator. Mafia (Extended): With more players, add more roles: doctor, detective, vigilante. Increases complexity but also engagement. Still requires a skilled moderator. Human Knot: Everyone grabs two random hands in the circle. Must untangle without letting go. Physical and hilarious. No equipment needed. Heads Up Categories: Large group shouts items in a category. First to pause loses. Elimination style until one winner remains."
+          },
+          {
+            "heading": "Games That Scale Infinitely",
+            "text": "These work with any large number and can even accommodate 30+ players. Assassin: Everyone gets a secret target. 'Kill' your target by winking at them. They're out and you inherit their target. Last assassin standing wins. Plays out over hours or days. Telephone (Drawing Version): Start with a phrase. Person 1 draws it. Person 2 guesses the drawing. Person 3 draws that guess. By person 20, it's unrecognizable. Hilarious results. Just needs paper and pens. Silent Line-Up: Without speaking, line up by birthday, height, or another criterion. Communication without words. Teamwork building. Scavenger Hunt (Team-Based): Create teams of 4-5. List of items to photograph or collect. First team with everything wins. Works for any location. Would You Rather (Debate Version): Pose dilemmas. Each side debates their position. Anyone can switch sides based on arguments. Reveals reasoning and creates discussion."
+          },
+          {
+            "heading": "Why Cluso Dominates for Large Groups",
+            "text": "Most party games struggle with 10+ players. Cluso Impostor was specifically designed to excel with large groups. Here's why it works: One device for everyone - no buying 15 copies or controllers. Dynamic scaling - algorithm adjusts impostor count based on players. Simultaneous engagement - everyone participates in discussion phase, zero downtime. Perfect for mixed groups - works if half the people are introverts. Quick rounds - even with 20 players, games finish in 20-25 minutes. No moderator needed - unlike Mafia, everyone can play. Built-in ice breaking - forces everyone to interact naturally. It's the rare game that actually gets BETTER with more players rather than worse."
+          },
+          {
+            "heading": "Managing Large Group Dynamics",
+            "text": "Size creates challenges beyond just the game choice. Make sure everyone can hear: Use a microphone for 15+ people or move to a smaller room. Even sound levels prevent the loudest from dominating. Prevent cliques: Actively mix up people who arrived together. The point of large group games is meeting new people, not hanging with your existing friends. Handle quiet players: Create explicit space for them. In Cluso, go around the circle to ensure everyone speaks. In other games, use talking sticks or turn orders. Set time limits: With 15 people sharing thoughts, set 30-second limits or discussions drag forever. Use a visible timer. Split when needed: Some activities work better with two simultaneous games of 10 than one game of 20. Read the room."
+          },
+          {
+            "heading": "Equipment Considerations for Large Groups",
+            "text": "Running games for 20 people can get expensive. Prioritize these solutions: Phone/tablet games (like Cluso): One device costs nothing extra regardless of player count. Versus buying 20 board game pieces. DIY materials: Paper, pens, and timers replace most commercial games. Write your own Charades prompts or Pictionary words. Team-based sharing: Divide 20 people into 4 teams of 5. Teams share one set of materials. Reduces costs dramatically. Projection: If using a device with a large group, connect to a TV or projector so everyone can see clearly. Free games first: Before buying expensive large-group games, exhaust free options. Many work just as well."
+          },
+          {
+            "heading": "Common Large Group Mistakes to Avoid",
+            "text": "Don't overexplain rules: With 15 people watching you explain, keep it under 2 minutes. Learn by playing. Don't let one person dominate: Designate a facilitator to gently redirect if needed. Democracy dies in large groups without management. Don't skip breaks: After 45-60 minutes, people need bathroom/drink breaks. Factor this in. Don't choose complex games: Simple games like Cluso work better than complex strategy games requiring deep explanation. Don't forget about space: 20 people need physical room. Games with movement need even more."
+          }
+        ],
+        "conclusion": "Large group games aren't just 'games that technically allow more players.' The best ones, like Cluso Impostor, are specifically designed to harness the energy and chaos of big groups into amazing experiences. Whether you're hosting 10 people or 20, having a reliable large-group game in your toolkit transforms impossible hosting situations into unforgettable parties. Download Cluso and discover why it's the go-to game for big gatherings!"
       }
     }
   },
@@ -330,47 +495,106 @@
       "description": "Domina Cluso Impostor amb consells i estratègies expertes. Aprèn tàctiques avançades per a innocents i impostors, trucs psicològics i estratègies guanyadores.",
       "keywords": "consells impostor, estratègies impostor, com guanyar impostor, consells deducció social, estratègies joc festa, estratègies cluso, tàctiques impostor, psicologia joc"
     },
-    "hero": {"title": "Consells i Estratègies", "titleAccent": "Domina el Joc", "subtitle": "Millora el teu joc d'Impostor amb estratègies expertes per a innocents i impostors. Aprèn trucs psicològics, tàctiques avançades i jugades guanyadores."},
+    "hero": {
+      "title": "Consells i Estratègies",
+      "titleAccent": "Domina el Joc",
+      "subtitle": "Millora el teu joc d'Impostor amb estratègies expertes per a innocents i impostors. Aprèn trucs psicològics, tàctiques avançades i jugades guanyadores."
+    },
     "forInnocents": {
       "title": "Estratègies per a Innocents",
       "intro": "Com a innocent, el teu objectiu és identificar i eliminar impostors mitjançant observació i deducció acurada.",
       "tips": [
-        {"title": "Fes Preguntes Específiques", "description": "No facis preguntes genèriques. Dirigeix preguntes específiques i detallades a jugadors sobre les seves accions o observacions. Els impostors sovint tenen dificultats amb detalls específics."},
-        {"title": "Observa Patrons de Comportament", "description": "Nota qui parla primer, qui roman callat, qui desvia la culpa. Els impostors sovint mostren comportaments nerviosos com sobre-explicar o evitar contacte visual."},
-        {"title": "Segueix Patrons de Votació", "description": "Presta atenció a qui vota per qui. Els impostors poden votar junts o estratègicament per innocents per crear caos."},
-        {"title": "Construeix Aliances Curadament", "description": "Uneix-te amb jugadors en qui confies, però no confiïs massa ràpid. Els impostors estimen guanyar confiança aviat."},
-        {"title": "No Revelzis Tot", "description": "Guarda algunes observacions. Si un impostor sap el que saps, pot crear millors mentides."}
+        {
+          "title": "Fes Preguntes Específiques",
+          "description": "No facis preguntes genèriques. Dirigeix preguntes específiques i detallades a jugadors sobre les seves accions o observacions. Els impostors sovint tenen dificultats amb detalls específics."
+        },
+        {
+          "title": "Observa Patrons de Comportament",
+          "description": "Nota qui parla primer, qui roman callat, qui desvia la culpa. Els impostors sovint mostren comportaments nerviosos com sobre-explicar o evitar contacte visual."
+        },
+        {
+          "title": "Segueix Patrons de Votació",
+          "description": "Presta atenció a qui vota per qui. Els impostors poden votar junts o estratègicament per innocents per crear caos."
+        },
+        {
+          "title": "Construeix Aliances Curadament",
+          "description": "Uneix-te amb jugadors en qui confies, però no confiïs massa ràpid. Els impostors estimen guanyar confiança aviat."
+        },
+        {
+          "title": "No Revelzis Tot",
+          "description": "Guarda algunes observacions. Si un impostor sap el que saps, pot crear millors mentides."
+        }
       ]
     },
     "forImpostors": {
       "title": "Estratègies per a Impostors",
       "intro": "Com a impostor, adapta't, desvia sospites i elimina amenaces estratègicament sense ser atrapat.",
       "tips": [
-        {"title": "Actua Natural", "description": "No sobreactüs innocència o siguis massa defensiu. Imita el comportament d'innocents reals - confós, qüestionador i analític."},
-        {"title": "Crea Dubte Raonable", "description": "No intentis provar completament la teva innocència. Només crea prou dubte per canviar sospita a altres."},
-        {"title": "Acusa Estratègicament", "description": "Ocasionalment acusa altres jugadors (incloent company impostors) per semblar involucrat. Però no siguis massa agressiu."},
-        {"title": "Controla la Narrativa", "description": "Guia discussions subtilment. Fes preguntes dirigides que dirigeixin sospita a un altre lloc. Emmarca debats de manera que et beneficiïn."},
-        {"title": "Vota amb la Majoria", "description": "A menys que et coordinis amb altres impostors, vota amb la majoria. Destacar amb vots inusuals aixeca sospites."}
+        {
+          "title": "Actua Natural",
+          "description": "No sobreactüs innocència o siguis massa defensiu. Imita el comportament d'innocents reals - confós, qüestionador i analític."
+        },
+        {
+          "title": "Crea Dubte Raonable",
+          "description": "No intentis provar completament la teva innocència. Només crea prou dubte per canviar sospita a altres."
+        },
+        {
+          "title": "Acusa Estratègicament",
+          "description": "Ocasionalment acusa altres jugadors (incloent company impostors) per semblar involucrat. Però no siguis massa agressiu."
+        },
+        {
+          "title": "Controla la Narrativa",
+          "description": "Guia discussions subtilment. Fes preguntes dirigides que dirigeixin sospita a un altre lloc. Emmarca debats de manera que et beneficiïn."
+        },
+        {
+          "title": "Vota amb la Majoria",
+          "description": "A menys que et coordinis amb altres impostors, vota amb la majoria. Destacar amb vots inusuals aixeca sospites."
+        }
       ]
     },
     "psychology": {
       "title": "Tàctiques Psicològiques",
       "tips": [
-        {"title": "Usa Pressió Social", "description": "Els jugadors odien ser diferents. Usa això al teu favor ja sigui com a innocent construint consens o impostor desviant culpa."},
-        {"title": "Crea Pressió de Temps", "description": "Quan les discussions s'allarguen, els jugadors prenen decisions precipitades. Com a impostor, pots beneficiar-te de vots precipitats."},
-        {"title": "Explota el Biaix de Confirmació", "description": "La gent creu el que confirma les seves creences existents. Planta llavors aviat que creixin en sospites fortes després."}
+        {
+          "title": "Usa Pressió Social",
+          "description": "Els jugadors odien ser diferents. Usa això al teu favor ja sigui com a innocent construint consens o impostor desviant culpa."
+        },
+        {
+          "title": "Crea Pressió de Temps",
+          "description": "Quan les discussions s'allarguen, els jugadors prenen decisions precipitades. Com a impostor, pots beneficiar-te de vots precipitats."
+        },
+        {
+          "title": "Explota el Biaix de Confirmació",
+          "description": "La gent creu el que confirma les seves creences existents. Planta llavors aviat que creixin en sospites fortes després."
+        }
       ]
     },
     "commonScenarios": {
       "title": "Escenaris Comuns i Com Manejar-los",
       "scenarios": [
-        {"title": "T'Acusen com a Innocent", "description": "Mantén la calma i proporciona detalls específics sobre les teves observacions. No et posis a la defensiva. Pregunta al teu acusador el seu raonament i troba forats en ell."},
-        {"title": "T'Acusen com a Impostor", "description": "No entris en pànic. Nega calmadament i redirigeix qüestionant els motius de l'acusador o suggerint sospitosos alternatius amb arguments raonables."},
-        {"title": "Dos Jugadors Acusant-se Mútuament", "description": "Com a innocent, analitza ambdós arguments objectivament. Com a impostor, dóna suport a la narrativa que més t'ajudi."},
-        {"title": "Rondes Finals (3-4 Jugadors Restants)", "description": "Moment de pensament crític. Com a innocent, confia en els teus instints. Com a impostor, pots necessitar moviments audaços."}
+        {
+          "title": "T'Acusen com a Innocent",
+          "description": "Mantén la calma i proporciona detalls específics sobre les teves observacions. No et posis a la defensiva. Pregunta al teu acusador el seu raonament i troba forats en ell."
+        },
+        {
+          "title": "T'Acusen com a Impostor",
+          "description": "No entris en pànic. Nega calmadament i redirigeix qüestionant els motius de l'acusador o suggerint sospitosos alternatius amb arguments raonables."
+        },
+        {
+          "title": "Dos Jugadors Acusant-se Mútuament",
+          "description": "Com a innocent, analitza ambdós arguments objectivament. Com a impostor, dóna suport a la narrativa que més t'ajudi."
+        },
+        {
+          "title": "Rondes Finals (3-4 Jugadors Restants)",
+          "description": "Moment de pensament crític. Com a innocent, confia en els teus instints. Com a impostor, pots necessitar moviments audaços."
+        }
       ]
     },
-    "cta": {"title": "Preparat per Dominar?", "description": "Descarrega Cluso i posa aquestes estratègies en acció. Que guanyi el millor enganyador!", "button": "Descarregar Cluso"}
+    "cta": {
+      "title": "Preparat per Dominar?",
+      "description": "Descarrega Cluso i posa aquestes estratègies en acció. Que guanyi el millor enganyador!",
+      "button": "Descarregar Cluso"
+    }
   },
   "rulesPage": {
     "meta": {

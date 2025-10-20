@@ -80,7 +80,21 @@ export default defineConfig({
         'es-blog-social-deduction-games-explained': resolve(__dirname, 'es/blog/social-deduction-games-explained.html'),
         'ca-blog-social-deduction-games-explained': resolve(__dirname, 'ca/blog/social-deduction-games-explained.html'),
         'pt-blog-social-deduction-games-explained': resolve(__dirname, 'pt/blog/social-deduction-games-explained.html'),
-        'fr-blog-social-deduction-games-explained': resolve(__dirname, 'fr/blog/social-deduction-games-explained.html')
+        'fr-blog-social-deduction-games-explained': resolve(__dirname, 'fr/blog/social-deduction-games-explained.html'),
+        // Blog articles - Icebreaker Games for Adults
+        'en-blog-icebreaker-games-for-adults': resolve(__dirname, 'en/blog/icebreaker-games-for-adults.html'),
+        'de-blog-icebreaker-games-for-adults': resolve(__dirname, 'de/blog/icebreaker-games-for-adults.html'),
+        'es-blog-icebreaker-games-for-adults': resolve(__dirname, 'es/blog/icebreaker-games-for-adults.html'),
+        'ca-blog-icebreaker-games-for-adults': resolve(__dirname, 'ca/blog/icebreaker-games-for-adults.html'),
+        'pt-blog-icebreaker-games-for-adults': resolve(__dirname, 'pt/blog/icebreaker-games-for-adults.html'),
+        'fr-blog-icebreaker-games-for-adults': resolve(__dirname, 'fr/blog/icebreaker-games-for-adults.html'),
+        // Blog articles - Group Games for Large Parties
+        'en-blog-group-games-for-large-parties': resolve(__dirname, 'en/blog/group-games-for-large-parties.html'),
+        'de-blog-group-games-for-large-parties': resolve(__dirname, 'de/blog/group-games-for-large-parties.html'),
+        'es-blog-group-games-for-large-parties': resolve(__dirname, 'es/blog/group-games-for-large-parties.html'),
+        'ca-blog-group-games-for-large-parties': resolve(__dirname, 'ca/blog/group-games-for-large-parties.html'),
+        'pt-blog-group-games-for-large-parties': resolve(__dirname, 'pt/blog/group-games-for-large-parties.html'),
+        'fr-blog-group-games-for-large-parties': resolve(__dirname, 'fr/blog/group-games-for-large-parties.html')
       },
       output: {
         // Optimize asset naming for caching
