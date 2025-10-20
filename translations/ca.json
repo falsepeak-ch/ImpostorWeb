@@ -244,6 +244,54 @@
       "description": "Descarrega Cluso i porta aquests increïbles jocs a la teva propera trobada."
     }
   },
+  "tipsPage": {
+    "meta": {
+      "title": "Consells i Estratègies del Joc Impostor - Guanya Més Jocs | Guia Cluso",
+      "description": "Domina Cluso Impostor amb consells i estratègies expertes. Aprèn tàctiques avançades per a innocents i impostors, trucs psicològics i estratègies guanyadores.",
+      "keywords": "consells impostor, estratègies impostor, com guanyar impostor, consells deducció social, estratègies joc festa, estratègies cluso, tàctiques impostor, psicologia joc"
+    },
+    "hero": {"title": "Consells i Estratègies", "titleAccent": "Domina el Joc", "subtitle": "Millora el teu joc d'Impostor amb estratègies expertes per a innocents i impostors. Aprèn trucs psicològics, tàctiques avançades i jugades guanyadores."},
+    "forInnocents": {
+      "title": "Estratègies per a Innocents",
+      "intro": "Com a innocent, el teu objectiu és identificar i eliminar impostors mitjançant observació i deducció acurada.",
+      "tips": [
+        {"title": "Fes Preguntes Específiques", "description": "No facis preguntes genèriques. Dirigeix preguntes específiques i detallades a jugadors sobre les seves accions o observacions. Els impostors sovint tenen dificultats amb detalls específics."},
+        {"title": "Observa Patrons de Comportament", "description": "Nota qui parla primer, qui roman callat, qui desvia la culpa. Els impostors sovint mostren comportaments nerviosos com sobre-explicar o evitar contacte visual."},
+        {"title": "Segueix Patrons de Votació", "description": "Presta atenció a qui vota per qui. Els impostors poden votar junts o estratègicament per innocents per crear caos."},
+        {"title": "Construeix Aliances Curadament", "description": "Uneix-te amb jugadors en qui confies, però no confiïs massa ràpid. Els impostors estimen guanyar confiança aviat."},
+        {"title": "No Revelzis Tot", "description": "Guarda algunes observacions. Si un impostor sap el que saps, pot crear millors mentides."}
+      ]
+    },
+    "forImpostors": {
+      "title": "Estratègies per a Impostors",
+      "intro": "Com a impostor, adapta't, desvia sospites i elimina amenaces estratègicament sense ser atrapat.",
+      "tips": [
+        {"title": "Actua Natural", "description": "No sobreactüs innocència o siguis massa defensiu. Imita el comportament d'innocents reals - confós, qüestionador i analític."},
+        {"title": "Crea Dubte Raonable", "description": "No intentis provar completament la teva innocència. Només crea prou dubte per canviar sospita a altres."},
+        {"title": "Acusa Estratègicament", "description": "Ocasionalment acusa altres jugadors (incloent company impostors) per semblar involucrat. Però no siguis massa agressiu."},
+        {"title": "Controla la Narrativa", "description": "Guia discussions subtilment. Fes preguntes dirigides que dirigeixin sospita a un altre lloc. Emmarca debats de manera que et beneficiïn."},
+        {"title": "Vota amb la Majoria", "description": "A menys que et coordinis amb altres impostors, vota amb la majoria. Destacar amb vots inusuals aixeca sospites."}
+      ]
+    },
+    "psychology": {
+      "title": "Tàctiques Psicològiques",
+      "tips": [
+        {"title": "Usa Pressió Social", "description": "Els jugadors odien ser diferents. Usa això al teu favor ja sigui com a innocent construint consens o impostor desviant culpa."},
+        {"title": "Crea Pressió de Temps", "description": "Quan les discussions s'allarguen, els jugadors prenen decisions precipitades. Com a impostor, pots beneficiar-te de vots precipitats."},
+        {"title": "Explota el Biaix de Confirmació", "description": "La gent creu el que confirma les seves creences existents. Planta llavors aviat que creixin en sospites fortes després."}
+      ]
+    },
+    "commonScenarios": {
+      "title": "Escenaris Comuns i Com Manejar-los",
+      "scenarios": [
+        {"title": "T'Acusen com a Innocent", "description": "Mantén la calma i proporciona detalls específics sobre les teves observacions. No et posis a la defensiva. Pregunta al teu acusador el seu raonament i troba forats en ell."},
+        {"title": "T'Acusen com a Impostor", "description": "No entris en pànic. Nega calmadament i redirigeix qüestionant els motius de l'acusador o suggerint sospitosos alternatius amb arguments raonables."},
+        {"title": "Dos Jugadors Acusant-se Mútuament", "description": "Com a innocent, analitza ambdós arguments objectivament. Com a impostor, dóna suport a la narrativa que més t'ajudi."},
+        {"title": "Rondes Finals (3-4 Jugadors Restants)", "description": "Moment de pensament crític. Com a innocent, confia en els teus instints. Com a impostor, pots necessitar moviments audaços."}
+      ]
+    },
+    "cta": {"title": "Preparat per Dominar?", "description": "Descarrega Cluso i posa aquestes estratègies en acció. Que guanyi el millor enganyador!", "button": "Descarregar Cluso"}
+  },
   "rulesPage": {
     "meta": {
       "title": "Regles del Joc Impostor - Guia Completa | Com Jugar a Cluso",

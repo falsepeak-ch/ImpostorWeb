@@ -179,6 +179,54 @@
       "description": "Téléchargez Cluso et apportez ces jeux incroyables à votre prochaine réunion."
     }
   },
+  "tipsPage": {
+    "meta": {
+      "title": "Conseils et Stratégies du Jeu Imposteur - Gagnez Plus de Jeux | Guide Cluso",
+      "description": "Maîtrisez Cluso Imposteur avec des conseils et stratégies d'experts. Apprenez des tactiques avancées pour innocents et imposteurs, des astuces psychologiques et des stratégies gagnantes.",
+      "keywords": "conseils imposteur, stratégies imposteur, comment gagner imposteur, conseils déduction sociale, stratégies jeu fête, stratégies cluso, tactiques imposteur, psychologie jeu"
+    },
+    "hero": {"title": "Conseils et Stratégies", "titleAccent": "Maîtrisez le Jeu", "subtitle": "Améliorez votre jeu Imposteur avec des stratégies d'experts pour innocents et imposteurs. Apprenez des astuces psychologiques, des tactiques avancées et des coups gagnants."},
+    "forInnocents": {
+      "title": "Stratégies pour les Innocents",
+      "intro": "En tant qu'innocent, votre objectif est d'identifier et d'éliminer les imposteurs par observation et déduction minutieuses.",
+      "tips": [
+        {"title": "Posez des Questions Spécifiques", "description": "Ne posez pas de questions génériques. Ciblez des joueurs spécifiques avec des questions détaillées sur leurs actions ou observations. Les imposteurs ont souvent du mal avec les détails spécifiques."},
+        {"title": "Observez les Modèles de Comportement", "description": "Notez qui parle en premier, qui reste silencieux, qui détourne le blâme. Les imposteurs affichent souvent des comportements nerveux comme sur-expliquer ou éviter le contact visuel."},
+        {"title": "Suivez les Modèles de Vote", "description": "Faites attention à qui vote pour qui. Les imposteurs peuvent voter ensemble ou stratégiquement pour les innocents pour créer le chaos."},
+        {"title": "Construisez des Alliances Prudemment", "description": "Faites équipe avec des joueurs en qui vous avez confiance, mais ne faites pas confiance trop rapidement. Les imposteurs adorent gagner la confiance tôt."},
+        {"title": "Ne Révélez Pas Tout", "description": "Gardez certaines observations. Si un imposteur sait ce que vous savez, il peut fabriquer de meilleurs mensonges."}
+      ]
+    },
+    "forImpostors": {
+      "title": "Stratégies pour les Imposteurs",
+      "intro": "En tant qu'imposteur, intégrez-vous, détournez les soupçons et éliminez stratégiquement les menaces sans vous faire prendre.",
+      "tips": [
+        {"title": "Agissez Naturellement", "description": "Ne surjouez pas l'innocence ou ne soyez pas trop défensif. Imitez le comportement des vrais innocents - confus, interrogateur et analytique."},
+        {"title": "Créez un Doute Raisonnable", "description": "N'essayez pas de prouver complètement votre innocence. Créez juste assez de doute pour déplacer les soupçons vers d'autres."},
+        {"title": "Accusez Stratégiquement", "description": "Accusez occasionnellement d'autres joueurs (y compris des co-imposteurs) pour paraître engagé. Mais ne soyez pas trop agressif."},
+        {"title": "Contrôlez le Récit", "description": "Guidez subtilement les discussions. Posez des questions suggestives qui dirigent les soupçons ailleurs. Cadrez les débats de manière à vous bénéficier."},
+        {"title": "Votez avec la Foule", "description": "Sauf coordination avec d'autres imposteurs, votez avec la majorité. Se démarquer avec des votes inhabituels soulève des soupçons."}
+      ]
+    },
+    "psychology": {
+      "title": "Tactiques Psychologiques",
+      "tips": [
+        {"title": "Utilisez la Pression Sociale", "description": "Les joueurs détestent être différents. Utilisez cela à votre avantage que vous soyez innocent construisant un consensus ou imposteur détournant le blâme."},
+        {"title": "Créez une Pression Temporelle", "description": "Quand les discussions traînent, les joueurs prennent des décisions hâtives. En tant qu'imposteur, vous pouvez bénéficier de votes précipités."},
+        {"title": "Exploitez le Biais de Confirmation", "description": "Les gens croient ce qui confirme leurs croyances existantes. Plantez des graines tôt qui grandissent en fortes suspicions plus tard."}
+      ]
+    },
+    "commonScenarios": {
+      "title": "Scénarios Courants et Comment les Gérer",
+      "scenarios": [
+        {"title": "Vous Êtes Accusé en tant qu'Innocent", "description": "Restez calme et fournissez des détails spécifiques sur vos observations. Ne soyez pas sur la défensive. Demandez à votre accusateur son raisonnement et trouvez des failles dedans."},
+        {"title": "Vous Êtes Accusé en tant qu'Imposteur", "description": "Ne paniquez pas. Niez calmement et redirigez en questionnant les motifs de l'accusateur ou en suggérant des suspects alternatifs avec des arguments raisonnables."},
+        {"title": "Deux Joueurs S'Accusant Mutuellement", "description": "En tant qu'innocent, analysez les deux arguments objectivement. En tant qu'imposteur, soutenez le récit qui vous aide le plus."},
+        {"title": "Tours Finaux (3-4 Joueurs Restants)", "description": "Moment de réflexion critique. En tant qu'innocent, faites confiance à vos instincts. En tant qu'imposteur, vous pourriez avoir besoin de mouvements audacieux."}
+      ]
+    },
+    "cta": {"title": "Prêt à Dominer ?", "description": "Téléchargez Cluso et mettez ces stratégies en action. Que le meilleur trompeur gagne !", "button": "Télécharger Cluso"}
+  },
   "rulesPage": {
     "meta": {
       "title": "Règles du Jeu Imposteur - Guide Complet | Comment Jouer à Cluso",
