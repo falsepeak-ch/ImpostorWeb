@@ -67,6 +67,12 @@
     <FilesMatch "\.(html|htm)$">
         Header set Cache-Control "public, max-age=3600, must-revalidate"
     </FilesMatch>
+
+    # Ensure sitemap.xml is served with correct content-type
+    <FilesMatch "^(sitemap\.xml|robots\.txt)$">
+        Header set Content-Type "application/xml; charset=UTF-8"
+        Header set Cache-Control "public, max-age=86400"
+    </FilesMatch>
 </IfModule>
 
 # Redirect to HTTPS (uncomment when SSL is set up)
@@ -77,13 +83,18 @@
 # SEO-friendly URLs
 RewriteEngine On
 
+# Exception for sitemap.xml and robots.txt - serve them directly
+RewriteCond %{REQUEST_URI} ^/(sitemap\.xml|robots\.txt)$ [NC]
+RewriteRule ^ - [L]
+
 # Redirect index.html to root for cleaner URLs
 RewriteCond %{THE_REQUEST} /([^/]+/)*index\.html[\s?] [NC]
 RewriteRule ^(.*/)index\.html$ /$1 [R=301,L]
 
-# Add trailing slash to directories
+# Add trailing slash to directories (but not for files with extensions)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteCond %{REQUEST_URI} !\.(xml|txt|html|css|js|jpg|jpeg|png|gif|webp|svg|ico|ttf|woff|woff2)$
 RewriteRule ^(.*)$ $1/ [L,R=301]
 
 # Custom error pages
@@ -95,6 +106,10 @@ ErrorDocument 404 /index.html
     AddType application/font-woff2 .woff2
     AddType application/vnd.ms-fontobject .eot
     AddType application/x-font-ttf .ttf
+
+    # XML and sitemap files
+    AddType application/xml .xml
+    AddType text/xml .xml
 </IfModule>
 
 
